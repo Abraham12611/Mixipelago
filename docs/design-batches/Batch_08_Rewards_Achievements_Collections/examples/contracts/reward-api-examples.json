@@ -1,0 +1,81 @@
+{
+  "status": "draft",
+  "auth": "required for player-specific calls",
+  "examples": [
+    {
+      "name": "reward inbox",
+      "method": "GET",
+      "path": "/v1/rewards/inbox?status=claimable",
+      "response": {
+        "entitlements": [
+          {
+            "entitlementId": "ent_100",
+            "sourceKind": "achievement_milestone",
+            "sourceId": "first-mission",
+            "status": "claimable",
+            "rewardPreview": [
+              {
+                "kind": "item",
+                "itemId": "badge-first-mission",
+                "quantity": 1
+              }
+            ],
+            "policyVersion": 1
+          }
+        ],
+        "nextCursor": null
+      }
+    },
+    {
+      "name": "claim",
+      "method": "POST",
+      "path": "/v1/rewards/entitlements/ent_100/claim",
+      "headers": {
+        "Idempotency-Key": "00000000-0000-4000-8000-000000000001"
+      },
+      "body": {
+        "expectedRevision": 2
+      },
+      "response": {
+        "receiptId": "receipt_100",
+        "status": "claimed",
+        "entitlementId": "ent_100",
+        "lines": [
+          {
+            "kind": "item",
+            "itemId": "badge-first-mission",
+            "quantity": 1
+          }
+        ],
+        "revision": 3
+      }
+    },
+    {
+      "name": "equip",
+      "method": "PUT",
+      "path": "/v1/inventory/equipment/profile_badge",
+      "headers": {
+        "Idempotency-Key": "00000000-0000-4000-8000-000000000002"
+      },
+      "body": {
+        "itemId": "badge-first-mission",
+        "expectedRevision": 3
+      },
+      "response": {
+        "slot": "profile_badge",
+        "itemId": "badge-first-mission",
+        "revision": 4
+      }
+    },
+    {
+      "name": "already-claimed",
+      "method": "POST",
+      "path": "/v1/rewards/entitlements/ent_100/claim",
+      "response": {
+        "receiptId": "receipt_100",
+        "status": "claimed",
+        "deduplicated": true
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Mixipelago — Design Batches 1–7
+# Mixipelago — Design Batches 1–8
 
 These batches are canonical engineering handoff documents organized by subject. Each folder contains a README/index and independent specifications, plus example assets and validators when applicable.
 
@@ -9,6 +9,7 @@ These batches are canonical engineering handoff documents organized by subject. 
 5. [Batch 05 — Campaign & Islands](Batch_05_Islands_Maps_Mission_Progression/docs/00_INDEX_AND_README.md)
 6. [Batch 06 — Economy & Shops](Batch_06_Economy/docs/00_INDEX_AND_README.md)
 7. [Batch 07 — Skills & Player Growth](Batch_07_Skills_Player_Growth/docs/00_INDEX_AND_README.md)
+8. [Batch 08 — Rewards, Achievements & Collections](Batch_08_Rewards_Achievements_Collections/docs/00_INDEX_AND_README.md)
 
 ## Precedence
 
@@ -18,6 +19,7 @@ These batches are canonical engineering handoff documents organized by subject. 
 - Batch 05 owns world graph and unlock state.
 - Batch 06 owns trusted wallet, economic ledger, purchases, and shop upgrades.
 - Batch 07 owns trusted player XP, level milestones, skill allocation and respec; Batch 06 remains authoritative for shop/economy modifiers, and standardized ranked profiles ignore personal build power.
+- Batch 08 owns achievement evidence, claim entitlements, collectible ownership and presentation. It does not mint coins or XP directly; Batch 06 and Batch 07 remain authoritative issuers.
 
 Conflicts must be resolved through an explicit ADR and versioned contract changes. Local preview coins must never become authoritative balances.
 

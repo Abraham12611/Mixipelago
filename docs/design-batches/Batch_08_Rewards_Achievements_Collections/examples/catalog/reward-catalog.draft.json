@@ -1,0 +1,719 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "mixipelago-rewards-candidate",
+  "revision": "2026-11-14-draft",
+  "status": "draft",
+  "achievements": [
+    {
+      "id": "first-service",
+      "category": "service",
+      "status": "candidate",
+      "source": "verified_order",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "orders_served_verified",
+        "threshold": 1
+      },
+      "rewardPolicyId": "ach-first-service-badge",
+      "edition": 1
+    },
+    {
+      "id": "first-mission",
+      "category": "campaign",
+      "status": "candidate",
+      "source": "verified_mission",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "missions_first_cleared",
+        "threshold": 1
+      },
+      "rewardPolicyId": "ach-first-clear-badge",
+      "edition": 1
+    },
+    {
+      "id": "cove-trailblazer",
+      "category": "campaign",
+      "status": "draft",
+      "source": "verified_campaign",
+      "rule": {
+        "kind": "milestone",
+        "key": "cove-gateway-cleared"
+      },
+      "rewardPolicyId": "ach-cove-title",
+      "edition": 1
+    },
+    {
+      "id": "star-hunter",
+      "category": "campaign",
+      "status": "draft",
+      "source": "verified_mission",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "missions_best_three_stars",
+        "threshold": 3
+      },
+      "rewardPolicyId": "ach-star-badge",
+      "edition": 1
+    },
+    {
+      "id": "service-ten",
+      "category": "service",
+      "status": "draft",
+      "source": "verified_order",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "orders_served_verified",
+        "threshold": 10
+      },
+      "rewardPolicyId": "ach-service-ten",
+      "edition": 1
+    },
+    {
+      "id": "service-fifty",
+      "category": "service",
+      "status": "draft",
+      "source": "verified_order",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "orders_served_verified",
+        "threshold": 50
+      },
+      "rewardPolicyId": "ach-service-fifty",
+      "edition": 1
+    },
+    {
+      "id": "service-twohundred",
+      "category": "service",
+      "status": "draft",
+      "source": "verified_order",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "orders_served_verified",
+        "threshold": 200
+      },
+      "rewardPolicyId": "ach-service-twohundred",
+      "edition": 1
+    },
+    {
+      "id": "shop-first-upgrade",
+      "category": "business",
+      "status": "candidate",
+      "source": "verified_purchase",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "shop_upgrades_owned",
+        "threshold": 1
+      },
+      "rewardPolicyId": "ach-upgrader-badge",
+      "edition": 1
+    },
+    {
+      "id": "decorator",
+      "category": "business",
+      "status": "draft",
+      "source": "verified_purchase",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "shop_cosmetics_owned",
+        "threshold": 3
+      },
+      "rewardPolicyId": "ach-decorator-frame",
+      "edition": 1
+    },
+    {
+      "id": "treasure-finder",
+      "category": "exploration",
+      "status": "draft",
+      "source": "verified_treasure",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "treasures_claimed",
+        "threshold": 1
+      },
+      "rewardPolicyId": "ach-treasure-badge",
+      "edition": 1
+    },
+    {
+      "id": "five-unique-items",
+      "category": "collection",
+      "status": "candidate",
+      "source": "verified_inventory",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "unique_collection_items_owned",
+        "threshold": 5
+      },
+      "rewardPolicyId": "ach-first-collector",
+      "edition": 1
+    },
+    {
+      "id": "master-crafter",
+      "category": "craft",
+      "status": "draft",
+      "source": "verified_session",
+      "rule": {
+        "kind": "milestone",
+        "key": "tier-eight-verified"
+      },
+      "rewardPolicyId": "ach-master-craft",
+      "edition": 1
+    },
+    {
+      "id": "island-scholar",
+      "category": "exploration",
+      "status": "draft",
+      "source": "verified_campaign",
+      "rule": {
+        "kind": "distinct_count",
+        "counter": "chapters_cleared",
+        "threshold": 3
+      },
+      "rewardPolicyId": "ach-island-scholar",
+      "edition": 1
+    },
+    {
+      "id": "season-champion",
+      "category": "competition",
+      "status": "draft",
+      "source": "verified_ranking",
+      "rule": {
+        "kind": "milestone",
+        "key": "season-top1-finalized"
+      },
+      "rewardPolicyId": "ach-season-champion",
+      "edition": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "badge-first-service",
+      "kind": "badge",
+      "rarity": "common",
+      "stackable": false
+    },
+    {
+      "id": "badge-first-mission",
+      "kind": "badge",
+      "rarity": "common",
+      "stackable": false
+    },
+    {
+      "id": "title-cove-trailblazer",
+      "kind": "title",
+      "rarity": "uncommon",
+      "stackable": false
+    },
+    {
+      "id": "badge-star-hunter",
+      "kind": "badge",
+      "rarity": "uncommon",
+      "stackable": false
+    },
+    {
+      "id": "badge-service-ten",
+      "kind": "badge",
+      "rarity": "common",
+      "stackable": false
+    },
+    {
+      "id": "badge-service-fifty",
+      "kind": "badge",
+      "rarity": "uncommon",
+      "stackable": false
+    },
+    {
+      "id": "badge-service-twohundred",
+      "kind": "badge",
+      "rarity": "rare",
+      "stackable": false
+    },
+    {
+      "id": "badge-upgrader",
+      "kind": "badge",
+      "rarity": "common",
+      "stackable": false
+    },
+    {
+      "id": "frame-decorator",
+      "kind": "frame",
+      "rarity": "rare",
+      "stackable": false
+    },
+    {
+      "id": "badge-treasure",
+      "kind": "badge",
+      "rarity": "uncommon",
+      "stackable": false
+    },
+    {
+      "id": "badge-first-collector",
+      "kind": "badge",
+      "rarity": "uncommon",
+      "stackable": false
+    },
+    {
+      "id": "trophy-master-craft",
+      "kind": "trophy",
+      "rarity": "epic",
+      "stackable": false
+    },
+    {
+      "id": "badge-island-scholar",
+      "kind": "badge",
+      "rarity": "rare",
+      "stackable": false
+    },
+    {
+      "id": "trophy-season-champion",
+      "kind": "trophy",
+      "rarity": "legendary",
+      "stackable": false
+    },
+    {
+      "id": "postcard-coconut-cove",
+      "kind": "postcard",
+      "rarity": "common",
+      "stackable": false
+    },
+    {
+      "id": "postcard-sunset-bay",
+      "kind": "postcard",
+      "rarity": "uncommon",
+      "stackable": false
+    },
+    {
+      "id": "postcard-mango-market",
+      "kind": "postcard",
+      "rarity": "uncommon",
+      "stackable": false
+    },
+    {
+      "id": "card-citrus-shot",
+      "kind": "recipe-card",
+      "rarity": "common",
+      "stackable": false
+    },
+    {
+      "id": "card-sunny-lemon",
+      "kind": "recipe-card",
+      "rarity": "common",
+      "stackable": false
+    },
+    {
+      "id": "card-sunset-splash",
+      "kind": "recipe-card",
+      "rarity": "uncommon",
+      "stackable": false
+    },
+    {
+      "id": "card-blossom-fizz",
+      "kind": "recipe-card",
+      "rarity": "uncommon",
+      "stackable": false
+    },
+    {
+      "id": "card-coral-martini",
+      "kind": "recipe-card",
+      "rarity": "rare",
+      "stackable": false
+    },
+    {
+      "id": "decor-hibiscus-counter",
+      "kind": "shop-decor",
+      "rarity": "uncommon",
+      "stackable": false
+    },
+    {
+      "id": "decor-tiki-lantern",
+      "kind": "shop-decor",
+      "rarity": "rare",
+      "stackable": false
+    }
+  ],
+  "rewardPolicies": [
+    {
+      "id": "ach-first-service-badge",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-first-service",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-first-clear-badge",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-first-mission",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-cove-title",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "title-cove-trailblazer",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-star-badge",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-star-hunter",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-service-ten",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-service-ten",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-service-fifty",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-service-fifty",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-service-twohundred",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-service-twohundred",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-upgrader-badge",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-upgrader",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-decorator-frame",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "frame-decorator",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-treasure-badge",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-treasure",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-first-collector",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-first-collector",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-master-craft",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "trophy-master-craft",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-island-scholar",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-island-scholar",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ach-season-champion",
+      "version": 1,
+      "status": "draft",
+      "source": "achievement_milestone",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "trophy-season-champion",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "album-first-sips-finish",
+      "version": 1,
+      "status": "draft",
+      "source": "collection_completion",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-first-collector",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "album-postcards-finish",
+      "version": 1,
+      "status": "draft",
+      "source": "collection_completion",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-treasure",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "album-cove-keepsakes-finish",
+      "version": 1,
+      "status": "draft",
+      "source": "collection_completion",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "badge-upgrader",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "chest-cove-starter",
+      "version": 1,
+      "status": "draft",
+      "source": "campaign_treasure",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "postcard-coconut-cove",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "chest-mystery-cosmetic",
+      "version": 1,
+      "status": "draft",
+      "source": "campaign_treasure",
+      "scope": "lifetime",
+      "claimMode": "manual",
+      "maxGrantsPerPlayer": 1,
+      "rewards": [
+        {
+          "kind": "item",
+          "itemId": "decor-hibiscus-counter",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "albums": [
+    {
+      "id": "first-sips",
+      "edition": 1,
+      "status": "draft",
+      "items": [
+        "card-citrus-shot",
+        "card-sunny-lemon",
+        "card-sunset-splash",
+        "card-blossom-fizz",
+        "card-coral-martini"
+      ],
+      "milestones": [
+        {
+          "count": 5,
+          "rewardPolicyId": "album-first-sips-finish"
+        }
+      ]
+    },
+    {
+      "id": "island-postcards",
+      "edition": 1,
+      "status": "draft",
+      "items": [
+        "postcard-coconut-cove",
+        "postcard-sunset-bay",
+        "postcard-mango-market"
+      ],
+      "milestones": [
+        {
+          "count": 3,
+          "rewardPolicyId": "album-postcards-finish"
+        }
+      ]
+    },
+    {
+      "id": "cove-keepsakes",
+      "edition": 1,
+      "status": "draft",
+      "items": [
+        "decor-hibiscus-counter",
+        "decor-tiki-lantern",
+        "badge-treasure"
+      ],
+      "milestones": [
+        {
+          "count": 3,
+          "rewardPolicyId": "album-cove-keepsakes-finish"
+        }
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "id": "cove-starter-treasure",
+      "status": "draft",
+      "type": "fixed",
+      "rewardPolicyId": "chest-cove-starter"
+    },
+    {
+      "id": "island-promo-cosmetic-box",
+      "status": "draft",
+      "type": "weighted",
+      "rewardPolicyId": "chest-mystery-cosmetic",
+      "odds": [
+        {
+          "itemId": "decor-hibiscus-counter",
+          "weight": 7000
+        },
+        {
+          "itemId": "decor-tiki-lantern",
+          "weight": 2500
+        },
+        {
+          "itemId": "frame-decorator",
+          "weight": 500
+        }
+      ]
+    }
+  ]
+}
