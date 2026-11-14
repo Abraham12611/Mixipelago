@@ -1,0 +1,209 @@
+{
+  "type": "object",
+  "properties": {
+    "batch": {
+      "type": "integer"
+    },
+    "catalogVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "featureGates": {
+      "type": "object",
+      "properties": {
+        "WORLD_WEATHER_COSMETIC": {
+          "type": "boolean"
+        },
+        "WORLD_INCIDENTS_ENABLED": {
+          "type": "boolean"
+        },
+        "WORLD_MARKET_EFFECTS": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "WORLD_WEATHER_COSMETIC",
+        "WORLD_INCIDENTS_ENABLED",
+        "WORLD_MARKET_EFFECTS"
+      ],
+      "additionalProperties": false
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "islandId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1
+          },
+          "intensity": {
+            "type": "integer"
+          },
+          "affectsRanked": {
+            "type": "boolean"
+          },
+          "isPureVisual": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "islandId",
+          "kind",
+          "intensity",
+          "affectsRanked",
+          "isPureVisual"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "windows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "conditionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "islandId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "startsAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "endsAt": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "conditionId",
+          "islandId",
+          "startsAt",
+          "endsAt"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "incidents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "class": {
+            "type": "string",
+            "minLength": 1
+          },
+          "weight": {
+            "type": "integer"
+          },
+          "requiredGate": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cooldownHours": {
+            "type": "integer"
+          },
+          "affectsRanked": {
+            "type": "boolean"
+          },
+          "hasFreeRecovery": {
+            "type": "boolean"
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "id",
+          "class",
+          "weight",
+          "requiredGate",
+          "cooldownHours",
+          "affectsRanked",
+          "hasFreeRecovery",
+          "effects"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "choices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "incidentId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "choiceId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "requiresCoins": {
+            "type": "boolean"
+          },
+          "recovery": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "incidentId",
+          "choiceId",
+          "requiresCoins",
+          "recovery"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "batch",
+    "catalogVersion",
+    "status",
+    "featureGates",
+    "conditions",
+    "windows",
+    "incidents",
+    "choices"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mixipelago Batch 10 draft content authoring sample",
+  "description": "Strict validation of the sample shape only; publication requires additional domain and safety checks."
+}

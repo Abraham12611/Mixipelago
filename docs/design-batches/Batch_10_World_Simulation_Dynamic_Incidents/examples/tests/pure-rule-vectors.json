@@ -1,0 +1,33 @@
+[
+  {
+    "name": "no_negative_offline",
+    "input": {
+      "offlineDays": 14,
+      "autoCharge": false
+    },
+    "expected": true
+  },
+  {
+    "name": "ranked_ignores_weather",
+    "input": {
+      "ranked": true,
+      "worldModifier": 10
+    },
+    "expected": 0
+  },
+  {
+    "name": "one_choice",
+    "input": {
+      "attempts": 2,
+      "sourceKey": "offer-1"
+    },
+    "expected": 1
+  },
+  {
+    "name": "free_recovery",
+    "input": {
+      "incidentId": "kitchen-fire-demo"
+    },
+    "expected": true
+  }
+]

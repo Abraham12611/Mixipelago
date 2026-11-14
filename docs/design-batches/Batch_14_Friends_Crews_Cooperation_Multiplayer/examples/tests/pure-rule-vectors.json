@@ -1,0 +1,36 @@
+[
+  {
+    "name": "canonical_friend_pair",
+    "input": {
+      "a": "u-9",
+      "b": "u-1"
+    },
+    "expected": [
+      "u-1",
+      "u-9"
+    ]
+  },
+  {
+    "name": "block_overrides_accept",
+    "input": {
+      "blocked": true,
+      "requestedState": "accepted"
+    },
+    "expected": "blocked"
+  },
+  {
+    "name": "crew_contribution_once",
+    "input": {
+      "sameRunSubmits": 2
+    },
+    "expected": 1
+  },
+  {
+    "name": "no_live_without_gate",
+    "input": {
+      "gateEnabled": false,
+      "matchId": "live-cove-prototype"
+    },
+    "expected": false
+  }
+]

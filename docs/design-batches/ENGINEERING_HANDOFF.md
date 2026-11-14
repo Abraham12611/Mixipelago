@@ -12,3 +12,8 @@
 9. For Batch 08, grant durable achievements only from verified receipts; show claimable versus claimed explicitly; use server-owned entitlements, item catalog and inventory. Batch 06 owns wallet credits and Batch 07 owns XP/skill points. Daily/weekly and randomized rewards remain feature-gated proposals.
 
 10. For Batch 09, customer art and voice are read-only consumers of session events. Preserve scripted alpha orders and oldest-first automatic serving; add dynamic selection, reputation and relationships only through independent OFF-by-default gates and verified backend receipts. VIP and critic pools do not appear in fixed/ranked modes.
+
+11. Batches 10–12 world/story/events are optional and pinned to published editions. No negative wallet effects during offline absence; all durable rewards flow through verified Batch 06/07/08 issuers.
+12. Batch 13 owns official ranking verification, standard build and season prize eligibility. Never display local-preview scores as ranked.
+13. Batch 14 social work launches block/privacy/report controls before open discovery or collaboration. Async challenges require Batch 13 verified replays; real-time requires a persistent authoritative session service and moderated communication.
+14. Batch 15 UI tokens/components must ship with working routes, tests, responsive states and owner-directed manual acceptance. Artwork alone is never a functioning button.

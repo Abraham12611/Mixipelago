@@ -1,0 +1,30 @@
+[
+  {
+    "id": "missing-required-top-level",
+    "path": [
+      "catalogVersion"
+    ],
+    "operation": "delete",
+    "expected": "reject_schema"
+  },
+  {
+    "id": "wrong-batch-number",
+    "path": [
+      "batch"
+    ],
+    "operation": "set",
+    "value": 99,
+    "expected": "reject_domain"
+  },
+  {
+    "id": "invalid-window",
+    "path": [
+      "editions",
+      0,
+      "claimsCloseAt"
+    ],
+    "operation": "set",
+    "value": "2027-01-01T00:00:00Z",
+    "expected": "reject_domain"
+  }
+]

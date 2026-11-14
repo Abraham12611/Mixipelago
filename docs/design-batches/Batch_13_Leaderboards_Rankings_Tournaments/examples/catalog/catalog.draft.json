@@ -1,0 +1,57 @@
+{
+  "batch": 13,
+  "catalogVersion": "competition-draft-0.1",
+  "status": "draft_disabled",
+  "featureGates": {
+    "RANKED_WEEKLY": false,
+    "RANKED_SEASON_REWARDS": false,
+    "REGIONAL_BOARDS": false
+  },
+  "competitions": [
+    {
+      "id": "cove-weekly-2027-w01",
+      "scope": "global",
+      "missionId": "coconut-cove-001",
+      "missionVersion": "v1",
+      "scoreProfileId": "classic-cove-normalized-1",
+      "physicsPresetHash": "pending-certification",
+      "scoreRulesHash": "pending-certification",
+      "startsAt": "2027-01-04T00:00:00Z",
+      "endsAt": "2027-01-11T00:00:00Z",
+      "verificationGraceHours": 24,
+      "isPublished": false,
+      "allowSkillModifiers": false
+    },
+    {
+      "id": "cove-weekly-2027-w02",
+      "scope": "global",
+      "missionId": "coconut-cove-001",
+      "missionVersion": "v1",
+      "scoreProfileId": "classic-cove-normalized-1",
+      "physicsPresetHash": "pending-certification",
+      "scoreRulesHash": "pending-certification",
+      "startsAt": "2027-01-11T00:00:00Z",
+      "endsAt": "2027-01-18T00:00:00Z",
+      "verificationGraceHours": 24,
+      "isPublished": false,
+      "allowSkillModifiers": false
+    }
+  ],
+  "tieBreak": [
+    "score_desc",
+    "shots_asc",
+    "activeTicks_asc",
+    "verifiedAt_asc",
+    "playerId_asc"
+  ],
+  "rankedProfiles": [
+    {
+      "id": "classic-cove-normalized-1",
+      "mode": "service",
+      "disableSkillEffects": true,
+      "disableShopEffects": true,
+      "disableWorldEffects": true,
+      "seed": "pinned-draft"
+    }
+  ]
+}

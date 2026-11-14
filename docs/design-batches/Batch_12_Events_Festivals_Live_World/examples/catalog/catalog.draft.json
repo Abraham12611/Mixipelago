@@ -1,0 +1,50 @@
+{
+  "batch": 12,
+  "catalogVersion": "festival-draft-0.1",
+  "status": "draft_disabled",
+  "featureGates": {
+    "FESTIVAL_HUB": false,
+    "EVENT_VERIFIED_REWARDS": false,
+    "COMMUNITY_GOALS": false
+  },
+  "editions": [
+    {
+      "id": "cove-lanterns-2027",
+      "type": "festival",
+      "titleKey": "event.coveLanterns.title",
+      "startsAt": "2027-02-01T00:00:00Z",
+      "scoringClosesAt": "2027-02-08T00:00:00Z",
+      "claimsCloseAt": "2027-02-15T00:00:00Z",
+      "archiveAt": "2027-02-16T00:00:00Z",
+      "gate": "FESTIVAL_HUB",
+      "ranked": false
+    },
+    {
+      "id": "cove-community-2027",
+      "type": "community",
+      "titleKey": "event.coveCommunity.title",
+      "startsAt": "2027-03-01T00:00:00Z",
+      "scoringClosesAt": "2027-03-08T00:00:00Z",
+      "claimsCloseAt": "2027-03-15T00:00:00Z",
+      "archiveAt": "2027-03-16T00:00:00Z",
+      "gate": "COMMUNITY_GOALS",
+      "ranked": false
+    }
+  ],
+  "activities": [
+    {
+      "id": "serve-lantern-drink",
+      "editionId": "cove-lanterns-2027",
+      "missionId": "coconut-cove-001",
+      "maxContributionsPerPlayer": 1,
+      "rewardPolicyId": "lantern-sticker-draft"
+    },
+    {
+      "id": "community-first-clears",
+      "editionId": "cove-community-2027",
+      "missionId": "coconut-cove-002",
+      "maxContributionsPerPlayer": 1,
+      "rewardPolicyId": "community-ribbon-draft"
+    }
+  ]
+}

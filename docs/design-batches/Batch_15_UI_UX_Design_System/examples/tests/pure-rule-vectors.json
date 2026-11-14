@@ -1,0 +1,32 @@
+[
+  {
+    "name": "route_flagged",
+    "input": {
+      "route": "/shop",
+      "enabledFlags": []
+    },
+    "expected": false
+  },
+  {
+    "name": "core_route",
+    "input": {
+      "route": "/play",
+      "enabledFlags": []
+    },
+    "expected": true
+  },
+  {
+    "name": "mobile_width",
+    "input": {
+      "width": 390
+    },
+    "expected": "mobile"
+  },
+  {
+    "name": "desktop_width",
+    "input": {
+      "width": 1440
+    },
+    "expected": "desktop"
+  }
+]

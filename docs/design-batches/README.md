@@ -1,4 +1,4 @@
-# Mixipelago — Design Batches 1–9
+# Mixipelago — Design Batches 1–15
 
 These batches are canonical engineering handoff documents organized by subject. Each folder contains a README/index and independent specifications, plus example assets and validators when applicable.
 
@@ -11,6 +11,12 @@ These batches are canonical engineering handoff documents organized by subject. 
 7. [Batch 07 — Skills & Player Growth](Batch_07_Skills_Player_Growth/docs/00_INDEX_AND_README.md)
 8. [Batch 08 — Rewards, Achievements & Collections](Batch_08_Rewards_Achievements_Collections/docs/00_INDEX_AND_README.md)
 9. [Batch 09 — Customers, Personalities & Reputation](Batch_09_Customers_Personalities_Reputation/docs/00_INDEX_AND_README.md)
+10. [Batch 10 — World Simulation & Dynamic Incidents](Batch_10_World_Simulation_Dynamic_Incidents/docs/00_INDEX_AND_README.md)
+11. [Batch 11 — Stories, Characters, Quests & Rival Businesses](Batch_11_Stories_Characters_Quests_Rivals/docs/00_INDEX_AND_README.md)
+12. [Batch 12 — Events, Festivals & Live World](Batch_12_Events_Festivals_Live_World/docs/00_INDEX_AND_README.md)
+13. [Batch 13 — Leaderboards, Rankings & Tournaments](Batch_13_Leaderboards_Rankings_Tournaments/docs/00_INDEX_AND_README.md)
+14. [Batch 14 — Friends, Crews, Cooperation & Multiplayer](Batch_14_Friends_Crews_Cooperation_Multiplayer/docs/00_INDEX_AND_README.md)
+15. [Batch 15 — Complete UI/UX & Design System](Batch_15_UI_UX_Design_System/docs/00_INDEX_AND_README.md)
 
 ## Precedence
 
@@ -22,6 +28,15 @@ These batches are canonical engineering handoff documents organized by subject. 
 - Batch 07 owns trusted player XP, level milestones, skill allocation and respec; Batch 06 remains authoritative for shop/economy modifiers, and standardized ranked profiles ignore personal build power.
 - Batch 08 owns achievement evidence, claim entitlements, collectible ownership and presentation. It does not mint coins or XP directly; Batch 06 and Batch 07 remain authoritative issuers.
 - Batch 09 owns fictional customer identity, future deterministic encounter reservation and derived verified satisfaction/relationship observations. Batch 03/04 own order service; Batch 06 owns shop reputation/economics; Batch 07 owns skills; Batch 08 owns souvenir entitlements.
+
+- Batch 10 owns world condition snapshots and incident offers; Batch 06 alone moves coins and insurance payouts.
+- Batch 11 owns story/quest flags and authored NPC arcs; Batch 04/05 own mission and campaign evidence.
+- Batch 12 owns event calendar editions and participation; Batch 08 owns collectibles; Batch 13 owns ranked event scoring.
+- Batch 13 owns certified replay verification, official rankings, season freezes, tie-breaks and prize eligibility.
+- Batch 14 owns consented friend/crew relationships and match orchestration; only server-authoritative live matches can establish real-time outcomes.
+- Batch 15 owns semantic UI tokens, responsive components and route visibility; it never changes gameplay/financial authority.
+
+[Read the Batches 10–15 authority and release matrix](CROSS_BATCH_AUTHORITY_AND_RELEASES.md).
 
 Conflicts must be resolved through an explicit ADR and versioned contract changes. Local preview coins must never become authoritative balances.
 

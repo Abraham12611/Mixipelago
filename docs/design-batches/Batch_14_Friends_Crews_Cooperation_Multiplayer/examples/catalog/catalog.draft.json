@@ -1,0 +1,64 @@
+{
+  "batch": 14,
+  "catalogVersion": "social-draft-0.1",
+  "status": "draft_disabled",
+  "featureGates": {
+    "FRIENDS": false,
+    "ASYNC_CHALLENGES": false,
+    "CREWS": false,
+    "LIVE_MATCHES": false
+  },
+  "friendStates": [
+    "none",
+    "requested",
+    "accepted",
+    "declined",
+    "canceled",
+    "blocked"
+  ],
+  "crewRoles": [
+    {
+      "id": "owner",
+      "canInvite": true,
+      "canModerate": true,
+      "canTransferOwnership": true
+    },
+    {
+      "id": "moderator",
+      "canInvite": true,
+      "canModerate": true,
+      "canTransferOwnership": false
+    },
+    {
+      "id": "member",
+      "canInvite": false,
+      "canModerate": false,
+      "canTransferOwnership": false
+    }
+  ],
+  "projects": [
+    {
+      "id": "cove-restoration-2027",
+      "kind": "verified_mission_contributions",
+      "goal": 100,
+      "maxPerPlayer": 3,
+      "requiresVerifiedReceipt": true,
+      "rewards": "nontradeable-badge",
+      "isPublished": false
+    }
+  ],
+  "matchProfiles": [
+    {
+      "id": "async-cove-ghost",
+      "kind": "async",
+      "normalizedCompetitionId": "cove-weekly-2027-w01",
+      "liveNetworkRequired": false
+    },
+    {
+      "id": "live-cove-prototype",
+      "kind": "realtime",
+      "normalizedCompetitionId": "cove-weekly-2027-w01",
+      "liveNetworkRequired": true
+    }
+  ]
+}

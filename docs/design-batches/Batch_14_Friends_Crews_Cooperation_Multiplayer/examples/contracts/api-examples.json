@@ -1,0 +1,97 @@
+{
+  "batch": 14,
+  "designOnly": true,
+  "status": "not_deployed",
+  "auth": "Server derives actor from verified auth session. Never trust playerId from client body.",
+  "idempotency": "Idempotency-Key required on mutations that can create state/rewards; same key+body returns prior receipt, different body conflicts.",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/v1/friends",
+      "illustrativeResponse": "{friends,requests,blocks}"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/friends/requests",
+      "illustrativeResponse": "{targetHandle} → requestId"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/friends/{userId}/block",
+      "illustrativeResponse": "{} → blockRevision"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/challenges",
+      "illustrativeResponse": "{targetPlayerId,competitionId} → challengeId"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/crews/{crewId}/projects/{projectId}/contribute",
+      "illustrativeResponse": "{verifiedReceiptId} → contributionReceiptId"
+    }
+  ],
+  "events": [
+    {
+      "name": "social.friend_accepted.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "social.block_created.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "crew.joined.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "crew.contribution_verified.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "match.finished.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    }
+  ],
+  "errorCodes": [
+    "UNAUTHENTICATED",
+    "FORBIDDEN",
+    "FEATURE_DISABLED",
+    "CATALOG_STALE",
+    "REVISION_CONFLICT",
+    "IDEMPOTENCY_CONFLICT",
+    "SOURCE_UNVERIFIED",
+    "RATE_LIMITED",
+    "SERVICE_UNAVAILABLE"
+  ]
+}

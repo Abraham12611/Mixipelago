@@ -1,0 +1,165 @@
+{
+  "type": "object",
+  "properties": {
+    "batch": {
+      "type": "integer"
+    },
+    "catalogVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "featureGates": {
+      "type": "object",
+      "properties": {
+        "FRIENDS": {
+          "type": "boolean"
+        },
+        "ASYNC_CHALLENGES": {
+          "type": "boolean"
+        },
+        "CREWS": {
+          "type": "boolean"
+        },
+        "LIVE_MATCHES": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "FRIENDS",
+        "ASYNC_CHALLENGES",
+        "CREWS",
+        "LIVE_MATCHES"
+      ],
+      "additionalProperties": false
+    },
+    "friendStates": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "crewRoles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "canInvite": {
+            "type": "boolean"
+          },
+          "canModerate": {
+            "type": "boolean"
+          },
+          "canTransferOwnership": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "canInvite",
+          "canModerate",
+          "canTransferOwnership"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1
+          },
+          "goal": {
+            "type": "integer"
+          },
+          "maxPerPlayer": {
+            "type": "integer"
+          },
+          "requiresVerifiedReceipt": {
+            "type": "boolean"
+          },
+          "rewards": {
+            "type": "string",
+            "minLength": 1
+          },
+          "isPublished": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "goal",
+          "maxPerPlayer",
+          "requiresVerifiedReceipt",
+          "rewards",
+          "isPublished"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "matchProfiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1
+          },
+          "normalizedCompetitionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "liveNetworkRequired": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "normalizedCompetitionId",
+          "liveNetworkRequired"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "batch",
+    "catalogVersion",
+    "status",
+    "featureGates",
+    "friendStates",
+    "crewRoles",
+    "projects",
+    "matchProfiles"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mixipelago Batch 14 draft content authoring sample",
+  "description": "Strict validation of the sample shape only; publication requires additional domain and safety checks."
+}

@@ -1,0 +1,101 @@
+{
+  "batch": 11,
+  "catalogVersion": "story-draft-0.1",
+  "status": "draft_disabled",
+  "featureGates": {
+    "STORY_EPISODES": false,
+    "RIVAL_CHALLENGES": false,
+    "NARRATIVE_QUEST_REWARDS": false
+  },
+  "characters": [
+    {
+      "id": "mara-the-mentor",
+      "name": "Mara",
+      "role": "mentor",
+      "isPlayable": false
+    },
+    {
+      "id": "jules-the-neighbor",
+      "name": "Jules",
+      "role": "neighbor",
+      "isPlayable": false
+    },
+    {
+      "id": "rio-rival-owner",
+      "name": "Rio",
+      "role": "rival",
+      "isPlayable": false
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cove-intro-a",
+      "characterId": "mara-the-mentor",
+      "next": [
+        "cove-intro-b"
+      ],
+      "isSkippable": true,
+      "choiceIds": []
+    },
+    {
+      "id": "cove-intro-b",
+      "characterId": "jules-the-neighbor",
+      "next": [
+        "cove-choice"
+      ],
+      "isSkippable": true,
+      "choiceIds": []
+    },
+    {
+      "id": "cove-choice",
+      "characterId": "mara-the-mentor",
+      "next": [
+        "cove-close"
+      ],
+      "isSkippable": true,
+      "choiceIds": [
+        "welcome-warm",
+        "welcome-brief"
+      ]
+    },
+    {
+      "id": "cove-close",
+      "characterId": "mara-the-mentor",
+      "next": [],
+      "isSkippable": true,
+      "choiceIds": []
+    }
+  ],
+  "quests": [
+    {
+      "id": "cove-welcome",
+      "startSceneId": "cove-intro-a",
+      "requiredMissionId": "coconut-cove-001",
+      "rewardPolicyId": "narrative-welcome-badge-draft",
+      "repeatable": false,
+      "gate": "STORY_EPISODES"
+    },
+    {
+      "id": "rival-friendly-challenge",
+      "startSceneId": "cove-close",
+      "requiredMissionId": "coconut-cove-002",
+      "rewardPolicyId": "rival-victory-badge-draft",
+      "repeatable": false,
+      "gate": "RIVAL_CHALLENGES"
+    }
+  ],
+  "choices": [
+    {
+      "id": "welcome-warm",
+      "flag": "greeted_mara",
+      "value": "warm",
+      "financialEffect": false
+    },
+    {
+      "id": "welcome-brief",
+      "flag": "greeted_mara",
+      "value": "brief",
+      "financialEffect": false
+    }
+  ]
+}

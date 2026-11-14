@@ -1,0 +1,165 @@
+{
+  "type": "object",
+  "properties": {
+    "batch": {
+      "type": "integer"
+    },
+    "catalogVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "featureGates": {
+      "type": "object",
+      "properties": {
+        "RANKED_WEEKLY": {
+          "type": "boolean"
+        },
+        "RANKED_SEASON_REWARDS": {
+          "type": "boolean"
+        },
+        "REGIONAL_BOARDS": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "RANKED_WEEKLY",
+        "RANKED_SEASON_REWARDS",
+        "REGIONAL_BOARDS"
+      ],
+      "additionalProperties": false
+    },
+    "competitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "missionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "missionVersion": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scoreProfileId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "physicsPresetHash": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scoreRulesHash": {
+            "type": "string",
+            "minLength": 1
+          },
+          "startsAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "endsAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "verificationGraceHours": {
+            "type": "integer"
+          },
+          "isPublished": {
+            "type": "boolean"
+          },
+          "allowSkillModifiers": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "scope",
+          "missionId",
+          "missionVersion",
+          "scoreProfileId",
+          "physicsPresetHash",
+          "scoreRulesHash",
+          "startsAt",
+          "endsAt",
+          "verificationGraceHours",
+          "isPublished",
+          "allowSkillModifiers"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "tieBreak": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "rankedProfiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mode": {
+            "type": "string",
+            "minLength": 1
+          },
+          "disableSkillEffects": {
+            "type": "boolean"
+          },
+          "disableShopEffects": {
+            "type": "boolean"
+          },
+          "disableWorldEffects": {
+            "type": "boolean"
+          },
+          "seed": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "mode",
+          "disableSkillEffects",
+          "disableShopEffects",
+          "disableWorldEffects",
+          "seed"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "batch",
+    "catalogVersion",
+    "status",
+    "featureGates",
+    "competitions",
+    "tieBreak",
+    "rankedProfiles"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mixipelago Batch 13 draft content authoring sample",
+  "description": "Strict validation of the sample shape only; publication requires additional domain and safety checks."
+}
