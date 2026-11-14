@@ -1,0 +1,19 @@
+{
+  "playerId": "test-user-01",
+  "profileRevision": 7,
+  "trusted": true,
+  "level": 6,
+  "xpTotal": 1010,
+  "pointsEarned": 5,
+  "pointsAllocated": 4,
+  "pointsAvailable": 1,
+  "allocations": {
+    "mm_clear_sight": 1,
+    "mm_combo_notebook": 1,
+    "hp_warm_welcome": 1,
+    "hp_guest_book": 1
+  },
+  "catalogVersion": "0.4.0-design-candidate.1",
+  "loadout": [],
+  "note": "NON_PRODUCTION_SAMPLE: illustrative trusted projection only"
+}

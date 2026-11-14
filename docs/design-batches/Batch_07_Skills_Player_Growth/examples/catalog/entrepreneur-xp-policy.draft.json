@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.0.0",
+  "xpPolicyVersion": "entrepreneur-xp-001.draft",
+  "status": "DRAFT_NOT_SHIPPED",
+  "maxLevel": 20,
+  "pointMilestones": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "xpToNextByCurrentLevel": [
+    {
+      "level": 1,
+      "xpRequired": 100
+    },
+    {
+      "level": 2,
+      "xpRequired": 140
+    },
+    {
+      "level": 3,
+      "xpRequired": 190
+    },
+    {
+      "level": 4,
+      "xpRequired": 250
+    },
+    {
+      "level": 5,
+      "xpRequired": 320
+    },
+    {
+      "level": 6,
+      "xpRequired": 400
+    },
+    {
+      "level": 7,
+      "xpRequired": 490
+    },
+    {
+      "level": 8,
+      "xpRequired": 590
+    },
+    {
+      "level": 9,
+      "xpRequired": 700
+    },
+    {
+      "level": 10,
+      "xpRequired": 820
+    },
+    {
+      "level": 11,
+      "xpRequired": 950
+    },
+    {
+      "level": 12,
+      "xpRequired": 1090
+    },
+    {
+      "level": 13,
+      "xpRequired": 1240
+    },
+    {
+      "level": 14,
+      "xpRequired": 1400
+    },
+    {
+      "level": 15,
+      "xpRequired": 1570
+    },
+    {
+      "level": 16,
+      "xpRequired": 1750
+    },
+    {
+      "level": 17,
+      "xpRequired": 1940
+    },
+    {
+      "level": 18,
+      "xpRequired": 2140
+    },
+    {
+      "level": 19,
+      "xpRequired": 2350
+    }
+  ],
+  "cumulativeXpForLevel": [
+    {
+      "level": 1,
+      "threshold": 0
+    },
+    {
+      "level": 2,
+      "threshold": 100
+    },
+    {
+      "level": 3,
+      "threshold": 240
+    },
+    {
+      "level": 4,
+      "threshold": 430
+    },
+    {
+      "level": 5,
+      "threshold": 680
+    },
+    {
+      "level": 6,
+      "threshold": 1000
+    },
+    {
+      "level": 7,
+      "threshold": 1400
+    },
+    {
+      "level": 8,
+      "threshold": 1890
+    },
+    {
+      "level": 9,
+      "threshold": 2480
+    },
+    {
+      "level": 10,
+      "threshold": 3180
+    },
+    {
+      "level": 11,
+      "threshold": 4000
+    },
+    {
+      "level": 12,
+      "threshold": 4950
+    },
+    {
+      "level": 13,
+      "threshold": 6040
+    },
+    {
+      "level": 14,
+      "threshold": 7280
+    },
+    {
+      "level": 15,
+      "threshold": 8680
+    },
+    {
+      "level": 16,
+      "threshold": 10250
+    },
+    {
+      "level": 17,
+      "threshold": 12000
+    },
+    {
+      "level": 18,
+      "threshold": 13940
+    },
+    {
+      "level": 19,
+      "threshold": 16080
+    },
+    {
+      "level": 20,
+      "threshold": 18430
+    }
+  ]
+}

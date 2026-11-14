@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mixipelago Skill Catalog Draft v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "catalogId",
+    "catalogVersion",
+    "publicationState",
+    "balancePolicy",
+    "branches",
+    "nodes"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "catalogId": {
+      "type": "string",
+      "minLength": 3
+    },
+    "catalogVersion": {
+      "type": "string",
+      "minLength": 4
+    },
+    "publicationState": {
+      "enum": [
+        "DRAFT_NOT_SHIPPED",
+        "STAGED",
+        "PUBLISHED"
+      ]
+    },
+    "phaseGates": {
+      "type": "object"
+    },
+    "balancePolicy": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      },
+      "minProperties": 1
+    },
+    "branches": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "branchId",
+          "name",
+          "icon",
+          "description"
+        ],
+        "properties": {
+          "branchId": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "icon": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "skillId",
+          "branchId",
+          "name",
+          "description",
+          "minPlayerLevel",
+          "maxRank",
+          "pointCostPerRank",
+          "status",
+          "requiredSkillRanks",
+          "allowedContexts",
+          "effects"
+        ],
+        "properties": {
+          "skillId": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "branchId": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "minPlayerLevel": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "maxRank": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          },
+          "pointCostPerRank": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "status": {
+            "enum": [
+              "pilot",
+              "draft",
+              "disabled",
+              "published"
+            ]
+          },
+          "requiredFeatureFlag": {
+            "type": "string"
+          },
+          "requiredSkillRanks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "skillId",
+                "rank"
+              ],
+              "properties": {
+                "skillId": {
+                  "type": "string"
+                },
+                "rank": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          },
+          "allowedContexts": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "effects": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "effectId",
+                "operation",
+                "valuePerRank"
+              ],
+              "properties": {
+                "effectId": {
+                  "type": "string"
+                },
+                "operation": {
+                  "enum": [
+                    "flat_add",
+                    "percentage_point_add",
+                    "multiplier_add",
+                    "bool_unlock",
+                    "capacity_add"
+                  ]
+                },
+                "valuePerRank": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

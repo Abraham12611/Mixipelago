@@ -1,0 +1,294 @@
+{
+  "batch": 7,
+  "title": "Skill Trees, Specializations & Player Growth",
+  "status": "DOCS_READY",
+  "generatedAt": "2026-11-14",
+  "fileCountExcludingManifest": 57,
+  "files": [
+    {
+      "path": "CONTENT_MANIFEST.md",
+      "size": 445,
+      "sha256": "74867a4727e11ecb92082bf6290dc3278e9a96ec30a81cdaadb4cdadc8831a6f"
+    },
+    {
+      "path": "ENGINEER_START_HERE.md",
+      "size": 1056,
+      "sha256": "4b689b112539e0401476b1d88ff306e9bc73b8004f773661aae06bcd5ae95632"
+    },
+    {
+      "path": "README.md",
+      "size": 761,
+      "sha256": "d7fe753efef0cbedb0068dea78250c4820dc59d76a9adb566e1cbda54b45f4f5"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size": 682,
+      "sha256": "35ff378aa38b8ec4d736c8712b186f0a63641e1d22fa940e2b266356e502119b"
+    },
+    {
+      "path": "docs/00_INDEX_AND_README.md",
+      "size": 6182,
+      "sha256": "fdfa704ea1771cad534cf56c66f1a8d9ae648e1b3d226d0714450a4989b76840"
+    },
+    {
+      "path": "docs/01_01_PRODUCT_SCOPE_AND_PLAYER_PROMISE.md",
+      "size": 3945,
+      "sha256": "ac1d8ec1217a80dc0394e3d7fee75e736ca2fc6bddcb778c9e6cf7539524e656"
+    },
+    {
+      "path": "docs/02_02_PROGRESSION_LAYERS_AND_TERMINOLOGY.md",
+      "size": 3118,
+      "sha256": "2d02f5e58050543594cd59ccefd574455a59b4322d9aa795ed64f27d60af3089"
+    },
+    {
+      "path": "docs/03_03_XP_LEVEL_CURVE_AND_CAPS.md",
+      "size": 2893,
+      "sha256": "38c9ac5efea8e7f16eef0263982a119c293f1303daadea77b9c88cea119a80c7"
+    },
+    {
+      "path": "docs/04_04_XP_REWARD_SOURCES_AND_AWARD_POLICY.md",
+      "size": 2696,
+      "sha256": "0eb8d20621582e04150c622c8bc4094e1f2950f98e842e01d1a3e46ef0156990"
+    },
+    {
+      "path": "docs/05_05_SKILL_TREE_GRAPH_AND_PRECONDITIONS.md",
+      "size": 2642,
+      "sha256": "aa03858bcce47d09089175ec3c9097101477a1116654064d246e782a304778b8"
+    },
+    {
+      "path": "docs/06_06_SIX_SPECIALIZATIONS_AND_BUILD_IDENTITIES.md",
+      "size": 2401,
+      "sha256": "34105ae65aa5c2f8fa3426dc49b559941b217f42e10294fce5127169c3e85b18"
+    },
+    {
+      "path": "docs/07_07_MIXOLOGIST_BRANCH.md",
+      "size": 1825,
+      "sha256": "88f1f7476290a7d0d05bc492e42cbbbec13fe8cb3d4c0b9415b107fce38b2b35"
+    },
+    {
+      "path": "docs/08_08_HOSPITALITY_BRANCH.md",
+      "size": 1957,
+      "sha256": "f1d1ba60b6af31859d11f07926825215e20c7655fa239255d5172bd41b665b2a"
+    },
+    {
+      "path": "docs/09_09_MOGUL_BRANCH.md",
+      "size": 1677,
+      "sha256": "833b4e8a3c43f381d92f929ad406e524cce014c7767cb089fcc99bddb559fc27"
+    },
+    {
+      "path": "docs/10_10_EXPLORER_BRANCH.md",
+      "size": 1507,
+      "sha256": "ce40e0f3c8378b3323e5d73aa452fc609d57f3fd9cd25a41206b63ba1cd2e8d0"
+    },
+    {
+      "path": "docs/11_11_RISK_BRANCH.md",
+      "size": 1458,
+      "sha256": "ff59960ee5d06ac3784943a85619cc29628852f9308d0c2ff78b60e3485f0320"
+    },
+    {
+      "path": "docs/12_12_PUZZLE_BRANCH.md",
+      "size": 1557,
+      "sha256": "e4864625f84295fd6a3bccc8f91e1a1a103977d4a5c94da6546ec52b7d715398"
+    },
+    {
+      "path": "docs/13_13_ACTIVE_PASSIVE_AND_LOADOUT_POLICY.md",
+      "size": 1817,
+      "sha256": "46a8f5df2c164f585f4597570e292b1ceea256953b13a735a6e3fdf88484c3ce"
+    },
+    {
+      "path": "docs/14_14_TYPED_EFFECT_ENGINE_AND_INTEGRATION.md",
+      "size": 2168,
+      "sha256": "1b7f16a8b1b67926b7391604efdb338fa9781cc54e053dbf2e3276ac9dde31f0"
+    },
+    {
+      "path": "docs/15_15_STACKING_CAPS_AND_NUMERIC_RULES.md",
+      "size": 2331,
+      "sha256": "1c37c582ddb04c0d71c6e88fa29713f0eced43aabe5ceb11049c2610d3a25998"
+    },
+    {
+      "path": "docs/16_16_SKILL_PURCHASE_RULES_AND_PREREQUISITES.md",
+      "size": 2166,
+      "sha256": "2a752638734dd6f0b1a3675be7fe6239ef805349cee7167521bb7152e2efd708"
+    },
+    {
+      "path": "docs/17_17_POINTS_MILESTONES_AND_REWARD_RULES.md",
+      "size": 1873,
+      "sha256": "24148957bb627ba3aadb5060c6b2f8c7c0160eea2cf5ca7ff430be825e33cde6"
+    },
+    {
+      "path": "docs/18_18_RESPEC_AND_BUILD_EXPERIMENTATION.md",
+      "size": 2353,
+      "sha256": "b72692d49f1520540a53a3ac8847d4792eb8b04d1e99e66743ed97185d645f29"
+    },
+    {
+      "path": "docs/19_19_DRINK_MASTERY_AND_RECIPE_EXPERTISE.md",
+      "size": 1551,
+      "sha256": "d1b7357ba04384f9268e499018ebe80a759f964a45cb7cb7c54b3ae012f9bbae"
+    },
+    {
+      "path": "docs/20_20_PLAYER_REPUTATION_AND_SHOP_HANDOFF.md",
+      "size": 1548,
+      "sha256": "9e0662c815563ef66675bb53db47a7d6678a6922fc5f14e12eb9de83b87f2b1d"
+    },
+    {
+      "path": "docs/21_21_CAMPAIGN_UNLOCKS_AND_PLAYER_LEVEL_GATES.md",
+      "size": 1592,
+      "sha256": "4973c643293d0739d6e8ce086e860bef145bc37d8703dbc0056e4e9924511a1a"
+    },
+    {
+      "path": "docs/22_22_RANKED_NORMALIZATION_AND_ANTICHEAT.md",
+      "size": 1882,
+      "sha256": "f403db15c95b722b00542a76b383e050ad09a7873e325d03b0bb74eeed7175c9"
+    },
+    {
+      "path": "docs/23_23_CUSTOMER_DIRECTOR_EFFECTS_AND_FAIR_SPAWNING.md",
+      "size": 1589,
+      "sha256": "df663638788461953263be40094da2e47f1cf12a9fb6aeabf863f7945dafe8e2"
+    },
+    {
+      "path": "docs/24_24_MOBILE_UI_SKILL_TREE_AND_PROFILE.md",
+      "size": 1920,
+      "sha256": "7eed59c3d9a71225d2b7f74a8b0fcd3dc5b91d786cb3ebd780dfc33a3fcf82ea"
+    },
+    {
+      "path": "docs/25_25_DESKTOP_UI_SKILL_TREE_AND_BUILD_PLANNER.md",
+      "size": 1624,
+      "sha256": "9c0973b74f596dff8c4ba2b1685edb81282ede39421a3d1e24fb6a0396f376bc"
+    },
+    {
+      "path": "docs/26_26_FIRST_SKILL_ONBOARDING_AND_EDUCATION.md",
+      "size": 1439,
+      "sha256": "b3005d8b98dc1e44804dfe44fa7c8469c8f53647109551bccc15ab5b396564f5"
+    },
+    {
+      "path": "docs/27_27_ACCESSIBILITY_LOCALIZATION_AND_PLAYER_TRUST.md",
+      "size": 1618,
+      "sha256": "3eab37ed09c3c29f62c407fd647090b5b89deae3fa09dfc91d5938fbd0cb020a"
+    },
+    {
+      "path": "docs/28_28_BALANCE_TELEMETRY_AND_EXPERIMENTS.md",
+      "size": 1882,
+      "sha256": "00d497374d1fdaad462001870380221633ccd17600c8644a28afb460f9b20e91"
+    },
+    {
+      "path": "docs/29_29_SKILL_CONTENT_STUDIO_AND_PUBLICATION.md",
+      "size": 1773,
+      "sha256": "60ddf8e54de3e220dcff66c5a24a944af18b15da51359d565206b8bc29d5959d"
+    },
+    {
+      "path": "docs/30_30_DATABASE_SCHEMA_AND_RLS.md",
+      "size": 2497,
+      "sha256": "c54b2bda0c50bb00fbdeee41d7cce83c4d723c1235c71bc6eb133778c0c6ef64"
+    },
+    {
+      "path": "docs/31_31_API_CONTRACTS_DOMAIN_EVENTS_AND_ERRORS.md",
+      "size": 2158,
+      "sha256": "e7fb0dd61d76dacf3601ff73311b87cf32ca4859c63615bebdabb49a6277bfff"
+    },
+    {
+      "path": "docs/32_32_TYPESCRIPT_PACKAGE_AND_SERVICE_BLUEPRINT.md",
+      "size": 2185,
+      "sha256": "67ebb4b55ef1bcb54e0e4288b63c18c7af327ba7a1c00b478af96378998158c1"
+    },
+    {
+      "path": "docs/33_33_VERSION_MIGRATION_COMPATIBILITY_AND_FLAGS.md",
+      "size": 1877,
+      "sha256": "cbf71735de929f5bb71951701e3a84427692ee7101506ee6f38ebac7a424713a"
+    },
+    {
+      "path": "docs/34_34_SECURITY_THREAT_MODEL_AND_EXPLOIT_GUARDS.md",
+      "size": 2140,
+      "sha256": "8656599a2035d5d952a20a63109715a24e93c9ea104f2f2069e40aa380ad63c2"
+    },
+    {
+      "path": "docs/35_35_QA_TEST_MATRIX_AND_PROPERTY_TESTS.md",
+      "size": 2550,
+      "sha256": "dac6de7535e7ccdd1e16d0413440cd7fd75518f309a402b6a9fa083c937824ef"
+    },
+    {
+      "path": "docs/36_36_RELEASE_SLICES_AND_FEATURE_GATES.md",
+      "size": 2342,
+      "sha256": "bc5c9fbc73f4989d09d5f3a724ae62a64f4547b1575cd63c20e6fd47abb63784"
+    },
+    {
+      "path": "docs/37_37_ENGINEERING_WORKSTREAMS_AND_GITHUB_ISSUES.md",
+      "size": 2866,
+      "sha256": "257e1a67341e10e431035dd6371a8e2c5bf0b8e3b13118efde0f23e11f2bb653"
+    },
+    {
+      "path": "docs/38_38_ARCHITECTURE_DECISIONS_GLOSSARY_AND_RISKS.md",
+      "size": 2526,
+      "sha256": "284d26a0ed64dcf2c621304fbd4a19a6867104f08262e1caddac1449f54574ac"
+    },
+    {
+      "path": "docs/39_39_REQUIREMENT_TRACEABILITY_AND_DEFINITION_OF_DONE.md",
+      "size": 2151,
+      "sha256": "9c55a1038ef43c0b1eac88078802c8b4497a7a94a512157a787073621341ec41"
+    },
+    {
+      "path": "docs/40_40_END_TO_END_PLAYER_JOURNEYS.md",
+      "size": 2248,
+      "sha256": "f4ce981ea1dab75d739afab1c8facc58f07390dbd0a05a2e68b8018614a57465"
+    },
+    {
+      "path": "docs/41_41_ENGINEER_KICKOFF_AND_FIRST_SHIPPABLE_SLICE.md",
+      "size": 1770,
+      "sha256": "4e9416f0864ec0808b3bfabff3ffbb25db8e01575d617e602ab950d4870878a5"
+    },
+    {
+      "path": "examples/README.md",
+      "size": 1281,
+      "sha256": "8cfaa90defbd2175d60d31dd9ea1f381b7c1f22be1d7086f6cd6bdfaf649504e"
+    },
+    {
+      "path": "examples/catalog/entrepreneur-xp-policy.draft.json",
+      "size": 2541,
+      "sha256": "a61daf5cd641a035d97bd8ec22ccc2a999fd01ac2ed0394b3dc91cee4d87c095"
+    },
+    {
+      "path": "examples/catalog/skills-catalog.draft.json",
+      "size": 20302,
+      "sha256": "ec5c6cae7f4c15d41e28cbdc409269cdfff4305e259c6fb6d542e838e40e2945"
+    },
+    {
+      "path": "examples/contracts/progression-api.draft.json",
+      "size": 1935,
+      "sha256": "a31e2ea269cbcc3dd24e64608a268bfbb360540392c02efdebae6ada587d20c0"
+    },
+    {
+      "path": "examples/contracts/pure-progression-rules.draft.ts",
+      "size": 1988,
+      "sha256": "dbd8c36c2470bcf49ecce3d0ec7740f0f5ad170c4514f603a74cb1f3adaeb892"
+    },
+    {
+      "path": "examples/contracts/sample-player-projection.draft.json",
+      "size": 442,
+      "sha256": "1ee5391e3ffba81efb88c649953c1801ca8efacdd0dcb3224688b9afb8191dad"
+    },
+    {
+      "path": "examples/schemas/skill-catalog.schema.json",
+      "size": 4419,
+      "sha256": "4f658cabfde6219fc2f07ee3f91660e6ff7df575c171c48a2531df1f00547b29"
+    },
+    {
+      "path": "examples/sql/progression_schema_draft.sql",
+      "size": 3939,
+      "sha256": "819535522ef623a0d7010e8d9c43e9e9f5319772eaeb4ad03860f02a3dfe3b40"
+    },
+    {
+      "path": "examples/tests/allocation-modifier-rule-vectors.json",
+      "size": 2931,
+      "sha256": "ee854a5116a11a71ecb84ec0eb0bcfd5e5ce8a58a3c67863fb80d540108092df"
+    },
+    {
+      "path": "examples/tests/xp-rule-vectors.json",
+      "size": 1082,
+      "sha256": "f7b399f232f53c434324473a3d20720d1336c28e7d4acc8016923152b31d91d3"
+    },
+    {
+      "path": "tools/validate_batch7.py",
+      "size": 4788,
+      "sha256": "93e1f363188cb417e98a445831671e5dfdd00cc805a2fa0912b32b349e3c596c"
+    }
+  ]
+}
