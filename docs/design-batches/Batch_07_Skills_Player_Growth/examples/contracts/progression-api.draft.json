@@ -1,0 +1,74 @@
+{
+  "note": "DRAFT. These payloads are illustrative, not proof of deployed endpoints.",
+  "examples": [
+    {
+      "name": "read_progression",
+      "method": "GET",
+      "path": "/v1/progression/me",
+      "response": {
+        "level": 6,
+        "xpTotal": 1010,
+        "xpPolicyVersion": "entrepreneur-xp-001.draft",
+        "pointsAvailable": 1,
+        "pointsEarned": 5,
+        "pointsAllocated": 4,
+        "revision": 7
+      }
+    },
+    {
+      "name": "allocate",
+      "method": "POST",
+      "path": "/v1/progression/skills/hp_golden_guestlist/allocate",
+      "request": {
+        "requestedRank": 1,
+        "expectedRevision": 7,
+        "clientRequestId": "request-01"
+      },
+      "response": {
+        "receiptId": "allocation-01",
+        "allocationRevision": 8,
+        "newRank": 1,
+        "pointsAvailable": 0,
+        "effectiveFrom": "next_eligible_activity"
+      }
+    },
+    {
+      "name": "stale",
+      "method": "POST",
+      "path": "/v1/progression/skills/mm_clear_sight/allocate",
+      "request": {
+        "requestedRank": 2,
+        "expectedRevision": 3,
+        "clientRequestId": "request-stale"
+      },
+      "error": {
+        "code": "SKILL_ALREADY_MAXED",
+        "message": "This skill is already at its maximum rank."
+      }
+    },
+    {
+      "name": "respec_preview",
+      "method": "POST",
+      "path": "/v1/progression/respec/preview",
+      "response": {
+        "refundPoints": 4,
+        "invalidatedLoadoutSlots": [],
+        "previewToken": "signed-temporary-preview",
+        "expiresInSeconds": 180
+      }
+    },
+    {
+      "name": "normalized_ranked",
+      "method": "GET",
+      "path": "/v1/progression/competitive-profile",
+      "response": {
+        "profileVersion": "ranked-standard-001.draft",
+        "mode": "STANDARDIZED",
+        "personalModifiersIgnored": true,
+        "allowedAssistIds": [
+          "tier_labels"
+        ]
+      }
+    }
+  ]
+}

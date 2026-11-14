@@ -1,0 +1,155 @@
+[
+  {
+    "kind": "valid_purchase",
+    "level": 2,
+    "balance": 1,
+    "ranks": {},
+    "skillId": "mm_clear_sight",
+    "rank": 1,
+    "expected": "ALLOW"
+  },
+  {
+    "kind": "valid_purchase",
+    "level": 2,
+    "balance": 1,
+    "ranks": {},
+    "skillId": "mm_combo_notebook",
+    "rank": 1,
+    "expected": "LEVEL_REQUIRED"
+  },
+  {
+    "kind": "valid_purchase",
+    "level": 3,
+    "balance": 1,
+    "ranks": {},
+    "skillId": "mm_combo_notebook",
+    "rank": 1,
+    "expected": "PREREQUISITE_MISSING"
+  },
+  {
+    "kind": "valid_purchase",
+    "level": 3,
+    "balance": 1,
+    "ranks": {
+      "mm_clear_sight": 1
+    },
+    "skillId": "mm_combo_notebook",
+    "rank": 1,
+    "expected": "ALLOW"
+  },
+  {
+    "kind": "valid_purchase",
+    "level": 3,
+    "balance": 0,
+    "ranks": {},
+    "skillId": "mm_clear_sight",
+    "rank": 1,
+    "expected": "INSUFFICIENT_POINTS"
+  },
+  {
+    "kind": "valid_purchase",
+    "level": 3,
+    "balance": 3,
+    "ranks": {
+      "mm_clear_sight": 1
+    },
+    "skillId": "mm_clear_sight",
+    "rank": 2,
+    "expected": "SKILL_ALREADY_MAXED"
+  },
+  {
+    "kind": "valid_purchase",
+    "level": 5,
+    "balance": 3,
+    "ranks": {},
+    "skillId": "hp_golden_guestlist",
+    "rank": 2,
+    "enabledFlags": [
+      "SKILLS_HOSPITALITY_EFFECTS_ENABLED"
+    ],
+    "expected": "SKILL_RANK_SEQUENCE"
+  },
+  {
+    "kind": "valid_purchase",
+    "level": 10,
+    "balance": 3,
+    "ranks": {},
+    "skillId": "bg_smart_purchase",
+    "rank": 1,
+    "expected": "NODE_UNPUBLISHED"
+  },
+  {
+    "kind": "valid_purchase",
+    "level": 5,
+    "balance": 3,
+    "ranks": {
+      "hp_warm_welcome": 1,
+      "hp_guest_book": 1
+    },
+    "skillId": "hp_golden_guestlist",
+    "rank": 1,
+    "enabledFlags": [
+      "SKILLS_HOSPITALITY_EFFECTS_ENABLED"
+    ],
+    "expected": "ALLOW"
+  },
+  {
+    "kind": "valid_purchase",
+    "level": 5,
+    "balance": 3,
+    "ranks": {
+      "hp_warm_welcome": 1,
+      "hp_guest_book": 1
+    },
+    "skillId": "hp_golden_guestlist",
+    "rank": 1,
+    "enabledFlags": [],
+    "expected": "MODE_DISABLED"
+  },
+  {
+    "kind": "modifier_vip",
+    "base": 0.05,
+    "seating": 0.02,
+    "guestlistRank": 2,
+    "reputation": 0.01,
+    "cap": 0.2,
+    "expected": 0.1
+  },
+  {
+    "kind": "modifier_vip",
+    "base": 0.18,
+    "seating": 0.02,
+    "guestlistRank": 3,
+    "reputation": 0.05,
+    "cap": 0.2,
+    "expected": 0.2
+  },
+  {
+    "kind": "discount",
+    "price": 7500,
+    "discount": 0.02,
+    "expectedPrice": 7350
+  },
+  {
+    "kind": "discount",
+    "price": 8000,
+    "discount": 0.15,
+    "expectedPrice": 6800
+  },
+  {
+    "kind": "competitive_normalization",
+    "personalAllocations": {
+      "hp_golden_guestlist": 3,
+      "mm_clear_sight": 1
+    },
+    "expectedMode": "STANDARDIZED",
+    "expectedVipBonus": 0
+  },
+  {
+    "kind": "respec",
+    "earned": 6,
+    "allocated": 4,
+    "expectedAvailable": 6,
+    "expectedAllocated": 0
+  }
+]

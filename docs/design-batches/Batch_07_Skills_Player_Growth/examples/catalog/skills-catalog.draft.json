@@ -1,0 +1,817 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalogId": "mixipelago-skills-001",
+  "catalogVersion": "0.4.0-design-candidate.1",
+  "publicationState": "DRAFT_NOT_SHIPPED",
+  "phaseGates": {
+    "pilot": "v0.4.0 candidate",
+    "future": "v0.4.2+ dependent on modules"
+  },
+  "balancePolicy": {
+    "vipProbabilityCap": 0.2,
+    "orderCoinMultiplierCap": 1.35,
+    "tipMultiplierCap": 1.5,
+    "upgradeDiscountCap": 0.15,
+    "maxActiveSlots": 3,
+    "maxNextSpawnPreviewCount": 2
+  },
+  "branches": [
+    {
+      "branchId": "mixologist",
+      "name": "Master Mixologist",
+      "icon": "martini",
+      "description": "Improve craft insight, combo readability and recipe presentation"
+    },
+    {
+      "branchId": "hospitality",
+      "name": "Hospitality Expert",
+      "icon": "users",
+      "description": "Create better guest experiences and bounded trusted tips/VIP odds"
+    },
+    {
+      "branchId": "mogul",
+      "name": "Business Mogul",
+      "icon": "landmark",
+      "description": "Plan and manage a profitable shop portfolio"
+    },
+    {
+      "branchId": "explorer",
+      "name": "Island Explorer",
+      "icon": "compass",
+      "description": "Reveal eligible route hints and document discoveries"
+    },
+    {
+      "branchId": "risk",
+      "name": "Risk Strategist",
+      "icon": "shield",
+      "description": "Prepare and recover from fair business disruptions"
+    },
+    {
+      "branchId": "puzzle",
+      "name": "Puzzle Specialist",
+      "icon": "target",
+      "description": "Understand the board and optimize legal casual decisions"
+    }
+  ],
+  "nodes": [
+    {
+      "skillId": "mm_clear_sight",
+      "branchId": "mixologist",
+      "name": "Clear Sight",
+      "description": "Show a readable tier label and craft tooltip alongside baseline accessibility aids",
+      "minPlayerLevel": 2,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "pilot",
+      "requiredSkillRanks": [],
+      "allowedContexts": [
+        "casual",
+        "profile"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.tier_tooltip",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "mm_combo_notebook",
+      "branchId": "mixologist",
+      "name": "Combo Notebook",
+      "description": "Inspect a compact history of successful combo sources",
+      "minPlayerLevel": 3,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "pilot",
+      "requiredSkillRanks": [
+        {
+          "skillId": "mm_clear_sight",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "casual",
+        "profile"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.combo_history",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "mm_craft_memory",
+      "branchId": "mixologist",
+      "name": "Craft Memory",
+      "description": "Review recent merged tiers and their craft origins",
+      "minPlayerLevel": 5,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "pilot",
+      "requiredSkillRanks": [
+        {
+          "skillId": "mm_combo_notebook",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "casual",
+        "profile"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.merge_trace_depth",
+          "operation": "capacity_add",
+          "valuePerRank": 3
+        }
+      ]
+    },
+    {
+      "skillId": "mm_recipe_student",
+      "branchId": "mixologist",
+      "name": "Recipe Student",
+      "description": "Earn a bounded mastery XP bonus after recipe mastery is trusted",
+      "minPlayerLevel": 8,
+      "maxRank": 2,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "mm_combo_notebook",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "casual"
+      ],
+      "effects": [
+        {
+          "effectId": "mastery.recipe_xp_multiplier",
+          "operation": "multiplier_add",
+          "valuePerRank": 0.05
+        }
+      ]
+    },
+    {
+      "skillId": "mm_signature_finish",
+      "branchId": "mixologist",
+      "name": "Signature Finish",
+      "description": "Unlock a celebratory flourish for notable crafts",
+      "minPlayerLevel": 10,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "mm_craft_memory",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "casual",
+        "profile"
+      ],
+      "effects": [
+        {
+          "effectId": "cosmetic.merge_flourish",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "hp_warm_welcome",
+      "branchId": "hospitality",
+      "name": "Warm Welcome",
+      "description": "Earn a bounded 3% tip multiplier on eligible trusted shop service",
+      "minPlayerLevel": 2,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "pilot",
+      "requiredSkillRanks": [],
+      "allowedContexts": [
+        "shop_service"
+      ],
+      "effects": [
+        {
+          "effectId": "trusted.tip_multiplier",
+          "operation": "multiplier_add",
+          "valuePerRank": 0.03
+        }
+      ],
+      "requiredFeatureFlag": "SKILLS_HOSPITALITY_EFFECTS_ENABLED"
+    },
+    {
+      "skillId": "hp_guest_book",
+      "branchId": "hospitality",
+      "name": "Guest Book",
+      "description": "Slightly favor a returning eligible customer after a completed visit",
+      "minPlayerLevel": 3,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "pilot",
+      "requiredSkillRanks": [
+        {
+          "skillId": "hp_warm_welcome",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop_service"
+      ],
+      "effects": [
+        {
+          "effectId": "guest.return_weight_bonus",
+          "operation": "multiplier_add",
+          "valuePerRank": 0.05
+        }
+      ],
+      "requiredFeatureFlag": "SKILLS_HOSPITALITY_EFFECTS_ENABLED"
+    },
+    {
+      "skillId": "hp_golden_guestlist",
+      "branchId": "hospitality",
+      "name": "Golden Guestlist",
+      "description": "Add 1 percentage point per rank to VIP odds, subject to absolute cap",
+      "minPlayerLevel": 5,
+      "maxRank": 3,
+      "pointCostPerRank": 1,
+      "status": "pilot",
+      "requiredSkillRanks": [
+        {
+          "skillId": "hp_guest_book",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop_service"
+      ],
+      "effects": [
+        {
+          "effectId": "guest.vip_chance_pp",
+          "operation": "percentage_point_add",
+          "valuePerRank": 0.01
+        }
+      ],
+      "requiredFeatureFlag": "SKILLS_HOSPITALITY_EFFECTS_ENABLED"
+    },
+    {
+      "skillId": "hp_queue_whisperer",
+      "branchId": "hospitality",
+      "name": "Queue Whisperer",
+      "description": "See a clearer indicator of eligible customer wait tolerance",
+      "minPlayerLevel": 8,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "hp_guest_book",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "casual",
+        "shop_service"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.order_impatience_hint",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "hp_regulars_circle",
+      "branchId": "hospitality",
+      "name": "Regulars Circle",
+      "description": "Open a dedicated loyalty track for repeating guests",
+      "minPlayerLevel": 12,
+      "maxRank": 1,
+      "pointCostPerRank": 2,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "hp_golden_guestlist",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop_service"
+      ],
+      "effects": [
+        {
+          "effectId": "guest.loyalty_track_unlock",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "bg_cashflow_lens",
+      "branchId": "mogul",
+      "name": "Cashflow Lens",
+      "description": "See clear shop income, costs and break-even estimates",
+      "minPlayerLevel": 3,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [],
+      "allowedContexts": [
+        "shop"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.cashflow_projection",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "bg_smart_purchase",
+      "branchId": "mogul",
+      "name": "Smart Purchase",
+      "description": "Discount eligible future utility upgrades by 2 percentage points per rank",
+      "minPlayerLevel": 5,
+      "maxRank": 3,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "bg_cashflow_lens",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop"
+      ],
+      "effects": [
+        {
+          "effectId": "shop.upgrade_discount",
+          "operation": "percentage_point_add",
+          "valuePerRank": 0.02
+        }
+      ]
+    },
+    {
+      "skillId": "bg_vendor_relations",
+      "branchId": "mogul",
+      "name": "Vendor Relations",
+      "description": "Unlock capped supplier savings on eligible later contracts",
+      "minPlayerLevel": 9,
+      "maxRank": 2,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "bg_smart_purchase",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop"
+      ],
+      "effects": [
+        {
+          "effectId": "shop.supplier_quality_bonus",
+          "operation": "multiplier_add",
+          "valuePerRank": 0.025
+        }
+      ]
+    },
+    {
+      "skillId": "bg_showroom_curator",
+      "branchId": "mogul",
+      "name": "Showroom Curator",
+      "description": "Unlock extra decorative shop layout presets",
+      "minPlayerLevel": 9,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "bg_cashflow_lens",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop"
+      ],
+      "effects": [
+        {
+          "effectId": "cosmetic.layout_presets",
+          "operation": "capacity_add",
+          "valuePerRank": 2
+        }
+      ]
+    },
+    {
+      "skillId": "bg_portfolio_sense",
+      "branchId": "mogul",
+      "name": "Portfolio Sense",
+      "description": "View franchise portfolio reporting when multiple shops exist",
+      "minPlayerLevel": 15,
+      "maxRank": 1,
+      "pointCostPerRank": 2,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "bg_vendor_relations",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.portfolio_report",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "ex_compass_rose",
+      "branchId": "explorer",
+      "name": "Compass Rose",
+      "description": "Highlight the next already accessible route",
+      "minPlayerLevel": 3,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [],
+      "allowedContexts": [
+        "map"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.nearest_eligible_path",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "ex_treasure_sense",
+      "branchId": "explorer",
+      "name": "Treasure Sense",
+      "description": "Reveal optional hints for published and eligible treasure nodes",
+      "minPlayerLevel": 5,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "ex_compass_rose",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "map"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.eligible_treasure_hint",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "ex_cartographer",
+      "branchId": "explorer",
+      "name": "Cartographer",
+      "description": "Organize discovered map landmarks in a filterable journal",
+      "minPlayerLevel": 7,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "ex_compass_rose",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "map"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.map_journal",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "ex_shortcut_scout",
+      "branchId": "explorer",
+      "name": "Shortcut Scout",
+      "description": "Show authored optional alternate-route clues",
+      "minPlayerLevel": 11,
+      "maxRank": 1,
+      "pointCostPerRank": 2,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "ex_treasure_sense",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "map"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.alternate_route_hint",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "ex_atlas_keeper",
+      "branchId": "explorer",
+      "name": "Atlas Keeper",
+      "description": "Unlock illustrated map profile cosmetics after discovery",
+      "minPlayerLevel": 15,
+      "maxRank": 1,
+      "pointCostPerRank": 2,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "ex_cartographer",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "map",
+        "profile"
+      ],
+      "effects": [
+        {
+          "effectId": "cosmetic.atlas_frame",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "rs_weather_eye",
+      "branchId": "risk",
+      "name": "Weather Eye",
+      "description": "Show early warning for eligible authored weather incidents",
+      "minPlayerLevel": 6,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [],
+      "allowedContexts": [
+        "shop"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.weather_forecast",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "rs_safety_checklist",
+      "branchId": "risk",
+      "name": "Safety Checklist",
+      "description": "Show a practical checklist for preventing shop disruption",
+      "minPlayerLevel": 8,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "rs_weather_eye",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.shop_preparation_checklist",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "rs_reserve_plan",
+      "branchId": "risk",
+      "name": "Reserve Plan",
+      "description": "Configure advisory savings goals without locking coins",
+      "minPlayerLevel": 10,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "rs_safety_checklist",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.savings_goals",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "rs_insurance_reader",
+      "branchId": "risk",
+      "name": "Insurance Reader",
+      "description": "Explain policy options and claims before choosing",
+      "minPlayerLevel": 12,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "rs_safety_checklist",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.insurance_comparison",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "rs_recovery_coach",
+      "branchId": "risk",
+      "name": "Recovery Coach",
+      "description": "Access bounded relief after an eligible business incident",
+      "minPlayerLevel": 16,
+      "maxRank": 1,
+      "pointCostPerRank": 2,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "rs_insurance_reader",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "shop"
+      ],
+      "effects": [
+        {
+          "effectId": "incident.recovery_option_unlock",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "pz_next_peek",
+      "branchId": "puzzle",
+      "name": "Next Peek",
+      "description": "Preview one additional future item in supported casual games",
+      "minPlayerLevel": 4,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [],
+      "allowedContexts": [
+        "casual"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.next_spawn_preview_count",
+          "operation": "capacity_add",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "pz_contact_hint",
+      "branchId": "puzzle",
+      "name": "Contact Hint",
+      "description": "Show approximate contact area during aiming",
+      "minPlayerLevel": 6,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "pz_next_peek",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "casual"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.predicted_contact_hint",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "pz_chain_reader",
+      "branchId": "puzzle",
+      "name": "Chain Reader",
+      "description": "Preview legal possible tier results before releasing a shot",
+      "minPlayerLevel": 8,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "pz_contact_hint",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "casual"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.chain_preview",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "pz_booster_pocket",
+      "branchId": "puzzle",
+      "name": "Booster Pocket",
+      "description": "Add bounded storage for selected noncompetitive boosters",
+      "minPlayerLevel": 10,
+      "maxRank": 2,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "pz_next_peek",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "casual"
+      ],
+      "effects": [
+        {
+          "effectId": "inventory.casual_booster_capacity",
+          "operation": "capacity_add",
+          "valuePerRank": 1
+        }
+      ]
+    },
+    {
+      "skillId": "pz_precise_workflow",
+      "branchId": "puzzle",
+      "name": "Precise Workflow",
+      "description": "Save an aim workflow preset; basic input accessibility stays free",
+      "minPlayerLevel": 12,
+      "maxRank": 1,
+      "pointCostPerRank": 1,
+      "status": "draft",
+      "requiredSkillRanks": [
+        {
+          "skillId": "pz_chain_reader",
+          "rank": 1
+        }
+      ],
+      "allowedContexts": [
+        "casual"
+      ],
+      "effects": [
+        {
+          "effectId": "ui.aim_workflow_presets",
+          "operation": "bool_unlock",
+          "valuePerRank": 1
+        }
+      ]
+    }
+  ]
+}

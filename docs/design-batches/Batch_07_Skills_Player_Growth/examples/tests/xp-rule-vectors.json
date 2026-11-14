@@ -1,0 +1,64 @@
+[
+  {
+    "kind": "level_from_xp",
+    "xp": 0,
+    "expectedLevel": 1,
+    "expectedEarnedPoints": 0
+  },
+  {
+    "kind": "level_from_xp",
+    "xp": 99,
+    "expectedLevel": 1,
+    "expectedEarnedPoints": 0
+  },
+  {
+    "kind": "level_from_xp",
+    "xp": 100,
+    "expectedLevel": 2,
+    "expectedEarnedPoints": 1
+  },
+  {
+    "kind": "level_from_xp",
+    "xp": 239,
+    "expectedLevel": 2,
+    "expectedEarnedPoints": 1
+  },
+  {
+    "kind": "level_from_xp",
+    "xp": 240,
+    "expectedLevel": 3,
+    "expectedEarnedPoints": 2
+  },
+  {
+    "kind": "level_from_xp",
+    "xp": 18430,
+    "expectedLevel": 20,
+    "expectedEarnedPoints": 19
+  },
+  {
+    "kind": "level_from_xp",
+    "xp": 118430,
+    "expectedLevel": 20,
+    "expectedEarnedPoints": 19
+  },
+  {
+    "kind": "xp_to_next",
+    "level": 1,
+    "expectedXpRequired": 100
+  },
+  {
+    "kind": "xp_to_next",
+    "level": 2,
+    "expectedXpRequired": 140
+  },
+  {
+    "kind": "xp_to_next",
+    "level": 3,
+    "expectedXpRequired": 190
+  },
+  {
+    "kind": "xp_to_next",
+    "level": 5,
+    "expectedXpRequired": 320
+  }
+]
