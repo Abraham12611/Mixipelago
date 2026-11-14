@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "description": "Illustrative event order only; not a real physics session receipt",
+  "sessionId": "illustrative-not-real",
+  "events": [
+    {
+      "sequence": 1,
+      "tick": 25,
+      "type": "shot_fired",
+      "shotId": "shot-a"
+    },
+    {
+      "sequence": 2,
+      "tick": 70,
+      "type": "drink_merged",
+      "mergeId": "merge-a",
+      "rootShotId": "shot-a",
+      "outputTier": 2,
+      "chainDepth": 1
+    },
+    {
+      "sequence": 3,
+      "tick": 70,
+      "type": "order_fulfilled",
+      "orderId": "ord-001",
+      "sourceMergeId": "merge-a",
+      "previewCoins": 10
+    },
+    {
+      "sequence": 4,
+      "tick": 70,
+      "type": "score_changed",
+      "scoreDelta": 125
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "type": "campaign.mission_cleared.v1",
+    "eventId": "example-event-001",
+    "graphVersion": "0.2.0-starter-candidate-1",
+    "payload": {
+      "missionId": "coconut-cove-001",
+      "bestStars": 1,
+      "trustStatus": "local_preview"
+    }
+  },
+  {
+    "type": "campaign.node_unlocked.v1",
+    "eventId": "example-event-002",
+    "graphVersion": "0.2.0-starter-candidate-1",
+    "payload": {
+      "nodeId": "cove-n002",
+      "sourceMissionId": "coconut-cove-001",
+      "trustStatus": "local_preview"
+    }
+  }
+]

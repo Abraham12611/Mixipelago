@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "economy-rule-tests.v1",
+  "prices": [
+    {
+      "base": 1000,
+      "discountBps": 0,
+      "minPrice": 100,
+      "expected": 1000
+    },
+    {
+      "base": 1000,
+      "discountBps": 2500,
+      "minPrice": 100,
+      "expected": 750
+    },
+    {
+      "base": 1000,
+      "discountBps": 9900,
+      "minPrice": 100,
+      "expected": 100
+    },
+    {
+      "base": 350,
+      "discountBps": 500,
+      "minPrice": 1,
+      "expected": 332
+    }
+  ],
+  "wallet": [
+    {
+      "balance": 100,
+      "cost": 99,
+      "expected": true
+    },
+    {
+      "balance": 100,
+      "cost": 100,
+      "expected": true
+    },
+    {
+      "balance": 100,
+      "cost": 101,
+      "expected": false
+    },
+    {
+      "balance": 0,
+      "cost": 1,
+      "expected": false
+    }
+  ],
+  "vipChance": [
+    {
+      "baseBps": 500,
+      "bonusBps": [
+        200,
+        200,
+        100
+      ],
+      "capBps": 2000,
+      "expected": 1000
+    },
+    {
+      "baseBps": 1500,
+      "bonusBps": [
+        400,
+        400
+      ],
+      "capBps": 2000,
+      "expected": 2000
+    }
+  ],
+  "idempotency": [
+    {
+      "sameActor": true,
+      "sameKey": true,
+      "sameFingerprint": true,
+      "expected": "REPLAY_RECEIPT"
+    },
+    {
+      "sameActor": true,
+      "sameKey": true,
+      "sameFingerprint": false,
+      "expected": "IDEMPOTENCY_CONFLICT"
+    }
+  ],
+  "contractNotes": "These are pure-rule test vectors, not proof of transaction-level correctness."
+}

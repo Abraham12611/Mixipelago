@@ -1,0 +1,190 @@
+[
+  {
+    "name": "entry_always",
+    "rule": {
+      "op": "always"
+    },
+    "progress": {},
+    "expected": true
+  },
+  {
+    "name": "uncleared",
+    "rule": {
+      "op": "missionCleared",
+      "missionId": "coconut-cove-001"
+    },
+    "progress": {},
+    "expected": false
+  },
+  {
+    "name": "cleared_one_star",
+    "rule": {
+      "op": "missionCleared",
+      "missionId": "coconut-cove-001"
+    },
+    "progress": {
+      "stars": {
+        "coconut-cove-001": 1
+      }
+    },
+    "expected": true
+  },
+  {
+    "name": "two_star_gate_denied",
+    "rule": {
+      "op": "missionCleared",
+      "missionId": "coconut-cove-001",
+      "minStars": 2
+    },
+    "progress": {
+      "stars": {
+        "coconut-cove-001": 1
+      }
+    },
+    "expected": false
+  },
+  {
+    "name": "two_star_gate_accepted",
+    "rule": {
+      "op": "missionCleared",
+      "missionId": "coconut-cove-001",
+      "minStars": 2
+    },
+    "progress": {
+      "stars": {
+        "coconut-cove-001": 2
+      }
+    },
+    "expected": true
+  },
+  {
+    "name": "min_stars_across_two",
+    "rule": {
+      "op": "minStars",
+      "missionIds": [
+        "coconut-cove-001",
+        "coconut-cove-002"
+      ],
+      "count": 3
+    },
+    "progress": {
+      "stars": {
+        "coconut-cove-001": 2,
+        "coconut-cove-002": 1
+      }
+    },
+    "expected": true
+  },
+  {
+    "name": "min_stars_missing",
+    "rule": {
+      "op": "minStars",
+      "missionIds": [
+        "coconut-cove-001",
+        "coconut-cove-002"
+      ],
+      "count": 4
+    },
+    "progress": {
+      "stars": {
+        "coconut-cove-001": 2,
+        "coconut-cove-002": 1
+      }
+    },
+    "expected": false
+  },
+  {
+    "name": "anyof_branch_a",
+    "rule": {
+      "op": "anyOf",
+      "rules": [
+        {
+          "op": "missionCleared",
+          "missionId": "coconut-cove-009"
+        },
+        {
+          "op": "missionCleared",
+          "missionId": "coconut-cove-010"
+        }
+      ]
+    },
+    "progress": {
+      "stars": {
+        "coconut-cove-009": 1
+      }
+    },
+    "expected": true
+  },
+  {
+    "name": "allof_branch_denied",
+    "rule": {
+      "op": "allOf",
+      "rules": [
+        {
+          "op": "missionCleared",
+          "missionId": "coconut-cove-009"
+        },
+        {
+          "op": "missionCleared",
+          "missionId": "coconut-cove-010"
+        }
+      ]
+    },
+    "progress": {
+      "stars": {
+        "coconut-cove-009": 1
+      }
+    },
+    "expected": false
+  },
+  {
+    "name": "claimed_node",
+    "rule": {
+      "op": "nodeClaimed",
+      "nodeId": "cove-n015"
+    },
+    "progress": {
+      "claims": [
+        "cove-n015"
+      ]
+    },
+    "expected": true
+  },
+  {
+    "name": "unclaimed_node",
+    "rule": {
+      "op": "nodeClaimed",
+      "nodeId": "cove-n015"
+    },
+    "progress": {},
+    "expected": false
+  },
+  {
+    "name": "flag_true",
+    "rule": {
+      "op": "flagEquals",
+      "flagId": "cove-gate-ready",
+      "value": true
+    },
+    "progress": {
+      "flags": {
+        "cove-gate-ready": true
+      }
+    },
+    "expected": true
+  },
+  {
+    "name": "flag_wrong",
+    "rule": {
+      "op": "flagEquals",
+      "flagId": "cove-gate-ready",
+      "value": true
+    },
+    "progress": {
+      "flags": {
+        "cove-gate-ready": false
+      }
+    },
+    "expected": false
+  }
+]

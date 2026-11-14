@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "worldId": "mixipelago-world",
+  "graphVersion": "0.2.x-cove-26-draft-1",
+  "publicationStatus": "draft",
+  "exampleNotDeployed": true,
+  "description": "Creative map layout with 26 node markers. Only missions 001 and 002 have authored fixture files. Remaining nodes are draft placeholders with futureMissionId, not playable.",
+  "featureGates": [
+    "CAMPAIGN_MAP_ENABLED",
+    "COVE_EXPANSION_DRAFT"
+  ],
+  "islands": [
+    {
+      "islandId": "coconut-cove",
+      "displayName": "Coconut Cove",
+      "entryNodeId": "cove-n001",
+      "status": "draft",
+      "themeId": "coconut-cove-day"
+    }
+  ],
+  "chapters": [
+    {
+      "chapterId": "first-steps-pier",
+      "islandId": "coconut-cove",
+      "displayName": "First Steps Pier",
+      "status": "draft"
+    },
+    {
+      "chapterId": "palm-boardwalk",
+      "islandId": "coconut-cove",
+      "displayName": "Palm Boardwalk",
+      "status": "draft"
+    },
+    {
+      "chapterId": "reef-lookout",
+      "islandId": "coconut-cove",
+      "displayName": "Reef Lookout",
+      "status": "draft"
+    },
+    {
+      "chapterId": "harbor-gate",
+      "islandId": "coconut-cove",
+      "displayName": "Harbor Gate",
+      "status": "draft"
+    }
+  ],
+  "nodes": [
+    {
+      "nodeId": "cove-n001",
+      "islandId": "coconut-cove",
+      "chapterId": "first-steps-pier",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 362,
+        "y": 1735
+      },
+      "unlock": {
+        "op": "always"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 01",
+      "priority": 1,
+      "mission": {
+        "missionId": "coconut-cove-001",
+        "missionVersion": "1.0.0"
+      }
+    },
+    {
+      "nodeId": "cove-n002",
+      "islandId": "coconut-cove",
+      "chapterId": "first-steps-pier",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 474,
+        "y": 1670
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-001"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 02",
+      "priority": 2,
+      "mission": {
+        "missionId": "coconut-cove-002",
+        "missionVersion": "0.1.0"
+      }
+    },
+    {
+      "nodeId": "cove-n003",
+      "islandId": "coconut-cove",
+      "chapterId": "first-steps-pier",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 586,
+        "y": 1605
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-002"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 03",
+      "priority": 3,
+      "futureMissionId": "coconut-cove-003"
+    },
+    {
+      "nodeId": "cove-n004",
+      "islandId": "coconut-cove",
+      "chapterId": "first-steps-pier",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 250,
+        "y": 1540
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-003"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 04",
+      "priority": 4,
+      "futureMissionId": "coconut-cove-004"
+    },
+    {
+      "nodeId": "cove-n005",
+      "islandId": "coconut-cove",
+      "chapterId": "first-steps-pier",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 362,
+        "y": 1475
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-004"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 05",
+      "priority": 5,
+      "futureMissionId": "coconut-cove-005"
+    },
+    {
+      "nodeId": "cove-n006",
+      "islandId": "coconut-cove",
+      "chapterId": "first-steps-pier",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 474,
+        "y": 1410
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-005"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 06",
+      "priority": 6,
+      "futureMissionId": "coconut-cove-006"
+    },
+    {
+      "nodeId": "cove-n007",
+      "islandId": "coconut-cove",
+      "chapterId": "first-steps-pier",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 586,
+        "y": 1345
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-006"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 07",
+      "priority": 7,
+      "futureMissionId": "coconut-cove-007"
+    },
+    {
+      "nodeId": "cove-n008",
+      "islandId": "coconut-cove",
+      "chapterId": "palm-boardwalk",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 250,
+        "y": 1280
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-007"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 08",
+      "priority": 8,
+      "futureMissionId": "coconut-cove-008"
+    },
+    {
+      "nodeId": "cove-n009",
+      "islandId": "coconut-cove",
+      "chapterId": "palm-boardwalk",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 362,
+        "y": 1215
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-008"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 09",
+      "priority": 9,
+      "futureMissionId": "coconut-cove-009"
+    },
+    {
+      "nodeId": "cove-n010",
+      "islandId": "coconut-cove",
+      "chapterId": "palm-boardwalk",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 474,
+        "y": 1150
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-008"
+      },
+      "visibility": "visible",
+      "critical": false,
+      "label": "Concept 10",
+      "priority": 10,
+      "futureMissionId": "coconut-cove-010"
+    },
+    {
+      "nodeId": "cove-n011",
+      "islandId": "coconut-cove",
+      "chapterId": "palm-boardwalk",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 586,
+        "y": 1085
+      },
+      "unlock": {
+        "op": "anyOf",
+        "rules": [
+          {
+            "op": "missionCleared",
+            "missionId": "coconut-cove-009"
+          },
+          {
+            "op": "missionCleared",
+            "missionId": "coconut-cove-010"
+          }
+        ]
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 11",
+      "priority": 11,
+      "futureMissionId": "coconut-cove-011"
+    },
+    {
+      "nodeId": "cove-n012",
+      "islandId": "coconut-cove",
+      "chapterId": "palm-boardwalk",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 250,
+        "y": 1020
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-011"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 12",
+      "priority": 12,
+      "futureMissionId": "coconut-cove-012"
+    },
+    {
+      "nodeId": "cove-n013",
+      "islandId": "coconut-cove",
+      "chapterId": "palm-boardwalk",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 362,
+        "y": 955
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-012"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 13",
+      "priority": 13,
+      "futureMissionId": "coconut-cove-013"
+    },
+    {
+      "nodeId": "cove-n014",
+      "islandId": "coconut-cove",
+      "chapterId": "palm-boardwalk",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 474,
+        "y": 890
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-013"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 14",
+      "priority": 14,
+      "futureMissionId": "coconut-cove-014"
+    },
+    {
+      "nodeId": "cove-n015",
+      "islandId": "coconut-cove",
+      "chapterId": "reef-lookout",
+      "type": "treasure",
+      "status": "draft",
+      "position": {
+        "x": 586,
+        "y": 825
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-014"
+      },
+      "visibility": "visible",
+      "critical": false,
+      "label": "Concept 15",
+      "priority": 15,
+      "rewardPolicyId": "preview-discovery-token"
+    },
+    {
+      "nodeId": "cove-n016",
+      "islandId": "coconut-cove",
+      "chapterId": "reef-lookout",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 250,
+        "y": 760
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-014"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 16",
+      "priority": 16,
+      "futureMissionId": "coconut-cove-016"
+    },
+    {
+      "nodeId": "cove-n017",
+      "islandId": "coconut-cove",
+      "chapterId": "reef-lookout",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 362,
+        "y": 695
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-016"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 17",
+      "priority": 17,
+      "futureMissionId": "coconut-cove-017"
+    },
+    {
+      "nodeId": "cove-n018",
+      "islandId": "coconut-cove",
+      "chapterId": "reef-lookout",
+      "type": "discovery",
+      "status": "draft",
+      "position": {
+        "x": 474,
+        "y": 630
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-017"
+      },
+      "visibility": "hidden",
+      "critical": false,
+      "label": "Concept 18",
+      "priority": 18,
+      "discoveryRule": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-017",
+        "minStars": 3
+      }
+    },
+    {
+      "nodeId": "cove-n019",
+      "islandId": "coconut-cove",
+      "chapterId": "reef-lookout",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 586,
+        "y": 565
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-017"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 19",
+      "priority": 19,
+      "futureMissionId": "coconut-cove-019"
+    },
+    {
+      "nodeId": "cove-n020",
+      "islandId": "coconut-cove",
+      "chapterId": "reef-lookout",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 250,
+        "y": 500
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-019"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 20",
+      "priority": 20,
+      "futureMissionId": "coconut-cove-020"
+    },
+    {
+      "nodeId": "cove-n021",
+      "islandId": "coconut-cove",
+      "chapterId": "harbor-gate",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 362,
+        "y": 435
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-020"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 21",
+      "priority": 21,
+      "futureMissionId": "coconut-cove-021"
+    },
+    {
+      "nodeId": "cove-n022",
+      "islandId": "coconut-cove",
+      "chapterId": "harbor-gate",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 474,
+        "y": 370
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-021"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 22",
+      "priority": 22,
+      "futureMissionId": "coconut-cove-022"
+    },
+    {
+      "nodeId": "cove-n023",
+      "islandId": "coconut-cove",
+      "chapterId": "harbor-gate",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 586,
+        "y": 305
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-022"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 23",
+      "priority": 23,
+      "futureMissionId": "coconut-cove-023"
+    },
+    {
+      "nodeId": "cove-n024",
+      "islandId": "coconut-cove",
+      "chapterId": "harbor-gate",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 250,
+        "y": 240
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-023"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 24",
+      "priority": 24,
+      "futureMissionId": "coconut-cove-024"
+    },
+    {
+      "nodeId": "cove-n025",
+      "islandId": "coconut-cove",
+      "chapterId": "harbor-gate",
+      "type": "mission",
+      "status": "draft",
+      "position": {
+        "x": 362,
+        "y": 175
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-024"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 25",
+      "priority": 25,
+      "futureMissionId": "coconut-cove-025"
+    },
+    {
+      "nodeId": "cove-n026",
+      "islandId": "coconut-cove",
+      "chapterId": "harbor-gate",
+      "type": "gateway",
+      "status": "draft",
+      "position": {
+        "x": 474,
+        "y": 110
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-025"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "label": "Concept 26",
+      "priority": 26,
+      "destinationIslandId": "sunset-bay"
+    }
+  ],
+  "edges": [
+    {
+      "edgeId": "cove-e002",
+      "from": "cove-n001",
+      "to": "cove-n002",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e003",
+      "from": "cove-n002",
+      "to": "cove-n003",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e004",
+      "from": "cove-n003",
+      "to": "cove-n004",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e005",
+      "from": "cove-n004",
+      "to": "cove-n005",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e006",
+      "from": "cove-n005",
+      "to": "cove-n006",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e007",
+      "from": "cove-n006",
+      "to": "cove-n007",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e008",
+      "from": "cove-n007",
+      "to": "cove-n008",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e009",
+      "from": "cove-n008",
+      "to": "cove-n009",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e010",
+      "from": "cove-n008",
+      "to": "cove-n010",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e011",
+      "from": "cove-n009",
+      "to": "cove-n011",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e012",
+      "from": "cove-n011",
+      "to": "cove-n012",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e013",
+      "from": "cove-n012",
+      "to": "cove-n013",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e014",
+      "from": "cove-n013",
+      "to": "cove-n014",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e015",
+      "from": "cove-n014",
+      "to": "cove-n015",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e016",
+      "from": "cove-n014",
+      "to": "cove-n016",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e017",
+      "from": "cove-n016",
+      "to": "cove-n017",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e018",
+      "from": "cove-n017",
+      "to": "cove-n018",
+      "kind": "secret"
+    },
+    {
+      "edgeId": "cove-e019",
+      "from": "cove-n017",
+      "to": "cove-n019",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e020",
+      "from": "cove-n019",
+      "to": "cove-n020",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e021",
+      "from": "cove-n020",
+      "to": "cove-n021",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e022",
+      "from": "cove-n021",
+      "to": "cove-n022",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e023",
+      "from": "cove-n022",
+      "to": "cove-n023",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e024",
+      "from": "cove-n023",
+      "to": "cove-n024",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e025",
+      "from": "cove-n024",
+      "to": "cove-n025",
+      "kind": "route"
+    },
+    {
+      "edgeId": "cove-e026",
+      "from": "cove-n025",
+      "to": "cove-n026",
+      "kind": "gateway"
+    },
+    {
+      "edgeId": "cove-e011-alt",
+      "from": "cove-n010",
+      "to": "cove-n011",
+      "kind": "route"
+    }
+  ]
+}

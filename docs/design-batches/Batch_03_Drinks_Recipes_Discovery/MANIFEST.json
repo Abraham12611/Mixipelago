@@ -1,0 +1,238 @@
+{
+  "title": "Mixipelago Batch 3 \u2014 Drinks, Recipes & Discovery",
+  "created": "2026-11-14",
+  "status": "documentation, not implemented game",
+  "doc_chapters": 35,
+  "files": [
+    {
+      "path": "ENGINEER_START_HERE.md",
+      "sha256": "2f4c33358334387626c89264683410edf2427e041e45ec04deb6adc8f07901c5",
+      "bytes": 1848
+    },
+    {
+      "path": "README.md",
+      "sha256": "52d154ee5c36bd6ac4dd58b95b7154fea47c9094c808946d38655ddad3c63169",
+      "bytes": 1312
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "sha256": "29c8c9572b909868558dc8fcbcb14cdfbaafbd260374a162b0008de52f746cb2",
+      "bytes": 1428
+    },
+    {
+      "path": "docs/00_INDEX_AND_README.md",
+      "sha256": "1c935c61804c32d258a8db989a422ab9ff2401b1ce4280f5d9034226d55dad19",
+      "bytes": 6561
+    },
+    {
+      "path": "docs/01_PRODUCT_VISION_SCOPE_AND_INVARIANTS.md",
+      "sha256": "b7cba3750c484259c60dde833a09b7e700b5953555f80192b1b6d6f352a997f2",
+      "bytes": 4657
+    },
+    {
+      "path": "docs/02_DRINK_IDENTITY_AND_CATALOG_TAXONOMY.md",
+      "sha256": "2bfbd4cc53dd00494386443ff4ecffb17c5f1a9e1c92dda244c808a5e0311655",
+      "bytes": 4765
+    },
+    {
+      "path": "docs/03_ALPHA_EIGHT_TIER_DRINK_BIBLE.md",
+      "sha256": "479b2857eca85557d78bc6942c9af3dfae379d29c144a37cd704abe1c3fa4f29",
+      "bytes": 4178
+    },
+    {
+      "path": "docs/04_EVOLUTION_GRAPH_AND_RECIPE_RESOLUTION.md",
+      "sha256": "6a75a6dfaf7242367549e5eed28dd0e857af218e16f1aa740276d4c5b4087d2e",
+      "bytes": 4552
+    },
+    {
+      "path": "docs/05_INGREDIENTS_AND_PANTRY_FUTURE_DESIGN.md",
+      "sha256": "24af8a1d4960c14bbe25c172bd8d2f7a67d56159ff7cc185fc5d9fcf856d09ef",
+      "bytes": 3292
+    },
+    {
+      "path": "docs/06_RECIPE_DISCOVERY_AND_SECRET_MECHANICS.md",
+      "sha256": "341a4a1c44e84c7634883c9ab7cfd0332cd9360a612a81018ae3e27ddeaaecbe",
+      "bytes": 4535
+    },
+    {
+      "path": "docs/07_RARITY_COLLECTIONS_AND_ALBUMS.md",
+      "sha256": "835033b083259934f279dfc75bc2340abf104291ec0acbacb2b43256b5a22511",
+      "bytes": 3965
+    },
+    {
+      "path": "docs/08_DRINK_MASTERY_AND_SPECIALIZATION.md",
+      "sha256": "bbe1d0b8fe4ae9b07aca7cf28ac6f931b41f7dea1950f2e9294b28db4577da9a",
+      "bytes": 3913
+    },
+    {
+      "path": "docs/09_CUSTOMER_ORDERS_AND_RECIPE_REQUIREMENTS.md",
+      "sha256": "a234c819df36d3f39e9358cfe5888cd80d60fbde88ab7264665f2fde5a490ffd",
+      "bytes": 4398
+    },
+    {
+      "path": "docs/10_SPAWN_QUEUE_FAIRNESS_AND_REACHABILITY.md",
+      "sha256": "1852bb37d1897b11c18a0ba7606f387e37d3fcde714a5135b5ffdc2354c97fa2",
+      "bytes": 3827
+    },
+    {
+      "path": "docs/11_PHYSICS_TO_CONTENT_BOUNDARIES.md",
+      "sha256": "1dc1aaf4b506c0b18bc25d9829225e1f253c8c7fd9e684bb507734d7a9f02e55",
+      "bytes": 3660
+    },
+    {
+      "path": "docs/12_SCORE_REWARDS_AND_ECONOMY_INTEGRATION.md",
+      "sha256": "3638b8e27e795bffb517049efaac9d4ee4ee98a499fe588b6b8bf93c1474592f",
+      "bytes": 3385
+    },
+    {
+      "path": "docs/13_ART_ASSETS_RENDERING_AND_AUDIO.md",
+      "sha256": "182c7a2712c2f16194daf8db4aa099609aa45539c3ae341e248ea92f6adb4d1c",
+      "bytes": 4716
+    },
+    {
+      "path": "docs/14_GAMEPLAY_UX_DESKTOP_AND_MOBILE.md",
+      "sha256": "29da83afd9ddddff75267c429c23c3849e4eace02c5f339baa9ca06559abf8b6",
+      "bytes": 4324
+    },
+    {
+      "path": "docs/15_TUTORIALS_AND_PROGRESSIVE_DISCLOSURE.md",
+      "sha256": "af50fcc42993c631bedbff12293094b060d9fb909c0469ce918da86eed683288",
+      "bytes": 3396
+    },
+    {
+      "path": "docs/16_DIFFICULTY_AND_BALANCE_WORKBOOK.md",
+      "sha256": "cf36faa09f5264946f4c49ae1f6b22d4276ab9eb53226d7b0fe47fd2a1f1c90f",
+      "bytes": 4320
+    },
+    {
+      "path": "docs/17_DATA_MODEL_AND_PERSISTENCE.md",
+      "sha256": "b4c017ae43bc781f4f03af64089b13e7d856259be3bb020b1c07f430017a62b2",
+      "bytes": 4235
+    },
+    {
+      "path": "docs/18_TYPES_EVENTS_AND_API_CONTRACTS.md",
+      "sha256": "24eb63e3e07913dc762c69c337893b29e68d8a0ae375c3770d757fa52e8e74aa",
+      "bytes": 4292
+    },
+    {
+      "path": "docs/19_CONTENT_STUDIO_VALIDATION_AND_PUBLISHING.md",
+      "sha256": "402c04edfa5111e13322325a653be61f538aeab732ee64e8fc9b7316bb05f848",
+      "bytes": 3358
+    },
+    {
+      "path": "docs/20_VERSIONING_MIGRATIONS_AND_COMPATIBILITY.md",
+      "sha256": "d081652c1ebabddaae1ee20b248328d985323a56e5ba2b31cb2d9ca72e8e9d67",
+      "bytes": 3849
+    },
+    {
+      "path": "docs/21_TELEMETRY_ANALYTICS_AND_EXPERIMENTS.md",
+      "sha256": "261d1fdf5c8686b6fafc525402b732b64303600b096179054f9de52013de580d",
+      "bytes": 3887
+    },
+    {
+      "path": "docs/22_TEST_PLAN_AND_EDGE_CASES.md",
+      "sha256": "f120a2e12721d2645728af8e9f8aa0757e84b02229e97b9b9fb82478cfdec8c5",
+      "bytes": 4072
+    },
+    {
+      "path": "docs/23_ACCESSIBILITY_LOCALIZATION_AND_POLICY.md",
+      "sha256": "02e761c3731e887375ea66042b8face5d4726e861acf8dd608d8a1229e870406",
+      "bytes": 3369
+    },
+    {
+      "path": "docs/24_RELEASE_SLICES_AND_DEPENDENCIES.md",
+      "sha256": "77c24f3fd414229a1e6fc29939b2c97e2a6d145e74a9a89cb7de167978412091",
+      "bytes": 3674
+    },
+    {
+      "path": "docs/25_PARALLEL_WORKSTREAMS_AND_ISSUES.md",
+      "sha256": "2e175130a547fe37994dc4a7d7ed740a0c917cd8f4438369db3f09c981ce1f68",
+      "bytes": 4014
+    },
+    {
+      "path": "docs/26_DESIGN_DECISIONS_RISKS_AND_OPEN_QUESTIONS.md",
+      "sha256": "ae45a2258e6036d3a808e6a63825c821cf6055151fed760037c7f6890d5e0bb3",
+      "bytes": 4041
+    },
+    {
+      "path": "docs/27_FUTURE_SYSTEM_INTEGRATIONS_OVERVIEW.md",
+      "sha256": "59a6e656f1ea64e828c1324e997fe9a189030c9f3243b375a53a6b17d4f5399e",
+      "bytes": 4352
+    },
+    {
+      "path": "docs/28_REFERENCE_LINKS_AND_GLOSSARY.md",
+      "sha256": "4a9b2e2685c7c7d9ef33655d439f6f29ca8614f8ad5a34d9e50ea6984b41bd56",
+      "bytes": 3452
+    },
+    {
+      "path": "docs/29_EXAMPLE_SESSIONS_AND_RECIPES.md",
+      "sha256": "a3b9ab81cbcdbc4b2dd94bcc455bd338216427f16d3b66e2d05cb8c5a6759320",
+      "bytes": 4004
+    },
+    {
+      "path": "docs/30_ACCEPTANCE_TRACEABILITY_AND_HANDOFF.md",
+      "sha256": "5e26a98fbb2450a3c4388b1ca70fa3d03b7679ae56f3bb3dda43cb1d91afddf4",
+      "bytes": 3502
+    },
+    {
+      "path": "docs/31_VISUAL_ASSET_PRODUCTION_BRIEFS.md",
+      "sha256": "56874c2b8954aa84c2d54ad1ad25c800ae63021972a0a448aa5cda29fddea1d8",
+      "bytes": 3520
+    },
+    {
+      "path": "docs/32_FORMAL_RULES_AND_PSEUDOCODE.md",
+      "sha256": "34cff2fb7e0f00128c16956298ee43c444badf63b7a90d0b69546e5e2eb47dc1",
+      "bytes": 5870
+    },
+    {
+      "path": "docs/33_BATCH_1_2_INTEGRATION_AND_DELTA.md",
+      "sha256": "977dfecd7ba1a0791154088ff4eb565177e07274b32a7a2e4cb9b76c5979e6d3",
+      "bytes": 3537
+    },
+    {
+      "path": "docs/34_ANTI_PATTERNS_AND_FAILURE_POSTMORTEMS.md",
+      "sha256": "a69e57cfdabf57efb418ba5ae8174be8cef5e1ed10210e03db2cb5d6f360ce6c",
+      "bytes": 4148
+    },
+    {
+      "path": "examples/catalog/core-drinks-alpha.json",
+      "sha256": "882912f338b47e02230587b22e1aae3efb2233e9ded14303e1929cf35071db4a",
+      "bytes": 2480
+    },
+    {
+      "path": "examples/catalog/future-research-recipe.disabled.json",
+      "sha256": "ea06e461abb88484f2146e5949be07ac891b6933b94d15419bb5fa9b1571caef",
+      "bytes": 628
+    },
+    {
+      "path": "examples/events/example-merge-session.json",
+      "sha256": "a3a3efaf4556f2cb19a7984ecebf530a6af66fc3e177f325d5ab41c7fdd82aa6",
+      "bytes": 1961
+    },
+    {
+      "path": "examples/missions/README.md",
+      "sha256": "0ace5796c1774f4962094cfed7e9ff72966634fdfb9563ac1f878cad4e25b8ea",
+      "bytes": 490
+    },
+    {
+      "path": "examples/missions/coconut-cove-001.json",
+      "sha256": "d05f9370559dac237962a332a658fd2d9f32d8fa2dacf7694bb0552d0c742bff",
+      "bytes": 1156
+    },
+    {
+      "path": "examples/schemas/catalog.schema.json",
+      "sha256": "75619fe94c1581cfbbb2a763d8ecad47c6935c2d697685015f707fb54773cf76",
+      "bytes": 1750
+    },
+    {
+      "path": "examples/tests/drink-rule-vectors.json",
+      "sha256": "9954218ff9ecca319ce47cb1518e49e43e722d011637e994a02a42ef8b6b878b",
+      "bytes": 1261
+    },
+    {
+      "path": "tools/validate_batch3.py",
+      "sha256": "1f2c8b97bbdbd3ba828e1a8d09ec01c7641b17ce2b1b5e9df193a92bde902b83",
+      "bytes": 3017
+    }
+  ]
+}

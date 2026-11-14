@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "featureGate": "RECIPE_RESEARCH_ENABLED",
+  "enabled": false,
+  "modeId": "research-workshop",
+  "recipeId": "research:lagoon-cream",
+  "recipeVersion": "0.1.0-proposal",
+  "name": "Lagoon Cream",
+  "inputs": [
+    {
+      "ingredientId": "mint",
+      "quantity": 1
+    },
+    {
+      "ingredientId": "coconut",
+      "quantity": 1
+    }
+  ],
+  "output": {
+    "drinkId": "future:lagoon-cream",
+    "quantity": 1
+  },
+  "selectionPolicy": "explicit-confirmation",
+  "randomOutcome": false,
+  "note": "Concept-only future off-board crafting recipe. No collision rule or server grant is implemented."
+}

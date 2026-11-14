@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "missionId": "endless-001",
+  "islandId": "coconut-cove",
+  "missionVersion": "0.1.0",
+  "mode": "endless",
+  "releaseStatus": "planned",
+  "featureFlag": "MODE_ENDLESS_ENABLED",
+  "modeRulesVersion": "0.1.0-draft",
+  "board": {
+    "presetId": "standard-low-friction-alpha",
+    "width": 10,
+    "height": 15,
+    "dangerLineY": 12.8,
+    "maxActiveDrinks": 18,
+    "startingDrinks": [
+      {
+        "tier": 1,
+        "x": 4.0,
+        "y": 4.0
+      },
+      {
+        "tier": 1,
+        "x": 6.0,
+        "y": 4.0
+      }
+    ]
+  },
+  "spawn": {
+    "seedMode": "fixed",
+    "seed": 12345,
+    "pool": [
+      {
+        "tier": 1,
+        "weight": 100
+      }
+    ],
+    "firstItems": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "objectives": {
+    "primary": {
+      "type": "score_at_least",
+      "target": 1
+    }
+  },
+  "rewards": {
+    "previewCoins": 0,
+    "stars": 0
+  },
+  "visualThemeId": "coconut-cove-day"
+}

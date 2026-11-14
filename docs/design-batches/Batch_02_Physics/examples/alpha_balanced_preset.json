@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "physicsVersion": "alpha-1-balanced",
+  "stepHz": 60,
+  "worldWidth": 10,
+  "worldHeight": 15,
+  "gravity": [0, 0],
+  "drinkRadius": 0.34,
+  "drinkDensity": 1,
+  "linearDamping": 0.12,
+  "angularDamping": 0.65,
+  "friction": 0.06,
+  "restitution": 0.38,
+  "railRestitution": 0.28,
+  "launchImpulse": 4.5,
+  "maxSpeed": 10,
+  "dangerLineY": 12.8,
+  "dangerGraceSteps": 51,
+  "launchCooldownSteps": 24,
+  "ccd": true
+}

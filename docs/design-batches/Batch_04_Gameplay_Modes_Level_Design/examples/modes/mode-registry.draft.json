@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "modes": [
+    {
+      "id": "service",
+      "releaseStatus": "live",
+      "rulesVersion": "0.1.0",
+      "supports": [
+        "orders_served",
+        "score_at_least",
+        "merge_count"
+      ]
+    },
+    {
+      "id": "precision",
+      "releaseStatus": "planned",
+      "rulesVersion": "0.1.0-draft",
+      "supports": [
+        "produce_tier",
+        "orders_served"
+      ]
+    },
+    {
+      "id": "score_attack",
+      "releaseStatus": "planned",
+      "rulesVersion": "0.1.0-draft",
+      "supports": [
+        "score_at_least",
+        "combo_depth"
+      ]
+    },
+    {
+      "id": "rush_hour",
+      "releaseStatus": "planned",
+      "rulesVersion": "0.1.0-draft",
+      "supports": [
+        "orders_served"
+      ]
+    },
+    {
+      "id": "survival",
+      "releaseStatus": "planned",
+      "rulesVersion": "0.1.0-draft",
+      "supports": [
+        "survive_waves"
+      ]
+    },
+    {
+      "id": "vip_service",
+      "releaseStatus": "planned",
+      "rulesVersion": "0.1.0-draft",
+      "supports": [
+        "orders_served"
+      ]
+    },
+    {
+      "id": "endless",
+      "releaseStatus": "planned",
+      "rulesVersion": "0.1.0-draft",
+      "supports": [
+        "score_at_least"
+      ]
+    }
+  ]
+}

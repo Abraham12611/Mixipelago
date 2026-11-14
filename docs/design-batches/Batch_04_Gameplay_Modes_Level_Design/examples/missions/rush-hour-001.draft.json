@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "missionId": "rush-hour-001",
+  "islandId": "coconut-cove",
+  "missionVersion": "0.1.0",
+  "mode": "rush_hour",
+  "releaseStatus": "planned",
+  "featureFlag": "MODE_RUSH_HOUR_ENABLED",
+  "modeRulesVersion": "0.1.0-draft",
+  "board": {
+    "presetId": "standard-low-friction-alpha",
+    "width": 10,
+    "height": 15,
+    "dangerLineY": 12.8,
+    "maxActiveDrinks": 18,
+    "startingDrinks": [
+      {
+        "tier": 1,
+        "x": 4.0,
+        "y": 4.0
+      },
+      {
+        "tier": 1,
+        "x": 6.0,
+        "y": 4.0
+      }
+    ]
+  },
+  "spawn": {
+    "seedMode": "fixed",
+    "seed": 12345,
+    "pool": [
+      {
+        "tier": 1,
+        "weight": 100
+      }
+    ],
+    "firstItems": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "objectives": {
+    "primary": {
+      "type": "orders_served",
+      "target": 3
+    }
+  },
+  "rewards": {
+    "previewCoins": 0,
+    "stars": 1
+  },
+  "visualThemeId": "coconut-cove-day",
+  "clock": {
+    "kind": "active_ticks",
+    "limitTicks": 3600
+  },
+  "orders": {
+    "maxVisible": 2,
+    "initial": [
+      {
+        "id": "rush-1",
+        "requestedTier": 2,
+        "quantity": 1,
+        "coinReward": 10
+      },
+      {
+        "id": "rush-2",
+        "requestedTier": 3,
+        "quantity": 1,
+        "coinReward": 20
+      }
+    ],
+    "replacementPoolId": "rush-basic"
+  }
+}

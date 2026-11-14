@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "missionId": "coconut-cove-001",
+  "missionVersion": "alpha-1",
+  "title": "First Splash",
+  "physicsPresetId": "alpha-1-balanced",
+  "seed": 740012,
+  "startingBodies": [
+    { "id": "setup-1", "tier": 1, "x": 4.7, "y": 6.0 },
+    { "id": "setup-2", "tier": 2, "x": 6.4, "y": 3.7 }
+  ],
+  "spawnWeights": [
+    { "tier": 1, "weight": 70 },
+    { "tier": 2, "weight": 25 },
+    { "tier": 3, "weight": 5 }
+  ],
+  "customerSlots": 2,
+  "orderTargets": [2, 3],
+  "objectives": [ { "type": "orders_served", "target": 5 } ],
+  "maxActiveBodies": 20,
+  "maxShots": null,
+  "autoServe": true,
+  "maxTier": 8
+}

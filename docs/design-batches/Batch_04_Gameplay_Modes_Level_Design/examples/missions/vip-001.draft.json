@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "missionId": "vip-001",
+  "islandId": "coconut-cove",
+  "missionVersion": "0.1.0",
+  "mode": "vip_service",
+  "releaseStatus": "planned",
+  "featureFlag": "MODE_VIP_SERVICE_ENABLED",
+  "modeRulesVersion": "0.1.0-draft",
+  "board": {
+    "presetId": "standard-low-friction-alpha",
+    "width": 10,
+    "height": 15,
+    "dangerLineY": 12.8,
+    "maxActiveDrinks": 18,
+    "startingDrinks": [
+      {
+        "tier": 1,
+        "x": 4.0,
+        "y": 4.0
+      },
+      {
+        "tier": 1,
+        "x": 6.0,
+        "y": 4.0
+      }
+    ]
+  },
+  "spawn": {
+    "seedMode": "fixed",
+    "seed": 12345,
+    "pool": [
+      {
+        "tier": 1,
+        "weight": 100
+      }
+    ],
+    "firstItems": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "objectives": {
+    "primary": {
+      "type": "orders_served",
+      "target": 1
+    }
+  },
+  "rewards": {
+    "previewCoins": 0,
+    "stars": 1
+  },
+  "visualThemeId": "coconut-cove-day",
+  "orders": {
+    "maxVisible": 1,
+    "initial": [],
+    "orderLines": [
+      {
+        "tier": 3,
+        "quantity": 2
+      },
+      {
+        "tier": 4,
+        "quantity": 1
+      }
+    ],
+    "replacementPoolId": "vip-basic"
+  },
+  "budget": {
+    "shotsMax": 30,
+    "settleMaxTicks": 240
+  }
+}
