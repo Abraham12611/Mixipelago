@@ -1,0 +1,36 @@
+{
+  "examples": [
+    {
+      "encounterId": "enc_alpha_local_001",
+      "source": "scripted_mission",
+      "missionId": "coconut-cove-001",
+      "customerId": "guest.mira.cove",
+      "orderId": "order_a",
+      "status": "presented",
+      "verified": false,
+      "awardsDurableProgress": false
+    },
+    {
+      "encounterId": "enc_future_regular_001",
+      "source": "server_reserved",
+      "missionId": "coconut-cove-003",
+      "customerId": "guest.nala.reed",
+      "sourceEntitlementId": "ent_x001",
+      "status": "reserved",
+      "verified": false,
+      "awardsDurableProgress": false
+    },
+    {
+      "encounterId": "enc_future_vip_001",
+      "source": "server_reserved",
+      "missionId": "vip-001",
+      "customerId": "guest.ava.vip",
+      "sourceEntitlementId": "ent_vip001",
+      "status": "reserved",
+      "verified": false,
+      "awardsDurableProgress": false,
+      "featureGate": "CUSTOMER_VIP_ENABLED"
+    }
+  ],
+  "note": "Illustrative identifiers. No deployed player or financial record."
+}

@@ -1,0 +1,379 @@
+{
+  "releaseStatus": "DRAFT_ONLY",
+  "vipBps": [
+    {
+      "base": 300,
+      "modifiers": [
+        250,
+        150
+      ],
+      "cap": 2000,
+      "expected": 700
+    },
+    {
+      "base": 500,
+      "modifiers": [
+        1200,
+        800
+      ],
+      "cap": 2000,
+      "expected": 2000
+    },
+    {
+      "base": 300,
+      "modifiers": [
+        -500
+      ],
+      "cap": 2000,
+      "expected": 0
+    },
+    {
+      "base": 0,
+      "modifiers": [
+        0,
+        0
+      ],
+      "cap": 2000,
+      "expected": 0
+    },
+    {
+      "base": 2000,
+      "modifiers": [
+        100
+      ],
+      "cap": 2000,
+      "expected": 2000
+    },
+    {
+      "base": 300,
+      "modifiers": [
+        100
+      ],
+      "cap": 500,
+      "expected": 400
+    },
+    {
+      "base": 300,
+      "modifiers": [],
+      "cap": 0,
+      "expected": 0
+    }
+  ],
+  "satisfaction": [
+    {
+      "verified": true,
+      "missionWon": true,
+      "fulfilled": true,
+      "extraBonus": 0,
+      "penalty": 0,
+      "expected": 7800
+    },
+    {
+      "verified": true,
+      "missionWon": true,
+      "fulfilled": false,
+      "extraBonus": 0,
+      "penalty": 0,
+      "expected": 5600
+    },
+    {
+      "verified": true,
+      "missionWon": true,
+      "fulfilled": true,
+      "extraBonus": 300,
+      "penalty": 200,
+      "expected": 7900
+    },
+    {
+      "verified": true,
+      "missionWon": true,
+      "fulfilled": true,
+      "extraBonus": 1000,
+      "penalty": 0,
+      "expected": 8200
+    },
+    {
+      "verified": true,
+      "missionWon": true,
+      "fulfilled": true,
+      "extraBonus": 0,
+      "penalty": 2000,
+      "expected": 6300
+    },
+    {
+      "verified": true,
+      "missionWon": false,
+      "fulfilled": true,
+      "extraBonus": 0,
+      "penalty": 0,
+      "expected": null
+    },
+    {
+      "verified": false,
+      "missionWon": true,
+      "fulfilled": true,
+      "extraBonus": 0,
+      "penalty": 0,
+      "expected": null
+    }
+  ],
+  "reputationDelta": [
+    {
+      "satisfaction": 7800,
+      "runAccum": 0,
+      "expected": 28
+    },
+    {
+      "satisfaction": 10000,
+      "runAccum": 0,
+      "expected": 30
+    },
+    {
+      "satisfaction": 0,
+      "runAccum": 0,
+      "expected": -30
+    },
+    {
+      "satisfaction": 4900,
+      "runAccum": 0,
+      "expected": -1
+    },
+    {
+      "satisfaction": 4950,
+      "runAccum": 0,
+      "expected": -1
+    },
+    {
+      "satisfaction": 7800,
+      "runAccum": 50,
+      "expected": 10
+    },
+    {
+      "satisfaction": 7800,
+      "runAccum": 60,
+      "expected": 0
+    },
+    {
+      "satisfaction": 1000,
+      "runAccum": -55,
+      "expected": -5
+    },
+    {
+      "satisfaction": 5000,
+      "runAccum": 0,
+      "expected": 0
+    }
+  ],
+  "loyaltyVisit": [
+    {
+      "firstVisit": true,
+      "favoriteMatched": false,
+      "eligible": true,
+      "expected": 100
+    },
+    {
+      "firstVisit": true,
+      "favoriteMatched": true,
+      "eligible": true,
+      "expected": 140
+    },
+    {
+      "firstVisit": false,
+      "favoriteMatched": true,
+      "eligible": true,
+      "expected": 220
+    },
+    {
+      "firstVisit": false,
+      "favoriteMatched": false,
+      "eligible": true,
+      "expected": 180
+    },
+    {
+      "firstVisit": false,
+      "favoriteMatched": true,
+      "eligible": false,
+      "expected": 0
+    }
+  ],
+  "loyaltyTier": [
+    {
+      "points": 0,
+      "expected": "stranger"
+    },
+    {
+      "points": 99,
+      "expected": "stranger"
+    },
+    {
+      "points": 100,
+      "expected": "acquaintance"
+    },
+    {
+      "points": 299,
+      "expected": "acquaintance"
+    },
+    {
+      "points": 300,
+      "expected": "regular"
+    },
+    {
+      "points": 699,
+      "expected": "regular"
+    },
+    {
+      "points": 700,
+      "expected": "friend_of_shop"
+    },
+    {
+      "points": 1299,
+      "expected": "friend_of_shop"
+    },
+    {
+      "points": 1300,
+      "expected": "island_legend"
+    }
+  ],
+  "weightedSampling": [
+    {
+      "entries": [
+        {
+          "customerId": "b",
+          "weight": 3
+        },
+        {
+          "customerId": "a",
+          "weight": 2
+        }
+      ],
+      "draw": 0,
+      "expected": "a"
+    },
+    {
+      "entries": [
+        {
+          "customerId": "b",
+          "weight": 3
+        },
+        {
+          "customerId": "a",
+          "weight": 2
+        }
+      ],
+      "draw": 1,
+      "expected": "a"
+    },
+    {
+      "entries": [
+        {
+          "customerId": "b",
+          "weight": 3
+        },
+        {
+          "customerId": "a",
+          "weight": 2
+        }
+      ],
+      "draw": 2,
+      "expected": "b"
+    },
+    {
+      "entries": [
+        {
+          "customerId": "b",
+          "weight": 3
+        },
+        {
+          "customerId": "a",
+          "weight": 2
+        }
+      ],
+      "draw": 4,
+      "expected": "b"
+    }
+  ],
+  "orderPriority": [
+    {
+      "orders": [
+        {
+          "orderId": "b",
+          "issuedTick": 50,
+          "requestedTier": 3
+        },
+        {
+          "orderId": "a",
+          "issuedTick": 49,
+          "requestedTier": 3
+        }
+      ],
+      "outputTier": 3,
+      "expected": "a"
+    },
+    {
+      "orders": [
+        {
+          "orderId": "b",
+          "issuedTick": 50,
+          "requestedTier": 3
+        },
+        {
+          "orderId": "a",
+          "issuedTick": 50,
+          "requestedTier": 3
+        }
+      ],
+      "outputTier": 3,
+      "expected": "a"
+    },
+    {
+      "orders": [
+        {
+          "orderId": "a",
+          "issuedTick": 49,
+          "requestedTier": 2
+        },
+        {
+          "orderId": "b",
+          "issuedTick": 50,
+          "requestedTier": 3
+        }
+      ],
+      "outputTier": 3,
+      "expected": "b"
+    },
+    {
+      "orders": [
+        {
+          "orderId": "a",
+          "issuedTick": 49,
+          "requestedTier": 2
+        }
+      ],
+      "outputTier": 3,
+      "expected": null
+    }
+  ],
+  "duplicateSources": [
+    {
+      "sourceKeys": [
+        "p1:s1:ent1",
+        "p1:s1:ent1"
+      ],
+      "expectedUnique": 1
+    },
+    {
+      "sourceKeys": [
+        "p1:s1:ent1",
+        "p1:s1:ent2"
+      ],
+      "expectedUnique": 2
+    },
+    {
+      "sourceKeys": [
+        "p1:s1:ent1",
+        "p2:s1:ent1"
+      ],
+      "expectedUnique": 2
+    }
+  ]
+}

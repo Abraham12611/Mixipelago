@@ -1,0 +1,300 @@
+{
+  "generatedAt": "2026-11-14",
+  "files": [
+    {
+      "path": "ENGINEER_START_HERE.md",
+      "sha256": "e9a9d671f5e5fbb905794ec562a223ccff76ce725abb4d67a064d5e61a88f254",
+      "bytes": 1828
+    },
+    {
+      "path": "README.md",
+      "sha256": "8f757414d536f6a079d4f0c163ba50d0fe53d68b0c0dc31b14c7717c12147913",
+      "bytes": 699
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "sha256": "ddc9e1705ca674bc76ee7b249e40a984af14243cbdcfb528d206545546cd6afa",
+      "bytes": 864
+    },
+    {
+      "path": "docs/00_INDEX_AND_README.md",
+      "sha256": "33de30d41d93682db44b508b2b099b42e6f5b3d075bd2348a02692d0523bf27c",
+      "bytes": 8088
+    },
+    {
+      "path": "docs/01_PRODUCT_VISION_SCOPE_AND_PLAYER_PROMISE.md",
+      "sha256": "b057f500345657e303dfa537e2aef2f7dd41d8e000128cd7686b448d100e7795",
+      "bytes": 3206
+    },
+    {
+      "path": "docs/02_DOMAIN_GLOSSARY_AND_AUTHORITY_MATRIX.md",
+      "sha256": "e0d7c1f4d6fa3340eefc23396fdd6151c97195abdfdbfd17f5f85908576682eb",
+      "bytes": 2733
+    },
+    {
+      "path": "docs/03_CUSTOMER_IDENTITY_AND_LIFECYCLE.md",
+      "sha256": "19f1f2f543739b841e00a37b9622d119eb93f182cab700b8c46f7602b7343db6",
+      "bytes": 2478
+    },
+    {
+      "path": "docs/04_SEGMENTS_ARCHETYPES_AND_CHARACTER_ROLES.md",
+      "sha256": "93fc055498c7cc5d6e8327d3bcc95179118e734f4426330a46b686512ba5c8e8",
+      "bytes": 2284
+    },
+    {
+      "path": "docs/05_PERSONALITY_TRAITS_AND_BEHAVIOR_MODEL.md",
+      "sha256": "b779797580c4f7f823884680fd206aa48a27d81a3fe7b46cf41f449583c554c5",
+      "bytes": 2051
+    },
+    {
+      "path": "docs/06_PREFERENCES_TASTE_PROFILES_AND_RECIPES.md",
+      "sha256": "0170bbc5a19dd8a0cae963390efc876b853016155a7bba48616529f04eb7d072",
+      "bytes": 2235
+    },
+    {
+      "path": "docs/07_CUSTOMER_DIRECTOR_ELIGIBILITY_AND_SELECTION.md",
+      "sha256": "9930bf8080616ae1849dc86965fcf9f2a3ae3b302da4680ba4450b719c003e74",
+      "bytes": 2390
+    },
+    {
+      "path": "docs/08_ORDER_FAIRNESS_FEASIBILITY_AND_SPAWN_CONTROL.md",
+      "sha256": "79d642025cd1ab8f91427f7c442b6f039dec07d49c6b668643fbc2704bc0bd7f",
+      "bytes": 2155
+    },
+    {
+      "path": "docs/09_SERVICE_PIPELINE_AND_ORDER_EVENTS.md",
+      "sha256": "41e143f106b0977de4b858fde89c1f4280f4d6b719967b7366555aea567ffce5",
+      "bytes": 1987
+    },
+    {
+      "path": "docs/10_SATISFACTION_MODEL_AND_FEEDBACK.md",
+      "sha256": "8a481ea2dc4c2b885861acdd52eecbabb814d9b1b5f85a147c451543c24bfe08",
+      "bytes": 2330
+    },
+    {
+      "path": "docs/11_PATIENCE_TIMERS_AND_ACTIVE_SESSION_CLOCK.md",
+      "sha256": "b19162ead99b731b0e3a94d79921b44385184017494ab9a8dc1f80446a1169df",
+      "bytes": 1938
+    },
+    {
+      "path": "docs/12_RECURRING_GUESTS_AND_LOYALTY.md",
+      "sha256": "d1240e55138470527b670f3500bfa779e868393a04c767d451fad562985287da",
+      "bytes": 1909
+    },
+    {
+      "path": "docs/13_SHOP_REPUTATION_AND_PRESTIGE_BOUNDARY.md",
+      "sha256": "bfa46a722fd5ba8a066625ecc4f2134e2cc0112fd32becf25fab76a510083f6a",
+      "bytes": 2026
+    },
+    {
+      "path": "docs/14_REVIEWS_COMPLAINTS_AND_SERVICE_RECOVERY.md",
+      "sha256": "e04365bb3528905c0805a0497fe24060b210f0f48885969264b12cde82599f93",
+      "bytes": 1792
+    },
+    {
+      "path": "docs/15_VIP_GUESTS_ELIGIBILITY_AND_CHALLENGES.md",
+      "sha256": "4adfef916fef311b883781ecff82503da38215ca2e5c2df33e858260ac985e87",
+      "bytes": 2003
+    },
+    {
+      "path": "docs/16_CRITICS_SPECIAL_GUESTS_AND_NARRATIVE_HANDOFF.md",
+      "sha256": "b343d4c9a884ebeec63f5623ffb5c346346b9643788338d0d7f51d979815ac0b",
+      "bytes": 1909
+    },
+    {
+      "path": "docs/17_GROUP_CUSTOMERS_BUNDLES_AND_PARTY_REQUESTS.md",
+      "sha256": "d9c989411b48832b1ceee518bb1ece4d23731ca1be33c14c20ec644f5f9d94f1",
+      "bytes": 1834
+    },
+    {
+      "path": "docs/18_ISLAND_BIOMES_AND_REGIONAL_VISITORS.md",
+      "sha256": "0111595133bf2a04da6c347002083f7cf7b0055a5e2adc4c2b56fe177f8c577f",
+      "bytes": 1675
+    },
+    {
+      "path": "docs/19_SKILL_MODIFIERS_AND_CUSTOMER_EFFECT_CAPS.md",
+      "sha256": "ed47553e2b49355952430601139770cdcc11550b5caef6eb1739ebe5c974ef33",
+      "bytes": 1775
+    },
+    {
+      "path": "docs/20_ECONOMY_TIPS_REWARDS_AND_SETTLEMENT_HANDOFF.md",
+      "sha256": "4784dad51b55f7dc339cc154b173106a8c6b0e8a1e9482291f36f59260ecaf47",
+      "bytes": 1900
+    },
+    {
+      "path": "docs/21_ACHIEVEMENTS_COLLECTIONS_AND_CUSTOMER_SOUVENIRS.md",
+      "sha256": "30932ee6fd7247df7a8823801a32658408026b681f4e2319d0d2e57aa5fb8936",
+      "bytes": 1760
+    },
+    {
+      "path": "docs/22_DYNAMIC_EVENTS_WEATHER_INCIDENTS_AND_RIVALS_HANDOFF.md",
+      "sha256": "cc2dd7e288fced98a0b0ed82da4d4c9528f91f1e62f7f8b7342f06b7a615c76c",
+      "bytes": 1728
+    },
+    {
+      "path": "docs/23_CUSTOMER_HUD_MOBILE_AND_DESKTOP_UX.md",
+      "sha256": "722e67c31814c781da304d7819bacea17126813c56e9f8ea3c64b96b3c443c1b",
+      "bytes": 2082
+    },
+    {
+      "path": "docs/24_GUEST_JOURNAL_RELATIONSHIPS_AND_REPUTATION_UX.md",
+      "sha256": "fd6885ca8c48e2b04b11a6d07509e57b7a07fce687a76f5d74f232533ea98af5",
+      "bytes": 1775
+    },
+    {
+      "path": "docs/25_CHARACTER_ART_PORTRAITS_AND_STATE_ASSETS.md",
+      "sha256": "1e096d00b05ee987e92f941241de8f09cb71e343a77ed466b8b11093ce198b43",
+      "bytes": 1941
+    },
+    {
+      "path": "docs/26_DIALOGUE_VOICE_SFX_AND_LOCALIZATION_PRODUCTION.md",
+      "sha256": "c65c9c755e1316338f4e5e0308709630242d6c255c1462722c8e409c5403c3d6",
+      "bytes": 1810
+    },
+    {
+      "path": "docs/27_ACCESSIBILITY_PRIVACY_YOUTH_AND_CONTENT_STANDARDS.md",
+      "sha256": "066e09942948d7f1957ff034d8084c703990f0f87c69c0a4d514e823caede71b",
+      "bytes": 1828
+    },
+    {
+      "path": "docs/28_CONTENT_CATALOGS_VERSIONING_AND_PUBLISHING.md",
+      "sha256": "c022091a5ae2823a677ec6401685172cb3178675f8b0de503955b657c2ed8303",
+      "bytes": 1848
+    },
+    {
+      "path": "docs/29_HTTP_API_COMMANDS_AND_ERROR_CONTRACTS.md",
+      "sha256": "c0305e5ce5dfe6f225a3ca030e4aeedcfd7c3873a66082eb6677f30f1a9ff237",
+      "bytes": 2226
+    },
+    {
+      "path": "docs/30_POSTGRES_SCHEMA_RLS_AND_MIGRATION_DRAFT.md",
+      "sha256": "624cadd3e5853fdc8ac08a024628a36329236103edeb901616324f9716d5b842",
+      "bytes": 2416
+    },
+    {
+      "path": "docs/31_TYPESCRIPT_PACKAGES_EVENTS_AND_REDUCERS.md",
+      "sha256": "f243be5bc0caade47ba2ed7ba499fd7cd94c6d403ca3165aa1a3c2a61c9db3fd",
+      "bytes": 2199
+    },
+    {
+      "path": "docs/32_SEEDED_RNG_REPLAY_AND_VERSIONED_ENCOUNTERS.md",
+      "sha256": "30815507a9fb5510613024c9cf7deab114ce28e726517b97089416ecae66aea0",
+      "bytes": 1968
+    },
+    {
+      "path": "docs/33_SECURITY_PRIVACY_ANTICHEAT_AND_ABUSE.md",
+      "sha256": "416ae8ce535418ac56f4b5978a27d5d28f609bdbac3219450c16379036d08be0",
+      "bytes": 2119
+    },
+    {
+      "path": "docs/34_ANALYTICS_EXPERIMENTS_AND_METRICS.md",
+      "sha256": "d60bec102e1b3e981a354e09b86cf5bdc515af6694de6f7f560dfd1c6573b2ff",
+      "bytes": 1959
+    },
+    {
+      "path": "docs/35_BALANCING_SIMULATION_AND_FAIRNESS.md",
+      "sha256": "5e737e8bdf6a499be2ab1ca5e0325fd8836f50c7bbadb347271847b7f59cc7a5",
+      "bytes": 1897
+    },
+    {
+      "path": "docs/36_CONTENT_STUDIO_AUTHORING_REVIEW_AND_DEPLOY.md",
+      "sha256": "0163ec876e1cc00cf756256c3d4ddd41d40cb4e5cd2bb9e2d7224c71063497f8",
+      "bytes": 1848
+    },
+    {
+      "path": "docs/37_QA_TEST_MATRIX_PROPERTY_AND_INTEGRATION.md",
+      "sha256": "4e04bad9ffdf3bcc7c9eb7fc877350403a401aa2566520419e5c20fbef0603b2",
+      "bytes": 2150
+    },
+    {
+      "path": "docs/38_PERFORMANCE_CACHING_OFFLINE_AND_SYNC.md",
+      "sha256": "b97b3c7f96c9bfe0077d73fc9c38f538b333208881e3d5e4eeaa03b12f949bbb",
+      "bytes": 1813
+    },
+    {
+      "path": "docs/39_RELEASE_PHASES_FEATURE_GATES_AND_ROLLBACK.md",
+      "sha256": "71f2354b0e70366fa79ff05194b0d2e17e6d8cf91ff95eb14153f1e9b0031804",
+      "bytes": 2246
+    },
+    {
+      "path": "docs/40_ENGINEERING_WORKSTREAMS_ISSUE_BACKLOG.md",
+      "sha256": "91223f5f26ee5e0310ea7e329c24ceab7faf9c279ac59faad9517ae6e9e51722",
+      "bytes": 3071
+    },
+    {
+      "path": "docs/41_ADRS_DECISIONS_RISKS_AND_OWNER_QUESTIONS.md",
+      "sha256": "5f03abbdf23f7b5178238c20390f045164ca29733deaed7582949e574c7d62da",
+      "bytes": 2215
+    },
+    {
+      "path": "docs/42_END_TO_END_PLAYER_JOURNEYS_AND_RECOVERY.md",
+      "sha256": "7d8ae609d99d37b6fc894bf651249bc86e005e7d8a1c3845bff0c165aa8222b2",
+      "bytes": 2295
+    },
+    {
+      "path": "docs/43_TRACEABILITY_ACCEPTANCE_AND_DEFINITION_OF_DONE.md",
+      "sha256": "ae58f29ea02785c4c6c8e91c845b6d8f5fc940aa11f989cb3ebbe9daa15179dc",
+      "bytes": 2120
+    },
+    {
+      "path": "docs/44_ENGINEER_KICKOFF_AND_FIRST_SHIPPABLE_SLICE.md",
+      "sha256": "218c2fcb70984911a65452aad70527215ac314ce6f8d1996e1ee230c5fe8ad21",
+      "bytes": 2208
+    },
+    {
+      "path": "docs/45_GLOSSARY_INTERNAL_REFERENCES_AND_NON_GOALS.md",
+      "sha256": "c91e548588419f90ef3c68a815487722cc2da9c6897821378ed12f2d0120dab2",
+      "bytes": 2296
+    },
+    {
+      "path": "examples/catalog/customer-catalog.draft.json",
+      "sha256": "266e0b142780ae14ff5b81adfa46a6e3003e29de0b9a0db14deeb2949d04f980",
+      "bytes": 12992
+    },
+    {
+      "path": "examples/catalog/dialogue-briefs.draft.json",
+      "sha256": "512842c92006e0c814c99e24fface1b624777ade0cc6e3167e1968a006151e76",
+      "bytes": 732
+    },
+    {
+      "path": "examples/contracts/customer-events-and-api-examples.json",
+      "sha256": "b0bd2256209a19e58103249cb1f2c12750cd2ff05a78ed6ef5bf845e884c29a1",
+      "bytes": 2262
+    },
+    {
+      "path": "examples/contracts/customer-rules-reference.ts",
+      "sha256": "eb7955c61caf9131505e9992fc6de6e1d6a9621e7e6bf1f60f02a8205d5248d2",
+      "bytes": 3311
+    },
+    {
+      "path": "examples/contracts/example-encounters.draft.json",
+      "sha256": "bcf436afcd002a8328b58636c84ef220de189f71cca3bcde4a369bd897c7469b",
+      "bytes": 1032
+    },
+    {
+      "path": "examples/schemas/customer-catalog.schema.json",
+      "sha256": "ea240ec8ad6320ef3b016804fb0d534d5acce60c335c762df8234959914b6fca",
+      "bytes": 6693
+    },
+    {
+      "path": "examples/sql/customer_schema_draft.sql",
+      "sha256": "1066ebfe97cee9df170e12aa0b6e2f6c08d2b6b1eda23d1daf0b89efe24abe84",
+      "bytes": 3196
+    },
+    {
+      "path": "examples/tests/README.md",
+      "sha256": "5a84838a91878a9f0b1dc6e9f1d69be022d25e649e98e32edd62330dc964dde5",
+      "bytes": 699
+    },
+    {
+      "path": "examples/tests/customer-rule-vectors.json",
+      "sha256": "7a91021c51a3b8f584b7ba7ec67fd7fed69bfda066f4e21d0aae79c0b3e6d8ba",
+      "bytes": 6355
+    },
+    {
+      "path": "tools/validate_batch9.py",
+      "sha256": "a09aeca7d92e1a6f22859b651d683ae58d10e035f40095ffaa5014ae9e56ccff",
+      "bytes": 6009
+    }
+  ]
+}

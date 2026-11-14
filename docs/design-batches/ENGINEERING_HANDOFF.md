@@ -10,3 +10,5 @@
 8. Test on desktop and mobile browsers with actual gameplay, network interruptions, and safe recovery.
 
 9. For Batch 08, grant durable achievements only from verified receipts; show claimable versus claimed explicitly; use server-owned entitlements, item catalog and inventory. Batch 06 owns wallet credits and Batch 07 owns XP/skill points. Daily/weekly and randomized rewards remain feature-gated proposals.
+
+10. For Batch 09, customer art and voice are read-only consumers of session events. Preserve scripted alpha orders and oldest-first automatic serving; add dynamic selection, reputation and relationships only through independent OFF-by-default gates and verified backend receipts. VIP and critic pools do not appear in fixed/ranked modes.
