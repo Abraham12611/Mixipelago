@@ -8,3 +8,5 @@
 6. Never implement nonfunctional paid upgrade controls or grant trusted coins from client preview values.
 7. Engineers open isolated branches and PRs; no engineer self-merges. Owner directs manual interface/gameplay acceptance.
 8. Test on desktop and mobile browsers with actual gameplay, network interruptions, and safe recovery.
+
+9. For Batch 08, grant durable achievements only from verified receipts; show claimable versus claimed explicitly; use server-owned entitlements, item catalog and inventory. Batch 06 owns wallet credits and Batch 07 owns XP/skill points. Daily/weekly and randomized rewards remain feature-gated proposals.

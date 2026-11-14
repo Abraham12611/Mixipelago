@@ -1,0 +1,230 @@
+{
+  "counterCases": [
+    {
+      "name": "no-events",
+      "sourceIds": [],
+      "expected": 0
+    },
+    {
+      "name": "one-event",
+      "sourceIds": [
+        "e1"
+      ],
+      "expected": 1
+    },
+    {
+      "name": "duplicates",
+      "sourceIds": [
+        "e1",
+        "e1",
+        "e2",
+        "e2"
+      ],
+      "expected": 2
+    },
+    {
+      "name": "different-orders",
+      "sourceIds": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "expected": 3
+    },
+    {
+      "name": "three-missions",
+      "sourceIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m3"
+      ],
+      "expected": 3
+    }
+  ],
+  "thresholdCases": [
+    {
+      "from": 0,
+      "to": 1,
+      "thresholds": [
+        1,
+        5,
+        10
+      ],
+      "expected": [
+        1
+      ]
+    },
+    {
+      "from": 1,
+      "to": 1,
+      "thresholds": [
+        1,
+        5,
+        10
+      ],
+      "expected": []
+    },
+    {
+      "from": 3,
+      "to": 10,
+      "thresholds": [
+        1,
+        5,
+        10
+      ],
+      "expected": [
+        5,
+        10
+      ]
+    },
+    {
+      "from": 0,
+      "to": 0,
+      "thresholds": [
+        1,
+        5,
+        10
+      ],
+      "expected": []
+    },
+    {
+      "from": 9,
+      "to": 11,
+      "thresholds": [
+        1,
+        5,
+        10
+      ],
+      "expected": [
+        10
+      ]
+    }
+  ],
+  "albumCases": [
+    {
+      "eligible": [
+        "a",
+        "b",
+        "c"
+      ],
+      "owned": [],
+      "expectedOwned": 0,
+      "expectedPercent": 0
+    },
+    {
+      "eligible": [
+        "a",
+        "b",
+        "c"
+      ],
+      "owned": [
+        "a",
+        "a"
+      ],
+      "expectedOwned": 1,
+      "expectedPercent": 33
+    },
+    {
+      "eligible": [
+        "a",
+        "b",
+        "c"
+      ],
+      "owned": [
+        "a",
+        "b"
+      ],
+      "expectedOwned": 2,
+      "expectedPercent": 67
+    },
+    {
+      "eligible": [
+        "a",
+        "b",
+        "c"
+      ],
+      "owned": [
+        "a",
+        "b",
+        "c",
+        "unrelated"
+      ],
+      "expectedOwned": 3,
+      "expectedPercent": 100
+    }
+  ],
+  "claimCases": [
+    {
+      "name": "first-claim",
+      "sourceKey": "player1|mission1|first-clear",
+      "previous": [],
+      "expectedCanGrant": true
+    },
+    {
+      "name": "already-claimed",
+      "sourceKey": "player1|mission1|first-clear",
+      "previous": [
+        "player1|mission1|first-clear"
+      ],
+      "expectedCanGrant": false
+    },
+    {
+      "name": "different-player",
+      "sourceKey": "player2|mission1|first-clear",
+      "previous": [
+        "player1|mission1|first-clear"
+      ],
+      "expectedCanGrant": true
+    },
+    {
+      "name": "different-scope",
+      "sourceKey": "player1|season2|gold",
+      "previous": [
+        "player1|season1|gold"
+      ],
+      "expectedCanGrant": true
+    }
+  ],
+  "utcDayCases": [
+    {
+      "iso": "2026-11-14T00:01:00Z",
+      "expected": "2026-11-14"
+    },
+    {
+      "iso": "2026-11-14T23:59:59Z",
+      "expected": "2026-11-14"
+    },
+    {
+      "iso": "2026-11-15T00:00:00Z",
+      "expected": "2026-11-15"
+    }
+  ],
+  "oddsCases": [
+    {
+      "weights": [
+        7000,
+        2500,
+        500
+      ],
+      "expectedTotal": 10000,
+      "valid": true
+    },
+    {
+      "weights": [
+        7000,
+        3000,
+        500
+      ],
+      "expectedTotal": 10500,
+      "valid": false
+    },
+    {
+      "weights": [
+        10000
+      ],
+      "expectedTotal": 10000,
+      "valid": true
+    }
+  ]
+}

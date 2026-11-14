@@ -1,0 +1,305 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mixipelago Draft Reward Catalog",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "catalogId",
+    "revision",
+    "status",
+    "achievements",
+    "items",
+    "rewardPolicies",
+    "albums",
+    "chests"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "catalogId": {
+      "type": "string",
+      "minLength": 4
+    },
+    "revision": {
+      "type": "string",
+      "minLength": 4
+    },
+    "status": {
+      "const": "draft"
+    },
+    "achievements": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "category",
+          "status",
+          "source",
+          "rule",
+          "rewardPolicyId",
+          "edition"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]+$"
+          },
+          "category": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "candidate",
+              "draft",
+              "disabled"
+            ]
+          },
+          "source": {
+            "type": "string"
+          },
+          "rule": {
+            "type": "object",
+            "required": [
+              "kind"
+            ]
+          },
+          "rewardPolicyId": {
+            "type": "string"
+          },
+          "edition": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "rarity",
+          "stackable"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "badge",
+              "title",
+              "frame",
+              "trophy",
+              "postcard",
+              "recipe-card",
+              "shop-decor"
+            ]
+          },
+          "rarity": {
+            "enum": [
+              "common",
+              "uncommon",
+              "rare",
+              "epic",
+              "legendary"
+            ]
+          },
+          "stackable": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "rewardPolicies": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "version",
+          "status",
+          "source",
+          "scope",
+          "claimMode",
+          "maxGrantsPerPlayer",
+          "rewards"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "version": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "status": {
+            "const": "draft"
+          },
+          "source": {
+            "type": "string"
+          },
+          "scope": {
+            "enum": [
+              "lifetime",
+              "season",
+              "utc-day",
+              "utc-week",
+              "event"
+            ]
+          },
+          "claimMode": {
+            "enum": [
+              "manual",
+              "auto"
+            ]
+          },
+          "maxGrantsPerPlayer": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "rewards": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "kind",
+                "itemId",
+                "quantity"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "item"
+                },
+                "itemId": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "albums": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "edition",
+          "status",
+          "items",
+          "milestones"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "edition": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "status": {
+            "const": "draft"
+          },
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "milestones": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "count",
+                "rewardPolicyId"
+              ],
+              "properties": {
+                "count": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "rewardPolicyId": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "chests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "status",
+          "type",
+          "rewardPolicyId"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "status": {
+            "const": "draft"
+          },
+          "type": {
+            "enum": [
+              "fixed",
+              "weighted"
+            ]
+          },
+          "rewardPolicyId": {
+            "type": "string"
+          },
+          "odds": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "itemId",
+                "weight"
+              ],
+              "properties": {
+                "itemId": {
+                  "type": "string"
+                },
+                "weight": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
