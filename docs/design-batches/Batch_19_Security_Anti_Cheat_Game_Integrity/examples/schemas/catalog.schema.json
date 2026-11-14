@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mixipelago.invalid/schemas/b19.catalog.draft.schema.json",
+  "title": "Mixipelago Batch 19 draft catalog schema",
+  "type": "object",
+  "required": [
+    "batch",
+    "catalogVersion",
+    "status",
+    "productionReady",
+    "gateEnabled",
+    "threats"
+  ],
+  "properties": {
+    "batch": {
+      "const": 19
+    },
+    "catalogVersion": {
+      "type": "string",
+      "minLength": 4
+    },
+    "status": {
+      "const": "draft"
+    },
+    "productionReady": {
+      "const": false
+    },
+    "gateEnabled": {
+      "const": false
+    },
+    "threats": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "severity",
+          "scenario"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string"
+          },
+          "scenario": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

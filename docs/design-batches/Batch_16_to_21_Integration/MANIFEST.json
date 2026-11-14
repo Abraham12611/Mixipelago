@@ -1,0 +1,1688 @@
+{
+  "date": "2026-11-14",
+  "status": "docs-only",
+  "batchNumbers": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "batchCounts": {
+    "16": 52,
+    "17": 52,
+    "18": 58,
+    "19": 55,
+    "20": 55,
+    "21": 56
+  },
+  "fileCountExcludingManifest": 333,
+  "files": [
+    {
+      "path": "BATCHES_16_21_INTEGRATION_CHECKLIST.md",
+      "sha256": "8413c85ba29a3ae8a9b070f0e0dc591e52bcd7b5ab1b040a4433ea7eeb32ceb6",
+      "sizeBytes": 2639
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/CONTENT_MANIFEST.md",
+      "sha256": "dcc5c346e00fe4c20a44c1eb1230b9519e7e9d845661bbb396fb271b768d697d",
+      "sizeBytes": 731
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/ENGINEER_START_HERE.md",
+      "sha256": "50e4cf3f491708fce08f09a4250cdf4dfdc7d79f452ded368a2f0e6cd02b3f2c",
+      "sizeBytes": 2039
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/README.md",
+      "sha256": "26a3bb6eab169abda728e17a095fa50b6a7c08cd82f0af664beb5794c5c8487d",
+      "sizeBytes": 973
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/REFERENCES.md",
+      "sha256": "632a762e2fcf96072e19b85228b3c370c2e986130a6b0bcecd10fece53d93f8e",
+      "sizeBytes": 1538
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/RELEASE_NOTES.md",
+      "sha256": "c8a98a9d8f4ca33b170b6f2d94bb1aef351c055be33002fb2ab3a6d4bdf2e8f8",
+      "sizeBytes": 543
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/00_INDEX_AND_README.md",
+      "sha256": "f45fa08740042f8838fb38737c2790e8576dbd1c86baf889c262236da6b65ffe",
+      "sizeBytes": 6337
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/01_PRODUCT_VISION_VISUAL_GOALS_AND_FIRST_SHIP_BOUNDARIES.md",
+      "sha256": "d427250b54b2de077f84ca589534600b37c09daa632e1b7587e0867495921e95",
+      "sizeBytes": 7263
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/02_VISUAL_GRAMMAR_SHAPES_SILHOUETTES_AND_MATERIAL_FAMILIES.md",
+      "sha256": "cabd31c01be107340e51854cd0b25ed22bc56f0595f20d9795a7b939152b76f3",
+      "sizeBytes": 7232
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/03_PALETTE_LIGHTING_REFLECTIONS_AND_TROPICAL_ATMOSPHERE.md",
+      "sha256": "901b466ce19944e85627f7ecfd4c369f5c89015611d213f144d4470af35eb3a5",
+      "sizeBytes": 7235
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/04_CAMERA_PERSPECTIVE_ANCHORS_AND_WORLD_SCALING.md",
+      "sha256": "b11d7fb6ba7ea5a36f489f20255f643598549a734ebc36662ddba7883d853471",
+      "sizeBytes": 7212
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/05_EIGHT_TIER_ALPHA_DRINK_ARTWORK_BIBLE.md",
+      "sha256": "53226281c602b8f7d6b35ad2a313a5a310d26e7f5fe5cdbee79d89066407eb09",
+      "sizeBytes": 7227
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/06_DRINK_GLASS_GEOMETRY_LIQUID_AND_GARNISH_RULES.md",
+      "sha256": "836d011f4d57f82fcca9e631665f9c724127b6c2f194a61160e833807e816de4",
+      "sizeBytes": 7216
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/07_FUTURE_RECIPE_VARIANTS_RARITY_SKINS_AND_THEMED_DRINKS.md",
+      "sha256": "d00134f7df0bf4c2c38c5b1e9a7557ae10c6e345c0c1c1be33a2ed03febefe17",
+      "sizeBytes": 7223
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/08_CUSTOMER_PORTRAITS_BODY_PROPORTIONS_AND_EXPRESSIVE_FACES.md",
+      "sha256": "272a860e6b7a54fdfbb77cbc83c1103724abfd0d5677dc2428f28e59affe6913",
+      "sizeBytes": 7237
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/09_NPC_ANIMATION_POSE_LIBRARY_AND_LIP_SYNC_EXCLUSIONS.md",
+      "sha256": "0a47cb76ab120d79a95172347de6f5b3fbb210c1e9dd15c613081c0a9d435ff7",
+      "sizeBytes": 7195
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/10_ISLAND_ATLAS_AND_MAP_LANDMARK_ART.md",
+      "sha256": "b934202cdd4aaece83de6f40ea44efc68de5083d8e80e4f24823c16ead47f6bc",
+      "sizeBytes": 7133
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/11_BUILDINGS_KIOSKS_BARS_AND_SHOP_UPGRADE_VISUALS.md",
+      "sha256": "1337a9b8293f66b2c55a92cc24590e0e317754dc34f09e166abf0551055eced4",
+      "sizeBytes": 7194
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/12_FURNITURE_PROPS_HAZARDS_AND_INTERACTIVE_AFFORDANCES.md",
+      "sha256": "11fbcea1dcd2099286ccefb445302dc83a469469c4dd9c3e317c22dae6693f19",
+      "sizeBytes": 7249
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/13_BACKGROUNDS_COMPOSITING_AND_LAYERED_PARALLAX.md",
+      "sha256": "d0ebe76c7dfb0574d5085acaee61d7d389cfc7c936d7d72864bf69007bd18fce",
+      "sizeBytes": 7137
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/14_UI_ART_PRODUCTION_AND_BATCH_15_TOKEN_MAPPING.md",
+      "sha256": "d55c8ac4e3bab6f81a043e4b230cf35d6be6dd5c873d882d73d05a6c909dffc0",
+      "sizeBytes": 7191
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/15_BADGES_RARITY_FRAMING_AND_COLLECTION_ILLUSTRATION.md",
+      "sha256": "9f40b7b51cbace782f859e839f60734c4f20f488e94bf8fa30677682d28e1c79",
+      "sizeBytes": 7162
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/16_WEATHER_SEASONS_AND_ENVIRONMENT_VISUAL_STATES.md",
+      "sha256": "4f62fe7b5a853b635f027beee230a8bc58a65cd0fb4c934c266f085de4307a6b",
+      "sizeBytes": 7217
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/17_ANIMATION_STATES_AND_FRAME_BUDGETS.md",
+      "sha256": "a3988bd003b875c0f5318da512eea1c242b1de97b243c1b86f3a9148bc0c77c6",
+      "sizeBytes": 7138
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/18_MERGE_GLINT_LIQUID_SLOSH_AND_PARTICLE_FX.md",
+      "sha256": "9645e60c1d86ed9ded8cf21d0033cd5f902ae01514ae474d3b18abb75e96b7af",
+      "sizeBytes": 7133
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/19_BLENDER_MASTER_SCENES_AND_3D_SOURCE_HYGIENE.md",
+      "sha256": "525f7fc49b4e053e87673d44ccfdd163ae19ecb0e6ecb4cba810d1904b49c9b1",
+      "sizeBytes": 7157
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/20_AI_ASSISTED_CONCEPT_GENERATION_AND_HUMAN_REVIEW.md",
+      "sha256": "b5d13f27a5728618027eeff65d7fcb6d334acdefb172d4a881830352edca447c",
+      "sizeBytes": 7232
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/21_LICENSING_ATTRIBUTION_RELEASES_AND_PROVENANCE_LEDGER.md",
+      "sha256": "85a1b7f2c58021bc73f04f771d49828384067cfff5f20b51afded64d716a01be",
+      "sizeBytes": 7212
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/22_ASSET_IDS_VERSIONING_HASHING_AND_DEPENDENCY_GRAPH.md",
+      "sha256": "186e2985852e492921852914eb0a7ff7449de09856427281836b2f07782a174c",
+      "sizeBytes": 7193
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/23_SPRITE_FORMATS_ATLASES_COMPRESSION_AND_TEXTURE_RAM.md",
+      "sha256": "dbdb51cebbbe6d62aae690f400a1486376306e2e09739a0ebccab7877fa70ca6",
+      "sizeBytes": 7249
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/24_SCALE_VARIANTS_DPR_SAFE_AREAS_AND_RESPONSIVE_OUTPUT.md",
+      "sha256": "9389c620c8becf348aab80c542b7b05132c1feef86e93cdd47809b7fa560cdb5",
+      "sizeBytes": 7224
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/25_PHASER_LOADERS_TEXTURE_LIFETIMES_AND_FALLBACK_VISUALS.md",
+      "sha256": "c21af0f4deab370c3b3e45767d9fc7c2428ff62991da52cc7210f4b9026ab893",
+      "sizeBytes": 7243
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/26_ACCESSIBILITY_COLOR_BLIND_MODES_AND_VISUAL_COMFORT.md",
+      "sha256": "8e94842c8b82e2151ef2d8832348123824a828630357a463d5b1f527b6ac11aa",
+      "sizeBytes": 7124
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/27_ASSET_QA_GOLDEN_CAPTURES_AND_QUALITY_SIGNOFF.md",
+      "sha256": "c5dd80a8115a60b6458fe08d335d392eb05184b449681eef111216c825df3e56",
+      "sizeBytes": 7180
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/28_AUTOMATED_ASSET_PIPELINE_AND_CI_GATES.md",
+      "sha256": "ce2cba0e769bf375c764999ecd06faa224b6a8f36a5660519bd6e21e049d430d",
+      "sizeBytes": 7086
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/29_CONTENT_STUDIO_VISUAL_REVIEW_AND_PUBLICATION.md",
+      "sha256": "a523b8959cfe9b0e950dbffc5792866cdc79d4c16a2a4402429f6ed314bd3e67",
+      "sizeBytes": 7137
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/30_ENGINEERING_WORKSTREAMS_AND_RELEASE_SLICES.md",
+      "sha256": "4f9be719548f42b220f8cb2a7087963edcf86a46a145b6995feadd6ee30abcbd",
+      "sizeBytes": 7202
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/31_DECISIONS_RISKS_SOURCE_REFERENCES_AND_TRACEABILITY.md",
+      "sha256": "d65abc289da5e5f57bc39e419ed513a9034f176a3ce7a241ab01d50d44e61c96",
+      "sizeBytes": 7177
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/90_IMPLEMENTATION_BLUEPRINT.md",
+      "sha256": "ec773df109aee4324f1c4172957a181c445c9871da44983a7c3ced2b62de9d81",
+      "sizeBytes": 4893
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/91_ENGINEERING_ISSUE_BACKLOG.md",
+      "sha256": "0a48aa02807ed75bd3c5dadb13d3711e0b7ac36a9ef75a394648f19641683379",
+      "sizeBytes": 8462
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/92_QA_GOLDEN_FIXTURES.md",
+      "sha256": "772db3d048a90a29382e4d199bee5410f8b77b78402428262adb30c2e0118ee1",
+      "sizeBytes": 8476
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/93_RELEASE_GATES_AND_ROLLBACK.md",
+      "sha256": "7e0e5a0c88a64440c0bdd6aa1343d740cf523b32dd2fe3061ca243f035cc3dd6",
+      "sizeBytes": 2454
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/94_ADRS_AND_TRACEABILITY.md",
+      "sha256": "3da0c05514bd407daebcb955a4093611252270befc88cc3616cc288fed93776e",
+      "sizeBytes": 3854
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/docs/95_OFFICIAL_SOURCES.md",
+      "sha256": "632a762e2fcf96072e19b85228b3c370c2e986130a6b0bcecd10fece53d93f8e",
+      "sizeBytes": 1538
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/examples/catalog/catalog.draft.json",
+      "sha256": "1f00ca5ca783b89587b1ae77341d54385cbc12705e25f8b542bc584d990c8deb",
+      "sizeBytes": 3465
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/examples/contracts/api-examples.json",
+      "sha256": "a68b811e757b98973fdaf64ffb8efdcaaded40cf1582184aedfd47b34897523a",
+      "sizeBytes": 1178
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/examples/contracts/reference.ts",
+      "sha256": "2cf2a8366b40979c025fcb53e1b175bb1781cf4314a4422f3db3d9ba6fc419ef",
+      "sizeBytes": 851
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/examples/schemas/catalog.schema.json",
+      "sha256": "7ba2b099de2bdd73754924fbca78303c7b55de15418ef9a08bee595343642682",
+      "sizeBytes": 1169
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/examples/sql/schema_draft.sql",
+      "sha256": "e38070a5868c34cdcdeb5bdd259ecd330704203e0372d04d47925458da661aa6",
+      "sizeBytes": 540
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/examples/tests/README.md",
+      "sha256": "62d73464b36e3ad556c6b5c622b89ae1613459150dde7fe4d6e6a1b367cdb485",
+      "sizeBytes": 500
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/examples/tests/invalid-case-mutations.json",
+      "sha256": "d733ffee8aeacf73df51160b4d4fffde56af7f4b4cd7887f172bb0d17054a6de",
+      "sizeBytes": 306
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/examples/tests/pure-rule-vectors.json",
+      "sha256": "2ecfd4c42116da7740b4da55c3cddd5565dd283dedf0802d412ecd3a11674e46",
+      "sizeBytes": 978
+    },
+    {
+      "path": "Batch_16_Art_Direction_Characters_2_5D_Assets/tools/validate_batch16.py",
+      "sha256": "36b8853d51466af21a7afe3a4aed40eee6dfeb4f2ec2f1b791eed0fcea72ebda",
+      "sizeBytes": 4544
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/CONTENT_MANIFEST.md",
+      "sha256": "d238fba7ec7b93e4bc250d5ec36b2083cdd68d071cf088f21b2b24a71b1b965d",
+      "sizeBytes": 733
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/ENGINEER_START_HERE.md",
+      "sha256": "0d6d19736ac5061ea668dda78fa8c99a90a4bdb560cd64435cb2e1b9a02f679e",
+      "sizeBytes": 2012
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/README.md",
+      "sha256": "2433807f559b577bce28bbe8b82d198d1e21549ea245296d99834e397337490c",
+      "sizeBytes": 968
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/REFERENCES.md",
+      "sha256": "d90271a07bfd8756be8c0fcf04c181434fc60d9af507f848900aabdd2c8941d3",
+      "sizeBytes": 1611
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/RELEASE_NOTES.md",
+      "sha256": "544eb2fb45ea034516e8d29b616c9e8f61a4b918673e2115a6d3027e36486efb",
+      "sizeBytes": 549
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/00_INDEX_AND_README.md",
+      "sha256": "214d83d81687e316717a4bc0f6e73529bbd4c29c7bf417b3f60ce44e1c9c9661",
+      "sizeBytes": 5874
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/01_AUDIO_VISION_AND_PLAYER_PROMISE.md",
+      "sha256": "7926dbf798c206395c62fca4848dada1bb1bef992fa156ebe40045030e78bf50",
+      "sizeBytes": 7084
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/02_SOUND_CATEGORY_TAXONOMY_AND_NAMING.md",
+      "sha256": "1d9d10b00be8acc14aaa8255bf7c7b451273c6f10b5ad103c77d0a9f912338d8",
+      "sizeBytes": 7042
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/03_ORIGINAL_COMPOSITION_DIRECTION_AND_ISLAND_LEITMOTIFS.md",
+      "sha256": "169c709f2484a1d2fe3e61aeefbf9bce4198b921550b43120e7bf5f06486721c",
+      "sizeBytes": 7155
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/04_LAUNCH_AIM_AND_GESTURE_FEEDBACK.md",
+      "sha256": "bfc6c0e39e7676ba093403834449ea2a28fd7f63962bb89eba11729fa928e563",
+      "sizeBytes": 7039
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/05_GLASS_CONTACT_MATERIAL_RESPONSE.md",
+      "sha256": "cdb752ee1e58006b1a05d6e348cd6855959b14be1a33e8643d98a56578c50418",
+      "sizeBytes": 7086
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/06_MERGE_TIERS_CHAIN_ARCS_AND_ANTICIPATION.md",
+      "sha256": "d5a16da22290922a21f776ccb32132d8fe7abb8b5906ac57be4cb2082af2af5e",
+      "sizeBytes": 7103
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/07_SERVING_CUSTOMERS_FAILURE_AND_CELEBRATION.md",
+      "sha256": "1b6a23d0ab792cec986146bf86230372018279b77ad705f3dd009a459fc1ba47",
+      "sizeBytes": 7093
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/08_UI_NAVIGATION_TOGGLES_AND_NOTIFICATIONS.md",
+      "sha256": "37cb84db04f1ecb655f46d16d3e5774dcd3e5ecc3e280f6dae73c48159880b3c",
+      "sizeBytes": 7039
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/09_AMBIENT_ISLAND_SOUNDSCAPES.md",
+      "sha256": "f9c8a09105d9bea3a46a3cf8c48734b46c9285a68e2d9256c1a12e75fc226004",
+      "sizeBytes": 6973
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/10_DYNAMIC_SOUNDTRACK_LAYERS_AND_MUSICAL_STATES.md",
+      "sha256": "4fa312ab67ba5fee08f7bca9fdc421def48ac4c8bc00b99e47803397df4e45f3",
+      "sizeBytes": 7116
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/11_MUSIC_LOOPS_STEMS_TEMPO_AND_EDIT_POINTS.md",
+      "sha256": "66b419fa3730f0a43b97b8290d1137e9f0afb87b064aa4b43ded219a98a56c32",
+      "sizeBytes": 7021
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/12_ORIGINAL_SFX_AUTHORING_AND_SYNTHESIS.md",
+      "sha256": "a9d1b67f19bd6f8c5af25d4388c05cbebe5f22e3fd2fe5cc000dbfa165b2ba16",
+      "sizeBytes": 6994
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/13_AUDIO_FORMAT_MATRIX_AND_DOWNLOAD_BUDGETS.md",
+      "sha256": "45cc262e38b4d066b71219c089b830c8bf60de11f958a60870182e4e30f628c8",
+      "sizeBytes": 7062
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/14_MIXER_BUSES_VOLUMES_AND_DUCKING.md",
+      "sha256": "a1149508bae965d77d93cc139cc3225f51ba86ae7f3287264430a638c26a4323",
+      "sizeBytes": 7097
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/15_COLLISION_RATE_LIMITING_AND_AUDIO_VOICE_BUDGET.md",
+      "sha256": "f1d37004d211bedabeae13ed2d9c12ae50ba9ab1b32ec55cb09ddf00fd063ca9",
+      "sizeBytes": 7069
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/16_SPATIAL_AUDIO_AND_BOARD_POSITION_MAPPING.md",
+      "sha256": "5538e19841e19b9c3d0fb6db445dbe6b9b0af58e202974b84a01f404f5e187d6",
+      "sizeBytes": 7075
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/17_WEB_AUDIO_INITIALIZATION_AND_AUTOPLAY_POLICIES.md",
+      "sha256": "bf9afb10529f13cf3d6ed097caff02eb3c5b275bdb0f9a05f662bf9f407fcb57",
+      "sizeBytes": 7055
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/18_PHASER_AND_REACT_AUDIO_OWNERSHIP.md",
+      "sha256": "87ae554bb0fc19046bbaf45790fb43daaaac3c8601dd7d98ee3e92739e6521f4",
+      "sizeBytes": 7077
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/19_AUDIO_LIFECYCLE_FOCUS_PAUSE_INTERRUPTION_AND_BACKGROUND.md",
+      "sha256": "8b5d2a2cfdab119e20a8719533750b904ab4add37c2887da3c6dde81a1c39668",
+      "sizeBytes": 7157
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/20_AUDIO_PREFERENCES_AND_ACCESSIBILITY.md",
+      "sha256": "03bd8a4f6939084e0e14b08f6a94aecc6d1184614185bcf78f64b0c6387ad420",
+      "sizeBytes": 7101
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/21_VOICE_CHARACTER_UTTERANCES_AND_LOCALIZATION_BOUNDARIES.md",
+      "sha256": "bdbcdbd0bcfdcf8e1ad9e3d5a130341960d53dc48d559ae446d7bc57fdc78684",
+      "sizeBytes": 7147
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/22_HAPTICS_AND_MULTISENSORY_FEEDBACK_CONTRACT.md",
+      "sha256": "bcb8438550f0d3d3228d993dc29a7a578c6d5f4c677616d18cd037eccec3e416",
+      "sizeBytes": 7070
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/23_AUDIO_EVENT_SCHEMA_AND_PRIORITY_ROUTING.md",
+      "sha256": "5a3dc17458a5eb5cb0654fd764650820027961f321495914ca84e598880ad5fb",
+      "sizeBytes": 7057
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/24_ADAPTIVE_QUALITY_AND_LOW_END_FALLBACK.md",
+      "sha256": "6e5034b9fbfa96a2f74cb3c03ddb7577d349e284db275307b218dc854acbec02",
+      "sizeBytes": 7034
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/25_RECORDING_MASTERING_AND_LOUDNESS_QA.md",
+      "sha256": "7e0571a30aa55c4a5f95d1a4d7c8cd634bcf9c671d758afb0a6cae1b8810e096",
+      "sizeBytes": 7068
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/26_MUSIC_AND_SOUND_LICENSING_PROVENANCE.md",
+      "sha256": "475c71415817f4d51af04f24a568218e8c30b6a23291876274ccd902a87abfe2",
+      "sizeBytes": 7044
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/27_AUDIO_CONTENT_STUDIO_AND_REVIEW_PUBLISHING.md",
+      "sha256": "09cc14c5171a68ed3ce88ed2454ed8c831754ef51a1a60f270457b2bfc3ea886",
+      "sizeBytes": 7064
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/28_TELEMETRY_TUNING_AND_SENSORY_HEALTH.md",
+      "sha256": "92767d5f4d30de494463fc2b19588bcc7e1f26dda55e733e2fb1d2f04415fd05",
+      "sizeBytes": 6997
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/29_AUDIO_QA_MATRIX_AND_DEVICE_VERIFICATION.md",
+      "sha256": "695a1be34495272a4d2d5d06eecb898bdcc82e82621ba2ef3d10d0647762f14b",
+      "sizeBytes": 7126
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/30_WORKSTREAMS_ALPHA_DELIVERABLES_AND_RELEASE_GATES.md",
+      "sha256": "00061a1c289296bc6a35d19959bafbdbf59e7d34c9d33884259e6444d29d2dee",
+      "sizeBytes": 7171
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/31_RISKS_DECISIONS_EVENT_MATRIX_AND_GLOSSARY.md",
+      "sha256": "2d6b34d8532ef5e840b8de1da39091f01e8f84d6b73bb10df1f5c406c315c3f7",
+      "sizeBytes": 7102
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/90_IMPLEMENTATION_BLUEPRINT.md",
+      "sha256": "3a3180a8a309495b2463818265ffa4fe089b41c1efdb9e92faa4ae055e4cff4e",
+      "sizeBytes": 4640
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/91_ENGINEERING_ISSUE_BACKLOG.md",
+      "sha256": "10c2f03fcb2394e1e338405051bbab5ac9f83c82cb7b2846a457702274322005",
+      "sizeBytes": 7936
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/92_QA_GOLDEN_FIXTURES.md",
+      "sha256": "fef8d1a29a212fade5581e19663d495be942bd9c4745498cb49a694b4e482d49",
+      "sizeBytes": 7950
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/93_RELEASE_GATES_AND_ROLLBACK.md",
+      "sha256": "260de586461b3b6a6e2810030a9e51086f8c4fb2ec8c42bc1dcccb9c238c6387",
+      "sizeBytes": 2420
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/94_ADRS_AND_TRACEABILITY.md",
+      "sha256": "f0868e2f78a56ca8d1d3ddd2f0f87e3d885581efce014a95b7b7b7e94a334b1e",
+      "sizeBytes": 3759
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/docs/95_OFFICIAL_SOURCES.md",
+      "sha256": "d90271a07bfd8756be8c0fcf04c181434fc60d9af507f848900aabdd2c8941d3",
+      "sizeBytes": 1611
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/examples/catalog/catalog.draft.json",
+      "sha256": "4cb63bde15c98dcb5d1f23db21e24ebb106d3e9cc26fbbf157893c72583efa40",
+      "sizeBytes": 3131
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/examples/contracts/api-examples.json",
+      "sha256": "9f72b8f9eba33704ffae9ea6bf30039f56afaddba86e30f29e508fa08a926cbf",
+      "sizeBytes": 1174
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/examples/contracts/reference.ts",
+      "sha256": "e6f5aacb0c4f0caeff16cc8bc95cf2f91c30c804381d4eb6bec33ff76ca71980",
+      "sizeBytes": 806
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/examples/schemas/catalog.schema.json",
+      "sha256": "0af8158e3d98d01368154535b0547bc4d1b2283544fcfcc156cbec39c8d96995",
+      "sizeBytes": 1165
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/examples/sql/schema_draft.sql",
+      "sha256": "3c9dcd0a01b7f64dac500e0632001393179e83bea5ba69cd87223f638e313a70",
+      "sizeBytes": 505
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/examples/tests/README.md",
+      "sha256": "9866681d0f0176777a565ce9c270074bab295d351dc8fc25163d6995f1bd51c4",
+      "sizeBytes": 500
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/examples/tests/invalid-case-mutations.json",
+      "sha256": "d733ffee8aeacf73df51160b4d4fffde56af7f4b4cd7887f172bb0d17054a6de",
+      "sizeBytes": 306
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/examples/tests/pure-rule-vectors.json",
+      "sha256": "bad3875ecdd8408eb0f1d6f18e8f922adfcdda7f71bcc7f832bb915e8a3f82ce",
+      "sizeBytes": 1387
+    },
+    {
+      "path": "Batch_17_Music_SFX_Animations_Game_Feel/tools/validate_batch17.py",
+      "sha256": "467b65fb06c0e50e7b2827c498f6b7ce09ab2b84f711231c68ce4e632f33d012",
+      "sizeBytes": 4544
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/CONTENT_MANIFEST.md",
+      "sha256": "c59dbff5d20747a9c279717816ca8a3fa6fbb30b5ab6228352973ecb297fc480",
+      "sizeBytes": 733
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/ENGINEER_START_HERE.md",
+      "sha256": "4b9dd5f16996a457ee7bce9ac817b2e76242156a32d990a6c2b73b51f5237fe6",
+      "sizeBytes": 2018
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/README.md",
+      "sha256": "9e314bbc92afd0671aa4b8766fc2c3303e46b3652131dac9a7466a161e7ae91d",
+      "sizeBytes": 971
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/REFERENCES.md",
+      "sha256": "1af69032063acb959ce0b915b2fe6cdb0b80b1f6024bd4d78d1c5b1d5a54b38f",
+      "sizeBytes": 1753
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/RELEASE_NOTES.md",
+      "sha256": "510fc6c526a7458def02b67298b38e365985624301ae3ee17b0f256e895ce3c0",
+      "sizeBytes": 557
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/00_INDEX_AND_README.md",
+      "sha256": "39d5b458617da0b801c244f7b6a2231a8d005b7cc62e58ef3c052e701d459e5a",
+      "sizeBytes": 6824
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/01_BACKEND_SYSTEM_VISION_AND_AUTHORITATIVE_BOUNDARIES.md",
+      "sha256": "85742d2e08abd8c511723140352dcef1d6ca6e03965433d1f7887b4f78251005",
+      "sizeBytes": 7197
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/02_SYSTEM_CONTEXT_DOMAINS_AND_BOUNDED_CONTEXTS.md",
+      "sha256": "688af1cfcc07b2505a6c60809231e4d998771f68ad81a728ffb91b62461daf06",
+      "sizeBytes": 7184
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/03_TECHNOLOGY_BASELINE_ENVIRONMENTS_AND_DEPENDENCY_PINS.md",
+      "sha256": "682d669ec281c98aa0995327cdbca1eb79d7616522a46a44aa31aef092acf97a",
+      "sizeBytes": 7260
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/04_PACKAGE_AND_MONOREPO_LAYOUT.md",
+      "sha256": "18390e54ec9f4bf5ce7f477c1ee73193fba31323eb2b4b6f0394b66c36a13970",
+      "sizeBytes": 7074
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/05_IDENTITY_AUTHENTICATION_AND_ACCOUNT_LINKING.md",
+      "sha256": "7d32b41994a6c6f28af1a34cc6300e30031cc7259aea82edd475bdd1e5ee4694",
+      "sizeBytes": 7115
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/06_AUTHORIZATION_TENANT_AND_PLAYER_OWNERSHIP.md",
+      "sha256": "155f94a5695e746cb613413bfe908826c81b7718e646d6d2d421b05299ec7553",
+      "sizeBytes": 7133
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/07_SESSION_START_INPUT_TRACE_AND_VERIFICATION_API.md",
+      "sha256": "f23865a26ec618ce42b917906e2e8954b17369a446d9b6e44d53968e5530a38f",
+      "sizeBytes": 7214
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/08_MISSION_RESULT_INGESTION_AND_PROGRESSION_BRIDGE.md",
+      "sha256": "cb2d6f90f1e3859d0a490c4d84776f6e4a43d0327aa3cc94018f8e2b95a73149",
+      "sizeBytes": 7217
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/09_POSTGRESQL_SCHEMA_GOVERNANCE_AND_MIGRATIONS.md",
+      "sha256": "9d18e39f0d017794888ccdfcbc94a91adca3b2e0255e4baedc3c90bb84bcfabf",
+      "sizeBytes": 7161
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/10_WALLET_COINS_AND_PURCHASE_HANDOFF.md",
+      "sha256": "4fd7bc6cccb826e288022dcb98198ea5d6dd392c94e8f7646c0c56ec39bd89dd",
+      "sizeBytes": 7069
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/11_XP_SKILLS_AND_PLAYER_PROGRESSION_HANDOFF.md",
+      "sha256": "fb441eecc7abd3b1b03e288cff590a8767e70a7ac4264f1703e48dcb73e30c03",
+      "sizeBytes": 7056
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/12_INVENTORY_ACHIEVEMENTS_AND_COLLECTIBLE_OWNERSHIP.md",
+      "sha256": "893583351beff446b14e688ada1e5553962cf6c183fb81e532c9773e3e01f638",
+      "sizeBytes": 7118
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/13_CAMPAIGN_GRAPH_ISLAND_AND_MISSION_CATALOG_SERVICE.md",
+      "sha256": "b8e1b2da4108eccaf3f96fa027414edeef3738e81d76fdd25ae96b872bfcb3e6",
+      "sizeBytes": 7166
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/14_CUSTOMER_REPUTATION_AND_ENCOUNTER_RESERVATION.md",
+      "sha256": "fa409aa648dee8919b85df144e28a9b7f8acf96736336f45aa8ddad3d4b31783",
+      "sizeBytes": 7118
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/15_WORLD_QUESTS_AND_EVENT_AUTHORING_HANDOFFS.md",
+      "sha256": "2496a5d9cde87765914d9edbafdcf1050e516722b2241d60509c15289a8a23b7",
+      "sizeBytes": 7146
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/16_LEADERBOARDS_AND_TOURNAMENT_BACKEND_SERVICE.md",
+      "sha256": "2b0a0b01d087441bdef3f72d38662ceb1be0a32fc63de597ef781654a7cc8f2d",
+      "sizeBytes": 7113
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/17_SOCIAL_GRAPH_CREWS_AND_NOTIFICATIONS.md",
+      "sha256": "58bacf563bbedd049283e648d541dbf06d855f5d0cedef51cadac0617c798728",
+      "sizeBytes": 7117
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/18_CATALOG_VERSIONING_CONTENT_HASHES_AND_DEPENDENCY_GRAPH.md",
+      "sha256": "b9ffc83c1c532b453cbcfa2509994fe9e417a6536c3cde7aa833a7dc456c2bc6",
+      "sizeBytes": 7157
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/19_INTERNAL_ADMIN_ROLES_ACCESS_REVIEWS_AND_BREAK_GLASS.md",
+      "sha256": "623099fa330d103677856944f8b5f17c0ba7b68af430ff1603a3b28d193bcefe",
+      "sizeBytes": 7174
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/20_ADMIN_STUDIO_CATALOG_EDITORS_AND_PUBLISHING.md",
+      "sha256": "e3067e507166ff7aeb3dbf40d20937e4e5537723593ba9b9016877f4f7c31891",
+      "sizeBytes": 7119
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/21_ADMIN_STUDIO_PLAYER_SUPPORT_AND_REVERSIBLE_OPERATIONS.md",
+      "sha256": "d07eebacd83967bc76bb10143da63378949c5218c81b787740da157a5aba169a",
+      "sizeBytes": 7179
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/22_ADMIN_STUDIO_QA_SIMULATION_AND_REPLAY_CONSOLE.md",
+      "sha256": "dde83bedea687b8c230ac246fe779eaff7cbb9c561456600d090eb6c29daadda",
+      "sizeBytes": 7090
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/23_API_CONVENTIONS_AND_TYPESCRIPT_CONTRACT_ENVELOPES.md",
+      "sha256": "7b2a86a36fc5b7014240d0195fc575e12467e42137382e154ecb9ef6f05fc30b",
+      "sizeBytes": 7087
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/24_TRANSACTIONAL_OUTBOX_EVENT_BUS_AND_DELIVERY.md",
+      "sha256": "6d510f4d350dc5342a5631fcf4685177f212b9f122a7a0ae4e3f23d3939e4277",
+      "sizeBytes": 7163
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/25_BACKGROUND_JOBS_SCHEDULING_AND_QUEUES.md",
+      "sha256": "7d448ee3570fc844936ca2835d4941183dd391fd88b4e608d9d58529eafad579",
+      "sizeBytes": 7088
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/26_CACHE_OBJECT_STORAGE_AND_CDN_CONTRACTS.md",
+      "sha256": "a386776ca6aa211dc6d04cd088e9e4424872afd42be8a860d73701959f2cdfd9",
+      "sizeBytes": 7094
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/27_REALTIME_SUBSCRIPTIONS_AND_CONSISTENCY_CHOICES.md",
+      "sha256": "bf6e96da748f010e1e39bdd3bdb6f817e61363fa55acc17633de906e6e7f95de",
+      "sizeBytes": 7137
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/28_OFFLINE_PREVIEW_SYNC_AND_CONFLICT_RESOLUTION.md",
+      "sha256": "514c91bca1ae036f13d40a3d802dcedfb353eccec91acdf5ff0ec00c7e812c5e",
+      "sizeBytes": 7195
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/29_AUDITABILITY_RECONCILIATION_AND_DATA_LINEAGE.md",
+      "sha256": "4ba1183203d63cf129b9e4dd7f5c47bc8cdbae92d2cae59b749c9eb7ed52fdd1",
+      "sizeBytes": 7129
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/30_ANALYTICS_EVENTS_METRICS_AND_OBSERVABILITY.md",
+      "sha256": "c444a486a4a847a174db4f00d33cb37926b5467da88de9afcbc218ecec54f461",
+      "sizeBytes": 7104
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/31_SECURITY_SECRETS_AND_DEPLOYMENT_ISOLATION.md",
+      "sha256": "21d5a9c7ac762d7ff093532637ce85c2621ddbf09b1f3052da90a8d0bd98e83b",
+      "sizeBytes": 7130
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/32_PERFORMANCE_CONCURRENCY_AND_CAPACITY_PLANNING.md",
+      "sha256": "d7613956b8765fd24de41314d47ef0ac435867311d60a4bd3a3e146b0ee62aaf",
+      "sizeBytes": 7168
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/33_BACKUP_RESTORE_DISASTER_RECOVERY_AND_RUNBOOKS.md",
+      "sha256": "a56478feecf1d07e5a86345f2097ce23c1ac106ded7a222c07247712279ad282",
+      "sizeBytes": 7161
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/34_CI_CD_PREVIEWS_AND_RELEASE_FLAGS.md",
+      "sha256": "e31fdc945cbc3201c82a7105cd9bdf1e908ace0602e9613fb35e96a698d9ad7b",
+      "sizeBytes": 7058
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/35_API_SECURITY_QUOTAS_AND_ABUSE_BUDGETS.md",
+      "sha256": "049eb2ab3043d2b7942bd4f18d785728202411e13bdb4fc0c83f6ca7856dd75e",
+      "sizeBytes": 7102
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/36_ENGINEERING_WORKSTREAMS_AND_FIRST_TRUSTED_RELEASE.md",
+      "sha256": "9238c213ee613e7c027188a77d8ef781585ec42b14c1a515dfa504b2981253d2",
+      "sizeBytes": 7192
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/37_ADRS_SCHEMA_OWNERSHIP_AND_REQUIREMENT_TRACEABILITY.md",
+      "sha256": "7ee71e94827bda72bb814254c6ddd6e5f4fc8aecc29c9c6f5abe7a00c02c39f3",
+      "sizeBytes": 7199
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/90_IMPLEMENTATION_BLUEPRINT.md",
+      "sha256": "a721c4f3a5ce627fe96d4aa13240a51bad837f133a2682a25d2512707790d554",
+      "sizeBytes": 4775
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/91_ENGINEERING_ISSUE_BACKLOG.md",
+      "sha256": "b5893ad44d911160ad7389ba666a99cda992d10a9d277b1bee5a535394564a42",
+      "sizeBytes": 9482
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/92_QA_GOLDEN_FIXTURES.md",
+      "sha256": "0bc5a680aed0d741399d108b9a0b9d818927ebdf4633ee6d92459c5599d49524",
+      "sizeBytes": 9430
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/93_RELEASE_GATES_AND_ROLLBACK.md",
+      "sha256": "c295627a64e5fc023eb1f26de5c292ccc310803236b828c9ba1afe205f0146e6",
+      "sizeBytes": 2427
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/94_ADRS_AND_TRACEABILITY.md",
+      "sha256": "beb2851824be97907ffc2441a3bfc13249cfa631f1072277d5b09945a55264a7",
+      "sizeBytes": 3752
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/docs/95_OFFICIAL_SOURCES.md",
+      "sha256": "1af69032063acb959ce0b915b2fe6cdb0b80b1f6024bd4d78d1c5b1d5a54b38f",
+      "sizeBytes": 1753
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/examples/catalog/catalog.draft.json",
+      "sha256": "9592c9745f58f11b9a5b2b091ac7ca238d335e1be376947b11b169f95a73f85d",
+      "sizeBytes": 2866
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/examples/contracts/api-examples.json",
+      "sha256": "8612b43ba59f3e0c83c09d5900d1beb8bf814341077dc20aabbb510b3888131e",
+      "sizeBytes": 1188
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/examples/contracts/reference.ts",
+      "sha256": "76682aa395ddefc65ffedd196b8520a0b74ad4519b5d50e0d822263d7c0fdfda",
+      "sizeBytes": 835
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/examples/schemas/catalog.schema.json",
+      "sha256": "140e734e2404757ad45b972eee41da4e607cab945eb2569c0efbd17a8094de21",
+      "sizeBytes": 1168
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/examples/sql/schema_draft.sql",
+      "sha256": "0cb2f22ab1900ef7042a60564ebf80e38928f007b9449bbb852ce5f74737e9eb",
+      "sizeBytes": 889
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/examples/tests/README.md",
+      "sha256": "290bde8a006f09f0e060dc012116bad10eda847fc8c78b1991f142b9740bcfd6",
+      "sizeBytes": 500
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/examples/tests/invalid-case-mutations.json",
+      "sha256": "d733ffee8aeacf73df51160b4d4fffde56af7f4b4cd7887f172bb0d17054a6de",
+      "sizeBytes": 306
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/examples/tests/pure-rule-vectors.json",
+      "sha256": "bbb9cf0b9ce851211b21662dafbdc1b3a53e0293c41317432512f3ab587bd790",
+      "sizeBytes": 1214
+    },
+    {
+      "path": "Batch_18_Backend_Database_Services_Admin/tools/validate_batch18.py",
+      "sha256": "367a7eca3d9866f126cf6b091b55ef3592cfcc456bda536bdb472f5aa71a00a2",
+      "sizeBytes": 4544
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/CONTENT_MANIFEST.md",
+      "sha256": "bf2ee31c7f6e252962d6874b4c9cfac7bc68605888088e114ce3a87f9db7a7f3",
+      "sizeBytes": 738
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/ENGINEER_START_HERE.md",
+      "sha256": "89c207f9524d340daf662cd8495a36745ff47e145fad9a2556de94cd4c1824e3",
+      "sizeBytes": 2034
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/README.md",
+      "sha256": "f535650dd8b3890b6bf0607ae80f4cf78f7da7049ef2cfca10a6162c480f4088",
+      "sizeBytes": 961
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/REFERENCES.md",
+      "sha256": "110ef3e4984f763f9aa1f4ddc8916002d48da87b19daa4dc24c947d5ab16e6c7",
+      "sizeBytes": 1567
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/RELEASE_NOTES.md",
+      "sha256": "eaea6d82772c182ac00a413b4dac0dd0c064b1f23e276f3ab8817eed9e80562f",
+      "sizeBytes": 578
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/00_INDEX_AND_README.md",
+      "sha256": "20e0056fa307dcf692b6a89a9cc4c88c902a37d53dd55448d8672438e64a5428",
+      "sizeBytes": 6599
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/01_SECURITY_VISION_SCOPE_AND_TRUST_BOUNDARIES.md",
+      "sha256": "fe52e70565d5ca62cd1b937b5faa1e863c80a95167c1c70f86ea9b45ec5c7fd0",
+      "sizeBytes": 7202
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/02_THREAT_ACTOR_INVENTORY_AND_ATTACK_TREE.md",
+      "sha256": "bb3ad6fdb4d060797d6d46651e908cec8187c34769edda3f4474cf99557b1703",
+      "sizeBytes": 7204
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/03_IDENTITY_AUTHENTICATION_SESSION_ROTATION_AND_MFA.md",
+      "sha256": "d766ec7f346dfdb5b4080563f3ac9964a3ab09c6cd21a46897e7c73160f35248",
+      "sizeBytes": 7139
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/04_OBJECT_LEVEL_AUTHORIZATION_AND_RLS.md",
+      "sha256": "f79be2e159536092c215d91c958d9b4ae27b5f8bd55b8f5d6ec4946a981910bb",
+      "sizeBytes": 7122
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/05_SERVICE_ROLE_DATABASE_GRANTS_AND_SECRETS.md",
+      "sha256": "a6c380ff3d2e8dc56ef7ed8f1f03711747107b20cfa3bc07eb340e30c3446707",
+      "sizeBytes": 7119
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/06_VERIFIED_GAME_SESSION_PROTOCOL_AND_REPLAY_HASHES.md",
+      "sha256": "a9bc81fa0713e4e5a42be7c42cb48fdc5cf26e69c49b8aed3d885e841c29d2b3",
+      "sizeBytes": 7193
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/07_RAPIER_DETERMINISM_PREREQUISITES_AND_CROSS_RUNTIME_TESTS.md",
+      "sha256": "95a9ed9e66110bb03aeb79ed87395fe7f8137e0374fd94cb016f6eaa9bfcfb4e",
+      "sizeBytes": 7223
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/08_SHOT_COMMAND_VALIDATION_AND_TIME_ANGLE_BOUNDS.md",
+      "sha256": "aa5208127c56954833b2907b435fcf7d0b202e9dfee4b69ab731fa4bc54e82bf",
+      "sizeBytes": 7175
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/09_MERGE_AND_SERVING_ANTI_DUPLICATION.md",
+      "sha256": "92d8f24a1bee3116766b2e8e05651cafa33f93b506602bea852785c3e7455563",
+      "sizeBytes": 7094
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/10_REWARD_LEDGER_AND_PAYMENT_REPLAY_PROTECTION.md",
+      "sha256": "d201191d2de647ad44e8d4086b903f6d33c92ac1890c635d03bb759739ebb887",
+      "sizeBytes": 7159
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/11_XP_SKILLS_AND_MODIFIER_ABUSE.md",
+      "sha256": "4520e31159e006714832a08591e7cb49e5fad9e3d87315d0de865737cd2b7c33",
+      "sizeBytes": 7020
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/12_ACHIEVEMENT_CHEST_AND_INVENTORY_INTEGRITY.md",
+      "sha256": "3ca881629c9998de4a9703bc02a5ea43074f5adcfe9a72689d170a5a9372e044",
+      "sizeBytes": 7099
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/13_LEADERBOARD_INTEGRITY_AND_TOURNAMENT_CERTIFICATION.md",
+      "sha256": "1c392099f585217870d921195a9fa81d34fb02ab21d98cace01ab311e70a5e60",
+      "sizeBytes": 7150
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/14_SOCIAL_ABUSE_SPAM_AND_MODERATION_ENFORCEMENT.md",
+      "sha256": "24358106f00926cc9001682b0e5be77c545e1a6f1baa97bea5a7cab4e132c0e3",
+      "sizeBytes": 7130
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/15_RATE_LIMITING_BOT_MITIGATION_AND_FARMING_QUOTAS.md",
+      "sha256": "1e661dbe7bb6976aa662458c7a6412ab372af20e3746e39254ee5a8eee3291fc",
+      "sizeBytes": 7169
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/16_INPUT_VALIDATION_DESERIALIZATION_AND_QUERY_INJECTION.md",
+      "sha256": "10fb4cf9675b8123332142cf5138ed1579385a4e8cae61c0e1410a506a8a3e9e",
+      "sizeBytes": 7158
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/17_BROWSER_CSP_CORS_CSRF_AND_TOKEN_HYGIENE.md",
+      "sha256": "759c584ceadb6cd3ae9fdbec859a3ce10b737d2c7dce9dc42c212fb6b110eea6",
+      "sizeBytes": 7174
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/18_WEBHOOKS_RECEIPTS_AND_EXTERNAL_INTEGRATIONS.md",
+      "sha256": "1f21cc6ed478d71ebb474f7eb406d974b2a2b6a2127c1405159dce3f17fa712b",
+      "sizeBytes": 7124
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/19_PAYMENTS_REFUNDS_CHARGEBACKS_AND_ENTITLEMENTS.md",
+      "sha256": "4d6ab786e799fa4d65854f306d101555b0db26466d4989e6918b751490f86fc9",
+      "sizeBytes": 7167
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/20_CONTENT_AND_ASSET_SUPPLY_CHAIN_SAFETY.md",
+      "sha256": "d85987f8ef476a26a62ec5da1eb9f7cbe6cfa01f15496ca0951499bddb50ff74",
+      "sizeBytes": 7095
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/21_ADMIN_LEAST_PRIVILEGE_APPROVALS_AND_PRIVILEGED_AUDIT.md",
+      "sha256": "e411008dc80ff7fe114d9a4cb101645c4d3944435d155082781ab747d9fca1da",
+      "sizeBytes": 7199
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/22_AI_GENERATED_CONTENT_AND_MODEL_OUTPUT_BOUNDARIES.md",
+      "sha256": "ec9c14fce254005c86a263aca7971adb5a5bedd93a08030c7fc9284dbd8fd293",
+      "sizeBytes": 7158
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/23_DATA_PRIVACY_LOCATION_AND_MINIMIZATION.md",
+      "sha256": "4f7cc015aa2746bb55b7e23f6c845cb1991475ba030fec2cfcf9885c1eaf1fb5",
+      "sizeBytes": 7105
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/24_YOUTH_SAFETY_UGC_AND_REPORTING.md",
+      "sha256": "d8893fa7be9d6ea871b4094b41dca766a7fb61b8dfce2c94a2bd6a8c0f941dc8",
+      "sizeBytes": 7077
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/25_AVAILABILITY_DENIAL_OF_SERVICE_AND_RESOURCE_CONSTRAINTS.md",
+      "sha256": "c8e6a2b55b4b1483a549ebf566d91f5479c118a615704e4a501013c846787633",
+      "sizeBytes": 7162
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/26_OPERATIONAL_MONITORING_ANOMALY_DETECTION_AND_SIGNAL_REVIEW.md",
+      "sha256": "3445422848d88313b1dcc2b86b0ef11711f24e0766cf5b6aae8e18314c85bb99",
+      "sizeBytes": 7265
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/27_INCIDENT_SEVERITY_CONTAINMENT_AND_COMMUNICATIONS.md",
+      "sha256": "ffaae557f4565d27afed5351824054fb36764036314af439411f017746babc32",
+      "sizeBytes": 7195
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/28_PENETRATION_TESTING_AND_COORDINATED_DISCLOSURE.md",
+      "sha256": "43450a17aaab7715ee9db374025261e26584a3b735670a2caa5e3b80472f5bcf",
+      "sizeBytes": 7173
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/29_SECURITY_TESTS_IN_CI_AND_DEPENDENCY_REVIEW.md",
+      "sha256": "9aee833998ca6b684f30fd6cc684b81174cd1a3a81ec758e3fa37b144f0b2bb2",
+      "sizeBytes": 7096
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/30_RLS_AND_PROPERTY_BASED_SECURITY_FIXTURE_MATRIX.md",
+      "sha256": "cf94650f84a0574b5debb1bbdac028c56ed831b60a0dc723e4b5a2e5fafe2006",
+      "sizeBytes": 7183
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/31_SECURITY_PERFORMANCE_TRADEOFFS_AND_RATE_LIMIT_TUNING.md",
+      "sha256": "4506098410cb4928331394addabaca96a8372d75d0c542a7f47ecca6eb4f7b18",
+      "sizeBytes": 7173
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/32_RELEASE_GATES_INDEPENDENT_AUDITS_AND_OWNER_APPROVAL.md",
+      "sha256": "f775e158cae94688cdca686351428f6b619ccd7fa5ddefb2b63c76f5e89dc314",
+      "sizeBytes": 7213
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/33_WORKSTREAMS_SECURITY_ISSUE_BACKLOG_AND_REVIEWER_SEPARATION.md",
+      "sha256": "fb26624e4b22cfe5b30c90c20d15ae8119523e9eb145bfb0084c432b93f4b325",
+      "sizeBytes": 7174
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/34_ADRS_RISK_REGISTER_AND_CROSS_BATCH_TRACEABILITY.md",
+      "sha256": "b9e340a333c790f8f686c1131ea8335cad60b7d414fa2b5304e7bc2288f445cd",
+      "sizeBytes": 7151
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/90_IMPLEMENTATION_BLUEPRINT.md",
+      "sha256": "d79ee5fd3039fc06bfde968180b44db9d158fb45f8ae9ae8b6bdcf8e12880a25",
+      "sizeBytes": 4762
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/91_ENGINEERING_ISSUE_BACKLOG.md",
+      "sha256": "aaeec12eb08c94d36efdfb6dc25e538647cd02241ccd0055a9073b100f164298",
+      "sizeBytes": 8820
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/92_QA_GOLDEN_FIXTURES.md",
+      "sha256": "728030a42e2eefc8af79b0812f8018c4960eec70686a7c57a66fbd0e9e78d3a4",
+      "sizeBytes": 8801
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/93_RELEASE_GATES_AND_ROLLBACK.md",
+      "sha256": "8811c4d64a1184da615778f87c355c25293672f9f2b23869bd8232190eb9719d",
+      "sizeBytes": 2491
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/94_ADRS_AND_TRACEABILITY.md",
+      "sha256": "6209297106f9df6bc1a115b7201dea58ab6820c83bfd1dc81694c0c03da14721",
+      "sizeBytes": 3763
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/docs/95_OFFICIAL_SOURCES.md",
+      "sha256": "110ef3e4984f763f9aa1f4ddc8916002d48da87b19daa4dc24c947d5ab16e6c7",
+      "sizeBytes": 1567
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/examples/catalog/catalog.draft.json",
+      "sha256": "73d6309ea272e32e5ffddc2e8fc847987634e99a4e007f86f7e960838c1808a5",
+      "sizeBytes": 3165
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/examples/contracts/api-examples.json",
+      "sha256": "daa9871fc17368958a0078cc0a0facdab55cf7b2597886781e6efb45423125ae",
+      "sizeBytes": 1194
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/examples/contracts/reference.ts",
+      "sha256": "834274e1045fbbad182a77bf64129d77bff8623fa7d1b4b36d2eaa84b752a47c",
+      "sizeBytes": 703
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/examples/schemas/catalog.schema.json",
+      "sha256": "d74cad8374525a0898fb1c277c18f2225a7de183faee43a64f4ab5c43727493f",
+      "sizeBytes": 1096
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/examples/sql/schema_draft.sql",
+      "sha256": "4811401555bb4016eb42984b5fbb9222d162076c3187e6d5a1f81742cb523594",
+      "sizeBytes": 552
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/examples/tests/README.md",
+      "sha256": "5ef96eafc7ae4ab24de00e42131a12ad7fc7be07d04bd13f64d748dd133144f1",
+      "sizeBytes": 500
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/examples/tests/invalid-case-mutations.json",
+      "sha256": "d733ffee8aeacf73df51160b4d4fffde56af7f4b4cd7887f172bb0d17054a6de",
+      "sizeBytes": 306
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/examples/tests/pure-rule-vectors.json",
+      "sha256": "9eb601864b7ced72e84344f27f24e0d0aa65b7f84b0d43214a0db3cd283288b6",
+      "sizeBytes": 1233
+    },
+    {
+      "path": "Batch_19_Security_Anti_Cheat_Game_Integrity/tools/validate_batch19.py",
+      "sha256": "385853d2bac78411e2da9cbca16f51831e6fe59227562c1e63c1fbcc5ae8d6b8",
+      "sizeBytes": 4544
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/CONTENT_MANIFEST.md",
+      "sha256": "16e3de6294471f1226dfa62d232d82c8fc3dffc8587d19f741f9bc7e9e357e7f",
+      "sizeBytes": 730
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/ENGINEER_START_HERE.md",
+      "sha256": "01282138c604d59d35dcd24edb837eb7b540b0810933ac9f92272c0537a3d97c",
+      "sizeBytes": 2070
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/README.md",
+      "sha256": "5298c6a1e50849ad70730da531167462a000ec298e514020d3fa87db14d8ba77",
+      "sizeBytes": 976
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/REFERENCES.md",
+      "sha256": "1a3e27f7aafae072e8cd2208e29a9ae32af89d0b284d749dfb48e60e36afdb97",
+      "sizeBytes": 1695
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/RELEASE_NOTES.md",
+      "sha256": "23d3f260759355e53349d0dd456d6758d2d668641f5d2cf2858545a4bdefc282",
+      "sizeBytes": 583
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/00_INDEX_AND_README.md",
+      "sha256": "b1165072be79fbd520128566937c5637884c4684df2f0c9ba1727ce41ac3f6cc",
+      "sizeBytes": 6457
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/01_BUSINESS_MODEL_ETHICS_AND_PLAYER_TRUST.md",
+      "sha256": "946b2db32b2e35da66237a31758a4f60384593b22047d99cca6a5381778e48a3",
+      "sizeBytes": 7190
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/02_MONETIZATION_OPTION_PORTFOLIO_AND_PHASED_GATES.md",
+      "sha256": "672ce1764eb92ba6fd0923f4ba45af414fc256b4657680fb5455f18d0ae7977d",
+      "sizeBytes": 7269
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/03_SKU_CATALOG_PRICE_DISPLAY_AND_REGIONAL_SETTINGS.md",
+      "sha256": "de22885d80faa8a28cfd80678f6a542da7cefe6034c3a46bb136ab79ea77e698",
+      "sizeBytes": 7245
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/04_COSMETIC_PRODUCTS_AND_ZERO_POWER_DIFFERENTIATION.md",
+      "sha256": "d14b3315b380125695357cff40aa8c48d46ef4053e25d92fe10c45547d63fef6",
+      "sizeBytes": 7262
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/05_OPTIONAL_SEASON_PASS_AND_PREMIUM_TRACK.md",
+      "sha256": "3c92e20742ddc3f8120f7a6a0f0814d1e0d9ba1d48d5c3fa8158bc2b6f15da8e",
+      "sizeBytes": 7258
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/06_OPTIONAL_REWARDED_ADS_FREQUENCY_AND_CONSENT.md",
+      "sha256": "397e4177604685191c150be754f377dc900eaae2314f7f352bb4d6f79e29af0a",
+      "sizeBytes": 7278
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/07_NO_PAY_TO_WIN_COMPETITIVE_NORMALIZATION.md",
+      "sha256": "0903ab0baa3bbe6ebbcaf87893a00db467ed44a4bc47340896a474d8ea147ae7",
+      "sizeBytes": 7171
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/08_PAYMENT_PROVIDER_ADAPTERS_AND_STORE_COMPLIANCE.md",
+      "sha256": "b7778d280d65ea25f529b0c47532a8d829290883e66bb6d1a522b642daebb7b8",
+      "sizeBytes": 7271
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/09_PURCHASE_LIFECYCLE_RECEIPT_VERIFICATION_AND_WEBHOOKS.md",
+      "sha256": "52a8a371d0765fc98be475e33ef8a53beb4510b147b435dd27cd43f065afe719",
+      "sizeBytes": 7275
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/10_REFUNDS_CHARGEBACKS_SUPPORT_AND_ACCESS_POLICY.md",
+      "sha256": "04af138ebc00dd1c990209dac9558bc7af3d6c3a27f656a4a877e5d28a618644",
+      "sizeBytes": 7256
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/11_VIRTUAL_COIN_DESIGN_AND_LEGAL_DISTINCTIONS.md",
+      "sha256": "ea268ca00ef40bf41bc059229e0089f27fb6d2f04319809256301b146b17fcf2",
+      "sizeBytes": 7202
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/12_ECONOMY_PRICE_BALANCING_AND_AFFORDABILITY.md",
+      "sha256": "7666cc52cc6f2157ad29169ed7f8aa93bac98f8b2f2ad98a9010307ac3f983b8",
+      "sizeBytes": 7225
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/13_PREMIUM_NONPREMIUM_ENTITLEMENT_SEPARATION.md",
+      "sha256": "f1f5119e5919fa93d78227d4499bb052e958626c391a37912f4268a680fc42fa",
+      "sizeBytes": 7211
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/14_RANDOMIZED_REWARDS_ODDS_AND_PURCHASE_RESTRICTIONS.md",
+      "sha256": "1e1ef84d66fa2a6e4b5d01500060d3c32a68277c662177a3b509da7de7ec2da4",
+      "sizeBytes": 7261
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/15_CHILDREN_AGE_RATINGS_ADS_AND_PARENTAL_CONSIDERATIONS.md",
+      "sha256": "25e81f817481ed92fc232f82a022d7c4d3b3a5beeb601067563bd652bc91b5d5",
+      "sizeBytes": 7282
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/16_PRICING_LOCALIZATION_AND_TRANSPARENT_CURRENCY.md",
+      "sha256": "b2ba2c325e5cfba01e9ae959e0699137e4999637c3e86a0f3039a2ddd797d9dd",
+      "sizeBytes": 7222
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/17_PLAYER_FUNNELS_AND_NORTH_STAR_METRICS.md",
+      "sha256": "5b190bf591f52376b3549210c7e4a97a441da64f5f7d14c984a3e7b48af71624",
+      "sizeBytes": 7188
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/18_GAMEPLAY_TELEMETRY_TAXONOMY_AND_CONTRACTS.md",
+      "sha256": "367848abc6cf452a3c7e685aaeaa504b94d8e8f6df8b96faf61db6e87af6c360",
+      "sizeBytes": 7202
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/19_MONETIZATION_ANALYTICS_AND_REVENUE_RECONCILIATION.md",
+      "sha256": "68810be03b9c96ffadf814c3c2f7332c8e90bfa307012f10463407af2048dd7c",
+      "sizeBytes": 7183
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/20_RETENTION_AND_COHORT_ANALYTICS.md",
+      "sha256": "81bf57726645973419b1d99588eb62346f84a72f2b818e3948394448b28abe7b",
+      "sizeBytes": 7190
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/21_A_B_EXPERIMENTATION_AND_ETHICS.md",
+      "sha256": "db91f2540e2c16b6da38ad8d8efad55efa533fc7180e98151532a72b543cdb65",
+      "sizeBytes": 7145
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/22_FEATURE_FLAG_ROLLOUT_AND_LIVE_CONFIGURATION.md",
+      "sha256": "e25000a65984e31cbc080ae1ebde14199eb34e497af2ffd5ed0a118cd8d301ce",
+      "sizeBytes": 7240
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/23_LIVE_OPERATIONS_CALENDAR_AND_EVENT_HANDOFF.md",
+      "sha256": "1364f188390a1b60366bc9e069d343068726d9cb61cd3a77e583dc9338a41031",
+      "sizeBytes": 7212
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/24_NOTIFICATION_AND_RE_ENGAGEMENT_POLICY.md",
+      "sha256": "c02a831283ee5e8d69ec3073fc3f9619a391ceaa41ec2683cbfea87595549800",
+      "sizeBytes": 7184
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/25_CUSTOMER_SUPPORT_TRUST_AND_COMPLAINTS.md",
+      "sha256": "534f65ad471dd026d21809cc775dfc03bce58993f5b596b6077d750d31d0aec9",
+      "sizeBytes": 7226
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/26_PRIVACY_CONSENT_AND_SDK_DATA_INVENTORY.md",
+      "sha256": "6f7da0673a8376f1cbfc5d3a9b12e3bd6118677eb79237aa4dc9d2a4fbb425b8",
+      "sizeBytes": 7168
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/27_EXPERIMENTATION_MEASUREMENT_AND_ATTRIBUTION_LIMITS.md",
+      "sha256": "7396063532564edbc2fb8e81f0078930649d41d3e861522d80b997c8191ae487",
+      "sizeBytes": 7228
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/28_PERFORMANCE_AND_SDK_IMPACT_BUDGETS.md",
+      "sha256": "6074bb9c6c34d357714baf05e0a9fddb53796669b4246b202b5fb777359b58ea",
+      "sizeBytes": 7145
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/29_ANALYTICS_WAREHOUSE_AND_DATA_QUALITY.md",
+      "sha256": "6dd49129b91739d5572031b3f8d742ad1f820788e6273d2fac699a96d276c059",
+      "sizeBytes": 7163
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/30_DASHBOARDS_ANOMALIES_AND_AUTOMATED_ALERTING.md",
+      "sha256": "031c29841bf592dd9194135beebfce9160b155119f50ef83544cb8d3c336c9b1",
+      "sizeBytes": 7232
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/31_ECONOMY_SIMULATION_AND_PRICING_REVIEW_BOARD.md",
+      "sha256": "242f526731c1d4607fe0e1e49f4de3029d858c229e1d2c7f02226dff4a3282c1",
+      "sizeBytes": 7210
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/32_CONTENT_MONETIZATION_STUDIO_AND_PERMISSIONS.md",
+      "sha256": "d58103c0237bcf02a37bc7ab8758746fe8106dd252af1de57042f1b793c827f6",
+      "sizeBytes": 7196
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/33_RELEASE_PLAN_SUCCESS_GATES_AND_ROLLBACK.md",
+      "sha256": "b1241da2d78f3e9ef78b72310368072f56eeb750133cf380122ec4fe9c28d10f",
+      "sizeBytes": 7217
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/34_ENGINEERING_TASKS_RISK_REGISTER_AND_GLOSSARY.md",
+      "sha256": "7f52b268be37db54f9c35416bd263d0aab0f08dec140f7637abedd86f15fcb6c",
+      "sizeBytes": 7275
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/90_IMPLEMENTATION_BLUEPRINT.md",
+      "sha256": "ca1d7e4cc4d4b689b5c9d01c3c491ce72d13e1888a47bfc1eadb98a2422e5d5b",
+      "sizeBytes": 4687
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/91_ENGINEERING_ISSUE_BACKLOG.md",
+      "sha256": "4b03de6449d755d3d76f77ded11de89e893b8df18c66aefe4e77a94bf1ec5ff2",
+      "sizeBytes": 8732
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/92_QA_GOLDEN_FIXTURES.md",
+      "sha256": "af4846738f59f010fc0eec2e5e44a94158a9608334a4c28d2c78e868860067dc",
+      "sizeBytes": 8713
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/93_RELEASE_GATES_AND_ROLLBACK.md",
+      "sha256": "3906ca8a7e2b92b2d28ef6b1e20659930d1d3370519f053ab3c0fdb98aaa6972",
+      "sizeBytes": 2481
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/94_ADRS_AND_TRACEABILITY.md",
+      "sha256": "0c823b6a24e5c95ad7c45c4bc76926b37cc25b657a4eacde7353d4937a56764b",
+      "sizeBytes": 3785
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/docs/95_OFFICIAL_SOURCES.md",
+      "sha256": "1a3e27f7aafae072e8cd2208e29a9ae32af89d0b284d749dfb48e60e36afdb97",
+      "sizeBytes": 1695
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/examples/catalog/catalog.draft.json",
+      "sha256": "42ab91f8db6f9fb9ccd47f593868c2bd3e35bb7c554e15e4af82e3cf9bd4c0ec",
+      "sizeBytes": 2050
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/examples/contracts/api-examples.json",
+      "sha256": "9662107589ed1be6ea3e519b31be2baf49d8c1b3c3e4158dc9a89c2a8c949ce8",
+      "sizeBytes": 1195
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/examples/contracts/reference.ts",
+      "sha256": "8708ffe382a85a8a038975d25a6ae037667f7ef89669bbaaded2f45829e0d70c",
+      "sizeBytes": 673
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/examples/schemas/catalog.schema.json",
+      "sha256": "52b89772ae8287939e4c386648d4e8619b69e1fa88a9a8255d1efb77e6fd99e0",
+      "sizeBytes": 1093
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/examples/sql/schema_draft.sql",
+      "sha256": "5d1d834b600f20cba0a2519bdda4438523bfadd4bbd5b9a4e3898c1def44aa19",
+      "sizeBytes": 705
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/examples/tests/README.md",
+      "sha256": "1de7d642f1eca8d982bc5074f651718b7b75561ff17c3448b6e85cd369ebcf3c",
+      "sizeBytes": 500
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/examples/tests/invalid-case-mutations.json",
+      "sha256": "d733ffee8aeacf73df51160b4d4fffde56af7f4b4cd7887f172bb0d17054a6de",
+      "sizeBytes": 306
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/examples/tests/pure-rule-vectors.json",
+      "sha256": "5ef03858ddb49ed6604d00550b2bae335baa063e4cede8e5e4aea1d918cb7e6f",
+      "sizeBytes": 1212
+    },
+    {
+      "path": "Batch_20_Monetization_Analytics_Retention_LiveOps/tools/validate_batch20.py",
+      "sha256": "d6c482e7a7442d1f2b4fee61146b9d304d30c89b134525303d901cb5ec02bf69",
+      "sizeBytes": 4544
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/CONTENT_MANIFEST.md",
+      "sha256": "1a228a0c8277f9c7c54dacf95df5cfd6c0eb5af2d9e4c4d470bf372452ff2ec8",
+      "sizeBytes": 745
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/ENGINEER_START_HERE.md",
+      "sha256": "6afed26652c771a529fe2d53d2c2901ef4df2c4b2f3def3d419bf6b711ca2a50",
+      "sizeBytes": 2041
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/README.md",
+      "sha256": "1c161f0cb705e1e884e1d95e25806aa8bce5d7cb452e44d7b912b4f59488d128",
+      "sizeBytes": 981
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/REFERENCES.md",
+      "sha256": "486ccdd1117d70053c483144f32ae7b374e6d75307befd10f1c30b3d10bc9719",
+      "sizeBytes": 1877
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/RELEASE_NOTES.md",
+      "sha256": "78d0334ca64269987b1322d35c20bc8a49a24a61031b91d178f4c4c665767251",
+      "sizeBytes": 567
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/00_INDEX_AND_README.md",
+      "sha256": "faf924ab91a5aab1e0a39743ae9b428e73b0de5fbf6fac54e21076d7fa71aeac",
+      "sizeBytes": 6631
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/01_NATIVE_EXPANSION_PHILOSOPHY_AND_RELEASE_PREREQUISITES.md",
+      "sha256": "7db48cdaace7a90b7fd04ac31abef292a15dd971923e112c8c80616df30fe1f2",
+      "sizeBytes": 7268
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/02_CAPACITOR_ARCHITECTURE_AND_SHARED_CODE.md",
+      "sha256": "dcfa514a9e0ed663219d433c3d5075e85f23c70409d6a06746d05a32c48c5ff0",
+      "sizeBytes": 7163
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/03_CAPACITOR_VERSIONING_NODE_AND_BUILD_MATRIX.md",
+      "sha256": "b572483e1c8e163b91b487a995e5b774817a8b1ff3ddec7b49a96b9db103944b",
+      "sizeBytes": 7175
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/04_IOS_PROJECT_SETUP_SIGNING_AND_ENTITLEMENTS.md",
+      "sha256": "531ed0078057644d5e38fdf31bd2908915329fa6f29e0c98d0742aab1d505d54",
+      "sizeBytes": 7169
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/05_ANDROID_PROJECT_SETUP_AAB_AND_TARGET_SDK.md",
+      "sha256": "369456ecb531002c2a0a133d7f18e336d4090369e3115182a83827258f928364",
+      "sizeBytes": 7170
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/06_PLATFORM_STORE_ACCOUNTS_IDENTITY_AND_METADATA.md",
+      "sha256": "2b1281ce590519371a1a990c0864933b9300e00e1a0be23fb63591aec5c67b2c",
+      "sizeBytes": 7246
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/07_WEBVIEW_RENDERING_AND_INPUT_EVENT_COMPATIBILITY.md",
+      "sha256": "443c753e5b37cfa3dbb793b8d814012acdd43d5e246d55db8a3e6404d52303a5",
+      "sizeBytes": 7201
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/08_DISPLAY_DPI_SAFE_AREAS_AND_ORIENTATION.md",
+      "sha256": "1df1b21995536dd3a50613c1c17f6c697dce167401df98a65cc7852f864942cf",
+      "sizeBytes": 7131
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/09_TOUCH_ERGONOMICS_GESTURE_CONFLICT_AND_HAPTICS.md",
+      "sha256": "b5afc0efde273d851f763eb907d43895c72af81f263017b716820eb69c8d8889",
+      "sizeBytes": 7155
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/10_AUDIO_FOCUS_INTERRUPTIONS_AND_MOBILE_MEDIA.md",
+      "sha256": "226747fa1948bb62d849927ff8529add1e83b1c49e689e2df3ae2bfa35f30863",
+      "sizeBytes": 7189
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/11_LIFECYCLE_SUSPENSION_AND_CHECKPOINT_SAFETY.md",
+      "sha256": "9f2030d92795031f375377926e4f43d14881cdd06ab94f95c117f5df04d3e5ce",
+      "sizeBytes": 7188
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/12_OFFLINE_SUPPORT_MANIFESTS_AND_CACHE_EVICTION.md",
+      "sha256": "e277dcce207089bcc85fe192c9e7f36716e6658e67476ba9813596bfce66d057",
+      "sizeBytes": 7210
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/13_NATIVE_AUTHENTICATION_AND_SECURE_STORAGE.md",
+      "sha256": "7e036e10273914add9a1da3712b25189eb8580284b45440e0dcf754b15d593ce",
+      "sizeBytes": 7216
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/14_DEEP_LINKS_INVITATIONS_AND_ROUTING.md",
+      "sha256": "21d762da2e3f352fccfcd38cf7c1e74c2378d5ea8edd696d9431e0b55ea8ee03",
+      "sizeBytes": 7096
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/15_PUSH_NOTIFICATIONS_CONSENT_AND_OS_PERMISSIONS.md",
+      "sha256": "d536185f759fd51264495c345bc1aec5d5073ebac47ded042af7580fe48bb378",
+      "sizeBytes": 7171
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/16_APP_REVIEW_PRIVACY_LABELS_DATA_SAFETY_AND_SDK_INVENTORY.md",
+      "sha256": "60d5b7501d54d0b8be22b7035816dc0ebb420abed47892e16f5b30a3ee3b8dfd",
+      "sizeBytes": 7226
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/17_IN_APP_DIGITAL_GOODS_AND_NATIVE_PAYMENT_POLICY.md",
+      "sha256": "5d9cb05c75025f7f901e0cf2556fddc85702edfae69ac5ab83a8a82d6924cf56",
+      "sizeBytes": 7196
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/18_PERFORMANCE_CLASS_MATRIX_FPS_AND_MEMORY_BUDGETS.md",
+      "sha256": "8977258870faa24ded497708858cc82716150baf20669b497b8048bb4e2ba29e",
+      "sizeBytes": 7254
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/19_ASSET_STREAMING_TEXTURE_MEMORY_AND_DECODE_BUDGETS.md",
+      "sha256": "02833eabca5bc999d827263ae73d7f4affb80c0da4f7b0bed9cde3e1d97b1117",
+      "sizeBytes": 7197
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/20_NETWORK_RESILIENCE_LATENCY_AND_REPLAY_SUBMISSION.md",
+      "sha256": "5b363f7f044936c2d91b69c5ee5f6fff9b934979fce875f43d92974a3ae33cd5",
+      "sizeBytes": 7186
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/21_BACKGROUND_WORKERS_POWER_HEAT_AND_BATTERY.md",
+      "sha256": "8b49b1064a14fde0c562655f26046b2d44714a81df736090b24e320c7a21b498",
+      "sizeBytes": 7194
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/22_MEMORY_LEAKS_CRASHES_AND_STARTUP_HEALTH.md",
+      "sha256": "9ebd6058489589624cbb981cd6dca14dae5bd3690fc11bd173ffc47ec9ad3589",
+      "sizeBytes": 7143
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/23_ACCESSIBILITY_ACROSS_WEB_AND_NATIVE.md",
+      "sha256": "de77e913675e9334755c56c2a589f401d4ef588c1675a8b168d6cab6763f14e0",
+      "sizeBytes": 7103
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/24_LOCALIZATION_AND_REGIONAL_STORE_REQUIREMENTS.md",
+      "sha256": "1f9e143c4365d829519069ad14d1b03a6c75ed956e47c2b2c49a071fa7160ec4",
+      "sizeBytes": 7167
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/25_NATIVE_ANALYTICS_CRASH_REPORTING_AND_CONSENT.md",
+      "sha256": "5df498af3a5a5c41e9b0483890fe4a755f33992dacad88f83702964373c4f616",
+      "sizeBytes": 7095
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/26_CI_BUILDS_SIGNING_AND_BRANCH_GOVERNANCE.md",
+      "sha256": "a8d0bb911d37a3f986be820f69a9271a42f4431fef724dc2a47667aff19ea4cf",
+      "sizeBytes": 7152
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/27_TEST_MATRIX_SIMULATOR_AND_PHYSICAL_DEVICE_TESTING.md",
+      "sha256": "ed752cb7e2ef4c18e82e6b9e525a82759a39989fee23c4674070523b25cf4ffb",
+      "sizeBytes": 7187
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/28_BETA_DISTRIBUTION_TESTFLIGHT_AND_PLAY_TRACKS.md",
+      "sha256": "faf9db3cf2668a80b1c94c78867aaa4b374594fc84ee9f88c2b2c33764c6a013",
+      "sizeBytes": 7237
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/29_VERSION_POLICY_AND_COMPATIBILITY_MATRIX.md",
+      "sha256": "a45c90a264a80691a4139dca002b2dea71b3dcfa3899b9719efb2916a0d6dc01",
+      "sizeBytes": 7155
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/30_STORE_APPROVAL_LAUNCH_AND_ROLLBACK_PLAYBOOK.md",
+      "sha256": "2672974e04dc7f6a464051504c224b8f0b36dcdd860019ccb7a22d3eafd659ae",
+      "sizeBytes": 7209
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/31_CDN_EDGE_CACHING_AND_GLOBAL_PERFORMANCE.md",
+      "sha256": "06263f7919af87f92cd2e3d2e386b99c1d7a7de3a2fb74f0fcbd80f09547d315",
+      "sizeBytes": 7113
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/32_AUTOSCALING_LOAD_TESTING_AND_COST_CONTROLS.md",
+      "sha256": "82774934ebb542b6f67775c8567d50589fc1b5c9e32975e25655a46cabefcc8f",
+      "sizeBytes": 7169
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/33_SECURITY_REVIEW_FOR_NATIVE_BRIDGE_AND_DEPENDENCIES.md",
+      "sha256": "eb26a1ce38280ae870baeaee69fc1c6242b98607ff1996e3691d9c2ccf35137e",
+      "sizeBytes": 7226
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/34_ENGINEERING_ROLLOUT_PRIORITIES_AND_ISSUE_DECOMPOSITION.md",
+      "sha256": "fa55ddda839d39846a3145767ad32e3547e38e9cf0810b8e097d7e65c10bbbb8",
+      "sizeBytes": 7264
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/35_CROSS_PLATFORM_ADRS_RISKS_DOCUMENTATION_AND_DOD.md",
+      "sha256": "84c797075b1de3adc65243bed97a6a89291de7c6654521ff33e6bdf3d8968fa1",
+      "sizeBytes": 7188
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/90_IMPLEMENTATION_BLUEPRINT.md",
+      "sha256": "29585bb3a8848c736f516f8582fabbe53d337ceae18605cd9202bac42b888ccf",
+      "sizeBytes": 4769
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/91_ENGINEERING_ISSUE_BACKLOG.md",
+      "sha256": "fcbddae18d5cf20ed542c52462ad84f881ec26009f793d39206566285ccf5e43",
+      "sizeBytes": 9049
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/92_QA_GOLDEN_FIXTURES.md",
+      "sha256": "89b004041add65b5282d176d9f8595660aad299fd7927e95358ea1a69a74692f",
+      "sizeBytes": 9019
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/93_RELEASE_GATES_AND_ROLLBACK.md",
+      "sha256": "d041171ab520e1559c32986209c4303bccc7cfd8a7ae99fe17cd628a01e09f3e",
+      "sizeBytes": 2505
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/94_ADRS_AND_TRACEABILITY.md",
+      "sha256": "46b1eb9d7fd145fab8e79f4f1c352b22c62ed6ac99d732b736a133cf8e6eeae6",
+      "sizeBytes": 3769
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/docs/95_OFFICIAL_SOURCES.md",
+      "sha256": "486ccdd1117d70053c483144f32ae7b374e6d75307befd10f1c30b3d10bc9719",
+      "sizeBytes": 1877
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/examples/catalog/catalog.draft.json",
+      "sha256": "0221b2a0160eae347a78e76d3da26ba7f59e92d751ec9b51a4a010719df1009a",
+      "sizeBytes": 2253
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/examples/contracts/api-examples.json",
+      "sha256": "dcd6374367b5f3a071dbc82407a1e7f5446f9c7cb66580ab806559b8bfb6681a",
+      "sizeBytes": 1180
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/examples/contracts/reference.ts",
+      "sha256": "e374980193418a6a141d26eb12c033fabca0adcfe49de9563da4e48bfd5c266b",
+      "sizeBytes": 696
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/examples/schemas/catalog.schema.json",
+      "sha256": "cb8e79f4c84641cea36a31dec1f754d7c3e670246b37c55856eb4b82d416c56a",
+      "sizeBytes": 1185
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/examples/sql/schema_draft.sql",
+      "sha256": "06d476f0416c9bd64393b5ad073365619f152e191fc4c1ed4d227dcfb3302c17",
+      "sizeBytes": 469
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/examples/tests/README.md",
+      "sha256": "887ea31f5eef4167d7caf35ee019382bfb9c2b25002a68e79cf1eebb41e1c6ab",
+      "sizeBytes": 500
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/examples/tests/invalid-case-mutations.json",
+      "sha256": "d733ffee8aeacf73df51160b4d4fffde56af7f4b4cd7887f172bb0d17054a6de",
+      "sizeBytes": 306
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/examples/tests/pure-rule-vectors.json",
+      "sha256": "cfa59edf2a85eedb056c9f4cf5c370f10b92d14c01f1b99472ebfc064754d07c",
+      "sizeBytes": 1268
+    },
+    {
+      "path": "Batch_21_Native_Mobile_Performance_Release_Engineering/tools/validate_batch21.py",
+      "sha256": "c68afd76bab7b76bb3bb74339dbfd721a4734f36b528c7264fe8e09ace001a87",
+      "sizeBytes": 4544
+    },
+    {
+      "path": "CROSS_BATCH_AUTHORITY_AND_RELEASES.md",
+      "sha256": "6a16f70f9414643e29230dcea2681d4d72acfc411fe489719b8e75fe8daf1e26",
+      "sizeBytes": 3420
+    },
+    {
+      "path": "FINAL_21_BATCH_INDEX.md",
+      "sha256": "74fef1399e28040702d86893d22602330b8f7e15cf67a9b4c1e58d4b67bcdcf3",
+      "sizeBytes": 3086
+    },
+    {
+      "path": "FINAL_ADR_AND_DECISION_REGISTER.md",
+      "sha256": "db3e5c4b7462976fc552859c8f3b9598918071857d812270125cf18172fce47f",
+      "sizeBytes": 2038
+    },
+    {
+      "path": "README.md",
+      "sha256": "b50544c3b98f94588382340e357710b40d77c827ba7ce38de45a3574db4bf21a",
+      "sizeBytes": 3453
+    }
+  ]
+}

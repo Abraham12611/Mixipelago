@@ -1,0 +1,55 @@
+{
+  "notice": "Draft contract examples, endpoints not implemented",
+  "batch": 21,
+  "eventEnvelope": {
+    "eventId": "uuid-on-publish",
+    "schemaVersion": 1,
+    "aggregateId": "stable-id",
+    "correlationId": "request-or-session-id",
+    "sourceVersion": "b21-20261114-draft1",
+    "occurredAt": "RFC3339-UTC"
+  },
+  "request": {
+    "method": "POST",
+    "path": "/v1/internal/batch-21/example-command",
+    "headers": {
+      "Idempotency-Key": "client-uuid",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "contentVersion": "b21-20261114-draft1",
+      "targetId": "published-stable-id"
+    }
+  },
+  "success": {
+    "status": 200,
+    "body": {
+      "status": "pending-or-confirmed",
+      "receiptId": "opaque-server-receipt",
+      "revision": 4
+    }
+  },
+  "rejections": [
+    {
+      "status": 401,
+      "code": "UNAUTHENTICATED"
+    },
+    {
+      "status": 403,
+      "code": "FORBIDDEN"
+    },
+    {
+      "status": 409,
+      "code": "CATALOG_STALE"
+    },
+    {
+      "status": 409,
+      "code": "IDEMPOTENCY_CONFLICT"
+    },
+    {
+      "status": 503,
+      "code": "FEATURE_DISABLED"
+    }
+  ],
+  "owner": "Platform / Mobile / SRE"
+}

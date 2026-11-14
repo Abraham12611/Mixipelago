@@ -1,0 +1,138 @@
+{
+  "batch": 17,
+  "catalogVersion": "b17-20261114-draft1",
+  "status": "draft",
+  "productionReady": false,
+  "gateEnabled": false,
+  "cues": [
+    {
+      "id": "audio.shot-accepted",
+      "event": "shot.accepted",
+      "bus": "sfx",
+      "maxVoices": 2,
+      "cooldownMs": 35,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.shot-invalid",
+      "event": "shot.invalid",
+      "bus": "ui",
+      "maxVoices": 1,
+      "cooldownMs": 0,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.glass-contact",
+      "event": "glass.contact",
+      "bus": "sfx",
+      "maxVoices": 6,
+      "cooldownMs": 35,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.merge-committed",
+      "event": "merge.committed",
+      "bus": "sfx",
+      "maxVoices": 3,
+      "cooldownMs": 35,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.order-fulfilled",
+      "event": "order.fulfilled",
+      "bus": "sfx",
+      "maxVoices": 2,
+      "cooldownMs": 35,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.mission-win",
+      "event": "mission.win",
+      "bus": "sfx",
+      "maxVoices": 1,
+      "cooldownMs": 35,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.mission-lose",
+      "event": "mission.lose",
+      "bus": "sfx",
+      "maxVoices": 1,
+      "cooldownMs": 35,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.ui-select",
+      "event": "ui.select",
+      "bus": "ui",
+      "maxVoices": 3,
+      "cooldownMs": 0,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.ui-error",
+      "event": "ui.error",
+      "bus": "ui",
+      "maxVoices": 1,
+      "cooldownMs": 0,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.audio-scene-cove",
+      "event": "audio.scene.cove",
+      "bus": "music",
+      "maxVoices": 1,
+      "cooldownMs": 0,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.scene-ambience-cove",
+      "event": "scene.ambience.cove",
+      "bus": "ambient",
+      "maxVoices": 1,
+      "cooldownMs": 0,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    },
+    {
+      "id": "audio.customer-thanks",
+      "event": "customer.thanks",
+      "bus": "voice",
+      "maxVoices": 2,
+      "cooldownMs": 0,
+      "sourceFile": null,
+      "rightsState": "needs-review",
+      "status": "draft"
+    }
+  ],
+  "mix": {
+    "master": 0.8,
+    "music": 0.45,
+    "ambient": 0.32,
+    "sfx": 0.68,
+    "ui": 0.58,
+    "voice": 0.65
+  },
+  "browserAutoplayPolicy": "resume-after-user-gesture"
+}

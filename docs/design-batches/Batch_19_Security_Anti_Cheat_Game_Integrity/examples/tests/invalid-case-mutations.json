@@ -1,0 +1,20 @@
+{
+  "mutations": [
+    {
+      "kind": "duplicate-id",
+      "expected": "reject"
+    },
+    {
+      "kind": "enable-production",
+      "expected": "reject"
+    },
+    {
+      "kind": "wrong-batch",
+      "expected": "reject"
+    },
+    {
+      "kind": "missing-id",
+      "expected": "reject"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "batch": 21,
+  "notes": "Pure-rule reference vectors, not real engine/backend tests",
+  "vectors": [
+    {
+      "rule": "quality",
+      "input": {
+        "ramMiB": 1500,
+        "gpuBudgetMiB": 48
+      },
+      "expected": "low"
+    },
+    {
+      "rule": "quality",
+      "input": {
+        "ramMiB": 3500,
+        "gpuBudgetMiB": 96
+      },
+      "expected": "mid"
+    },
+    {
+      "rule": "quality",
+      "input": {
+        "ramMiB": 6000,
+        "gpuBudgetMiB": 192
+      },
+      "expected": "high"
+    },
+    {
+      "rule": "quality",
+      "input": {
+        "ramMiB": 6000,
+        "gpuBudgetMiB": 40
+      },
+      "expected": "low"
+    },
+    {
+      "rule": "offline_verified",
+      "input": {
+        "hasNetwork": false,
+        "localPreview": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "offline_verified",
+      "input": {
+        "hasNetwork": true,
+        "localPreview": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "requires_update",
+      "input": {
+        "clientSchema": 2,
+        "minSchema": 3
+      },
+      "expected": true
+    },
+    {
+      "rule": "requires_update",
+      "input": {
+        "clientSchema": 3,
+        "minSchema": 3
+      },
+      "expected": false
+    }
+  ]
+}

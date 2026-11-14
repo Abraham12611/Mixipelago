@@ -43,3 +43,7 @@
 
 ## Documentation acceptance
 These files provide implementation contracts, examples, testing matrices and stages. Production legal, security, physics determinism, accessibility and player approval require implementation evidence before feature gates can be enabled.
+
+## New final-batch technical extensions
+
+Batches 16–21 retain these domain owners and add original visual/audio pipelines, trusted backend/admin, security assurance, optional commerce/analytics and native packaging. The [final six-batch authority matrix](Batch_16_to_21_Integration/CROSS_BATCH_AUTHORITY_AND_RELEASES.md) documents release gates, dependencies, rollback and current platform references. Nothing in these packs is an implemented feature claim.

@@ -1,0 +1,89 @@
+{
+  "batch": 20,
+  "catalogVersion": "b20-20261114-draft1",
+  "status": "draft",
+  "productionReady": false,
+  "gateEnabled": false,
+  "offers": [
+    {
+      "id": "cosmetic.cove.board",
+      "category": "cosmetic",
+      "itemId": "board-skin",
+      "benefit": "cosmetic-only",
+      "enabled": false,
+      "price": null,
+      "currencies": [],
+      "needsStoreApproval": true
+    },
+    {
+      "id": "cosmetic.hibiscus.frame",
+      "category": "cosmetic",
+      "itemId": "profile-frame",
+      "benefit": "cosmetic-only",
+      "enabled": false,
+      "price": null,
+      "currencies": [],
+      "needsStoreApproval": true
+    },
+    {
+      "id": "cosmetic.sunset.glasses",
+      "category": "cosmetic",
+      "itemId": "glass-skin",
+      "benefit": "cosmetic-only",
+      "enabled": false,
+      "price": null,
+      "currencies": [],
+      "needsStoreApproval": true
+    },
+    {
+      "id": "cosmetic.festival.confetti",
+      "category": "cosmetic",
+      "itemId": "celebration-fx",
+      "benefit": "cosmetic-only",
+      "enabled": false,
+      "price": null,
+      "currencies": [],
+      "needsStoreApproval": true
+    },
+    {
+      "id": "bundle.cove.decor",
+      "category": "cosmetic-bundle",
+      "itemId": "shop-decor",
+      "benefit": "cosmetic-only",
+      "enabled": false,
+      "price": null,
+      "currencies": [],
+      "needsStoreApproval": true
+    },
+    {
+      "id": "pass.island.01",
+      "category": "season-pass-draft",
+      "itemId": "future-track",
+      "benefit": "pending-owner-review",
+      "enabled": false,
+      "price": null,
+      "currencies": [],
+      "needsStoreApproval": true
+    }
+  ],
+  "ads": {
+    "enabled": false,
+    "mode": "opt-in-only",
+    "signedReceiptRequired": true
+  },
+  "paidRandomRewards": {
+    "enabled": false
+  },
+  "experiments": [
+    {
+      "id": "onboarding-copy-a",
+      "enabled": false,
+      "guardrail": "mission-quit-rate"
+    },
+    {
+      "id": "menu-layout-a",
+      "enabled": false,
+      "guardrail": "accessibility-error-rate"
+    }
+  ]
+}
