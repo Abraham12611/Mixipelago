@@ -1,0 +1,528 @@
+{
+  "catalogVersion": "batch9.customer.v0.draft",
+  "releaseState": "draft",
+  "segments": [
+    {
+      "segmentId": "local_regular",
+      "displayName": "Local Regular",
+      "releaseState": "presentation"
+    },
+    {
+      "segmentId": "tourist",
+      "displayName": "Tourist",
+      "releaseState": "presentation"
+    },
+    {
+      "segmentId": "family_group",
+      "displayName": "Family Group",
+      "releaseState": "future"
+    },
+    {
+      "segmentId": "explorer",
+      "displayName": "Explorer",
+      "releaseState": "future"
+    },
+    {
+      "segmentId": "festival_crowd",
+      "displayName": "Festival Crowd",
+      "releaseState": "future"
+    },
+    {
+      "segmentId": "vip_guest",
+      "displayName": "VIP Guest",
+      "releaseState": "future"
+    },
+    {
+      "segmentId": "critic",
+      "displayName": "Critic",
+      "releaseState": "future"
+    }
+  ],
+  "customers": [
+    {
+      "customerId": "guest.mira.cove",
+      "displayName": "Mira",
+      "segmentId": "local_regular",
+      "preferenceTags": [
+        "citrus",
+        "classic"
+      ],
+      "personality": {
+        "energy": 70,
+        "curiosity": 50,
+        "sociability": 80,
+        "patienceStyle": 65,
+        "tasteAdventure": 45
+      },
+      "releaseState": "alpha_scripted",
+      "assetKey": "customers/guest.mira.cove/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.mira.cove.v1"
+    },
+    {
+      "customerId": "guest.kai.cove",
+      "displayName": "Kai",
+      "segmentId": "tourist",
+      "preferenceTags": [
+        "tropical",
+        "fizzy"
+      ],
+      "personality": {
+        "energy": 80,
+        "curiosity": 70,
+        "sociability": 60,
+        "patienceStyle": 60,
+        "tasteAdventure": 85
+      },
+      "releaseState": "alpha_scripted",
+      "assetKey": "customers/guest.kai.cove/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.kai.cove.v1"
+    },
+    {
+      "customerId": "guest.nala.reed",
+      "displayName": "Nala",
+      "segmentId": "local_regular",
+      "preferenceTags": [
+        "herbal",
+        "frozen"
+      ],
+      "personality": {
+        "energy": 45,
+        "curiosity": 55,
+        "sociability": 85,
+        "patienceStyle": 85,
+        "tasteAdventure": 30
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.nala.reed/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.nala.reed.v1"
+    },
+    {
+      "customerId": "guest.tavi.reed",
+      "displayName": "Tavi",
+      "segmentId": "tourist",
+      "preferenceTags": [
+        "berry",
+        "creamy"
+      ],
+      "personality": {
+        "energy": 65,
+        "curiosity": 65,
+        "sociability": 60,
+        "patienceStyle": 50,
+        "tasteAdventure": 55
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.tavi.reed/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.tavi.reed.v1"
+    },
+    {
+      "customerId": "guest.luma.journal",
+      "displayName": "Luma",
+      "segmentId": "explorer",
+      "preferenceTags": [
+        "experimental",
+        "citrus"
+      ],
+      "personality": {
+        "energy": 55,
+        "curiosity": 90,
+        "sociability": 45,
+        "patienceStyle": 75,
+        "tasteAdventure": 90
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.luma.journal/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.luma.journal.v1"
+    },
+    {
+      "customerId": "guest.ori.surf",
+      "displayName": "Ori",
+      "segmentId": "tourist",
+      "preferenceTags": [
+        "fizzy",
+        "classic"
+      ],
+      "personality": {
+        "energy": 90,
+        "curiosity": 55,
+        "sociability": 90,
+        "patienceStyle": 65,
+        "tasteAdventure": 55
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.ori.surf/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.ori.surf.v1"
+    },
+    {
+      "customerId": "guest.eira.market",
+      "displayName": "Eira",
+      "segmentId": "local_regular",
+      "preferenceTags": [
+        "berry",
+        "classic"
+      ],
+      "personality": {
+        "energy": 35,
+        "curiosity": 35,
+        "sociability": 70,
+        "patienceStyle": 90,
+        "tasteAdventure": 30
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.eira.market/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.eira.market.v1"
+    },
+    {
+      "customerId": "guest.ren.mango",
+      "displayName": "Ren",
+      "segmentId": "tourist",
+      "preferenceTags": [
+        "tropical",
+        "frozen"
+      ],
+      "personality": {
+        "energy": 60,
+        "curiosity": 75,
+        "sociability": 55,
+        "patienceStyle": 65,
+        "tasteAdventure": 80
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.ren.mango/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.ren.mango.v1"
+    },
+    {
+      "customerId": "guest.sola.family",
+      "displayName": "Sola",
+      "segmentId": "family_group",
+      "preferenceTags": [
+        "creamy",
+        "citrus"
+      ],
+      "personality": {
+        "energy": 70,
+        "curiosity": 40,
+        "sociability": 80,
+        "patienceStyle": 70,
+        "tasteAdventure": 30
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.sola.family/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.sola.family.v1"
+    },
+    {
+      "customerId": "guest.bex.party",
+      "displayName": "Bex",
+      "segmentId": "festival_crowd",
+      "preferenceTags": [
+        "spicy",
+        "fizzy"
+      ],
+      "personality": {
+        "energy": 95,
+        "curiosity": 80,
+        "sociability": 90,
+        "patienceStyle": 45,
+        "tasteAdventure": 90
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.bex.party/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.bex.party.v1"
+    },
+    {
+      "customerId": "guest.ava.vip",
+      "displayName": "Ava",
+      "segmentId": "vip_guest",
+      "preferenceTags": [
+        "experimental",
+        "tropical"
+      ],
+      "personality": {
+        "energy": 60,
+        "curiosity": 85,
+        "sociability": 70,
+        "patienceStyle": 50,
+        "tasteAdventure": 80
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.ava.vip/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.ava.vip.v1"
+    },
+    {
+      "customerId": "guest.juno.vip",
+      "displayName": "Juno",
+      "segmentId": "vip_guest",
+      "preferenceTags": [
+        "herbal",
+        "creamy"
+      ],
+      "personality": {
+        "energy": 40,
+        "curiosity": 75,
+        "sociability": 65,
+        "patienceStyle": 65,
+        "tasteAdventure": 75
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.juno.vip/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.juno.vip.v1"
+    },
+    {
+      "customerId": "guest.arden.critic",
+      "displayName": "Arden",
+      "segmentId": "critic",
+      "preferenceTags": [
+        "classic",
+        "citrus"
+      ],
+      "personality": {
+        "energy": 30,
+        "curiosity": 85,
+        "sociability": 40,
+        "patienceStyle": 80,
+        "tasteAdventure": 40
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.arden.critic/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.arden.critic.v1"
+    },
+    {
+      "customerId": "guest.sea.explorer",
+      "displayName": "Sei",
+      "segmentId": "explorer",
+      "preferenceTags": [
+        "frozen",
+        "experimental"
+      ],
+      "personality": {
+        "energy": 75,
+        "curiosity": 95,
+        "sociability": 65,
+        "patienceStyle": 80,
+        "tasteAdventure": 95
+      },
+      "releaseState": "future",
+      "assetKey": "customers/guest.sea.explorer/portrait-small.webp",
+      "dialogueSetId": "dialogue.guest.sea.explorer.v1"
+    }
+  ],
+  "pools": [
+    {
+      "poolId": "coconut-cove-alpha-scripted",
+      "version": 1,
+      "releaseState": "alpha_scripted",
+      "regionId": "coconut-cove",
+      "modeIds": [
+        "service"
+      ],
+      "fixedCustomers": [
+        "guest.mira.cove",
+        "guest.kai.cove"
+      ],
+      "entries": [],
+      "vipBaseBps": 0,
+      "vipCapBps": 0,
+      "featureGate": "NONE"
+    },
+    {
+      "poolId": "coconut-cove-regular-draft",
+      "version": 1,
+      "releaseState": "future",
+      "regionId": "coconut-cove",
+      "modeIds": [
+        "service"
+      ],
+      "fixedCustomers": [],
+      "entries": [
+        {
+          "customerId": "guest.nala.reed",
+          "weight": 35
+        },
+        {
+          "customerId": "guest.tavi.reed",
+          "weight": 25
+        },
+        {
+          "customerId": "guest.ori.surf",
+          "weight": 25
+        },
+        {
+          "customerId": "guest.eira.market",
+          "weight": 15
+        }
+      ],
+      "vipBaseBps": 300,
+      "vipCapBps": 2000,
+      "featureGate": "CUSTOMER_DYNAMIC_POOLS_ENABLED"
+    },
+    {
+      "poolId": "coconut-cove-vip-draft",
+      "version": 1,
+      "releaseState": "future",
+      "regionId": "coconut-cove",
+      "modeIds": [
+        "vip_service"
+      ],
+      "fixedCustomers": [],
+      "entries": [
+        {
+          "customerId": "guest.ava.vip",
+          "weight": 60
+        },
+        {
+          "customerId": "guest.juno.vip",
+          "weight": 40
+        }
+      ],
+      "vipBaseBps": 300,
+      "vipCapBps": 2000,
+      "featureGate": "CUSTOMER_VIP_ENABLED"
+    },
+    {
+      "poolId": "market-isle-future",
+      "version": 1,
+      "releaseState": "future",
+      "regionId": "market-isle",
+      "modeIds": [
+        "service"
+      ],
+      "fixedCustomers": [],
+      "entries": [
+        {
+          "customerId": "guest.ren.mango",
+          "weight": 45
+        },
+        {
+          "customerId": "guest.luma.journal",
+          "weight": 30
+        },
+        {
+          "customerId": "guest.ori.surf",
+          "weight": 25
+        }
+      ],
+      "vipBaseBps": 300,
+      "vipCapBps": 2000,
+      "featureGate": "CUSTOMER_DYNAMIC_POOLS_ENABLED"
+    },
+    {
+      "poolId": "festival-special-future",
+      "version": 1,
+      "releaseState": "future",
+      "regionId": "coconut-cove",
+      "modeIds": [
+        "festival"
+      ],
+      "fixedCustomers": [],
+      "entries": [
+        {
+          "customerId": "guest.bex.party",
+          "weight": 60
+        },
+        {
+          "customerId": "guest.sola.family",
+          "weight": 40
+        }
+      ],
+      "vipBaseBps": 0,
+      "vipCapBps": 0,
+      "featureGate": "CUSTOMER_DYNAMIC_POOLS_ENABLED"
+    },
+    {
+      "poolId": "critic-future",
+      "version": 1,
+      "releaseState": "future",
+      "regionId": "coconut-cove",
+      "modeIds": [
+        "critic_challenge"
+      ],
+      "fixedCustomers": [],
+      "entries": [
+        {
+          "customerId": "guest.arden.critic",
+          "weight": 1
+        }
+      ],
+      "vipBaseBps": 0,
+      "vipCapBps": 0,
+      "featureGate": "CUSTOMER_VIP_ENABLED"
+    }
+  ],
+  "policies": {
+    "satisfaction": {
+      "policyId": "satisfaction.pilot.v1",
+      "enabled": false,
+      "base": 5000,
+      "fulfilledBonus": 2200,
+      "missionClearBonus": 600,
+      "maxExtraBonus": 400,
+      "maxPenalty": 1500,
+      "scaleMax": 10000,
+      "minScore": 0,
+      "eligibleOnlyOnVerifiedWin": true
+    },
+    "reputation": {
+      "policyId": "reputation.pilot.v1",
+      "enabled": false,
+      "scoreCenter": 5000,
+      "pointsPerHundred": 100,
+      "perEncounterMin": -30,
+      "perEncounterMax": 30,
+      "perRunMin": -60,
+      "perRunMax": 60,
+      "minValue": 0,
+      "maxValue": 10000
+    },
+    "loyalty": {
+      "policyId": "loyalty.pilot.v1",
+      "enabled": false,
+      "firstVisitPoints": 100,
+      "repeatVisitPoints": 180,
+      "favoriteDrinkBonus": 40,
+      "visitCap": 220,
+      "tiers": [
+        {
+          "tierId": "stranger",
+          "minPoints": 0
+        },
+        {
+          "tierId": "acquaintance",
+          "minPoints": 100
+        },
+        {
+          "tierId": "regular",
+          "minPoints": 300
+        },
+        {
+          "tierId": "friend_of_shop",
+          "minPoints": 700
+        },
+        {
+          "tierId": "island_legend",
+          "minPoints": 1300
+        }
+      ]
+    }
+  },
+  "flagsDefault": {
+    "CUSTOMER_DYNAMIC_POOLS_ENABLED": false,
+    "CUSTOMER_SATISFACTION_ENABLED": false,
+    "CUSTOMER_REPUTATION_ENABLED": false,
+    "CUSTOMER_RELATIONSHIPS_ENABLED": false,
+    "CUSTOMER_VIP_ENABLED": false,
+    "CUSTOMER_PATIENCE_ENABLED": false,
+    "CUSTOMER_GROUP_ORDERS_ENABLED": false,
+    "CUSTOMER_JOURNAL_ENABLED": false
+  },
+  "alphaFixture": {
+    "missionId": "coconut-cove-001",
+    "customerIds": [
+      "guest.mira.cove",
+      "guest.kai.cove"
+    ],
+    "visibleOrderCount": 2,
+    "winOrderCount": 2,
+    "usesTrust": false,
+    "usesPatience": false
+  }
+}

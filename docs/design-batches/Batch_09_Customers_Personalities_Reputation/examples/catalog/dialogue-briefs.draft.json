@@ -1,0 +1,29 @@
+{
+  "status": "draft_only",
+  "dialogueSets": [
+    {
+      "dialogueSetId": "dialogue.guest.mira.cove.v1",
+      "locale": "en",
+      "lines": {
+        "greeting": "What a perfect day for a citrus cooler!",
+        "served": "That hit the spot!",
+        "repeat_visit": "Good to see you back!"
+      }
+    },
+    {
+      "dialogueSetId": "dialogue.guest.kai.cove.v1",
+      "locale": "en",
+      "lines": {
+        "greeting": "I heard the drinks here are amazing.",
+        "served": "That is such a refreshing mix!",
+        "repeat_visit": "I had to come back for another!"
+      }
+    }
+  ],
+  "requiredReview": [
+    "accessibility",
+    "localization",
+    "commercial_asset_licensing",
+    "original_character_art"
+  ]
+}

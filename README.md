@@ -4,7 +4,7 @@
 
 ## Engineering documentation
 
-The complete design handoff for **Batches 1–8** is under [docs/design-batches/](docs/design-batches/README.md), with separate Markdown chapters, schemas, content examples, QA fixtures, and validation scripts.
+The complete design handoff for **Batches 1–9** is under [docs/design-batches/](docs/design-batches/README.md), with separate Markdown chapters, schemas, content examples, QA fixtures, and validation scripts.
 
 | Batch | Subject | Start here |
 |---|---|---|
@@ -16,11 +16,12 @@ The complete design handoff for **Batches 1–8** is under [docs/design-batches/
 | 06 | Economy, Businesses & Shop Management | [Index](docs/design-batches/Batch_06_Economy/docs/00_INDEX_AND_README.md) |
 | 07 | Skill Trees, Specializations & Player Growth | [Index](docs/design-batches/Batch_07_Skills_Player_Growth/docs/00_INDEX_AND_README.md) |
 | 08 | Rewards, Achievements & Collections | [Index](docs/design-batches/Batch_08_Rewards_Achievements_Collections/docs/00_INDEX_AND_README.md) |
+| 09 | Customers, Personalities & Reputation | [Index](docs/design-batches/Batch_09_Customers_Personalities_Reputation/docs/00_INDEX_AND_README.md) |
 
 ## Initial development target
 
 **v0.1.0:** a minimal, playable browser alpha: physics-driven glass launches, angled collisions, same-tier merges, eight-tier drink evolution, customer orders, scoring, and responsive controls. Extend with small, tested releases (v0.1.1, v0.1.2, v0.2.0...).
 
-**Important:** These documents are *design and engineering specifications*, not evidence that a feature or deployment is already working. The trusted currency/shop economy described in Batch 6 is targeted at **v0.3.0+**; Batch 7's trusted XP and first skill slice target **v0.4.0+**. Batch 8's first verified achievement, entitlement and cosmetic ownership slice is proposed for **v0.4.1+**, behind backend verification and feature gates. Alpha preview coins and local scores are not trusted wallets, XP or durable collectible entitlements.
+**Important:** These documents are *design and engineering specifications*, not evidence that a feature or deployment is already working. The trusted currency/shop economy described in Batch 6 is targeted at **v0.3.0+**; Batch 7's trusted XP and first skill slice target **v0.4.0+**. Batch 8's first verified achievement, entitlement and cosmetic ownership slice is proposed for **v0.4.1+**, behind backend verification and feature gates. Batch 9 customer satisfaction and trusted shop reputation are a proposed **v0.4.2+** feature; dynamic guests, loyalty and VIPs are further gated. Alpha preview coins and local scores are not trusted wallets, XP, guest reputation, or durable collectible entitlements.
 
 Engineers submit PRs and do **not** merge their own work. Manual UI/gameplay testing is directed to the project owner.

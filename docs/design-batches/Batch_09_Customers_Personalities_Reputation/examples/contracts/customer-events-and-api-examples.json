@@ -1,0 +1,88 @@
+{
+  "status": "PROPOSED_NOT_DEPLOYED",
+  "apiReads": [
+    {
+      "method": "GET",
+      "path": "/v1/customers/catalog?locale=en",
+      "response": {
+        "catalogVersion": "batch9.customer.v0.draft",
+        "customers": [
+          {
+            "customerId": "guest.mira.cove",
+            "displayName": "Mira"
+          }
+        ]
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/v1/shops/shop_example/reputation",
+      "response": {
+        "shopId": "shop_example",
+        "score": 5228,
+        "scaleMax": 10000,
+        "revision": 3,
+        "trustStatus": "verified"
+      }
+    }
+  ],
+  "internalCommands": [
+    {
+      "name": "reserveEncounter",
+      "source": {
+        "shopId": "shop_example",
+        "missionId": "coconut-cove-003",
+        "sourceEntitlementId": "ent_abc"
+      },
+      "result": {
+        "encounterId": "enc_01",
+        "poolVersion": 1,
+        "customerId": "guest.nala.reed",
+        "status": "reserved"
+      }
+    },
+    {
+      "name": "deriveObservationFromVerifiedReceipt",
+      "source": {
+        "verifiedResultReceiptId": "vr_001",
+        "encounterId": "enc_01"
+      },
+      "result": {
+        "observationId": "obs_001",
+        "satisfaction": 7800,
+        "policyId": "satisfaction.pilot.v1"
+      }
+    }
+  ],
+  "events": [
+    {
+      "eventId": "evt_01",
+      "schemaVersion": 1,
+      "type": "customer.encounter_reserved.v1",
+      "encounterId": "enc_01",
+      "customerId": "guest.nala.reed",
+      "contentVersion": "batch9.customer.v0.draft",
+      "sourceEntitlementId": "ent_abc"
+    },
+    {
+      "eventId": "evt_02",
+      "schemaVersion": 1,
+      "type": "customer.satisfaction_derived.v1",
+      "encounterId": "enc_01",
+      "observationId": "obs_001",
+      "verifiedResultReceiptId": "vr_001",
+      "policyVersion": "satisfaction.pilot.v1"
+    },
+    {
+      "eventId": "evt_03",
+      "schemaVersion": 1,
+      "type": "shop.reputation_observed.v1",
+      "shopId": "shop_example",
+      "observationId": "obs_001",
+      "delta": 28,
+      "reputationBefore": 5200,
+      "reputationAfter": 5228
+    }
+  ],
+  "warning": "Only server-verified events can support durable rewards. No public endpoint accepts satisfaction or reputation write values."
+}
