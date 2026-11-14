@@ -1,0 +1,72 @@
+{
+  "batch": 15,
+  "designOnly": true,
+  "status": "not_deployed",
+  "auth": "Server derives actor from verified auth session. Never trust playerId from client body.",
+  "idempotency": "Idempotency-Key required on mutations that can create state/rewards; same key+body returns prior receipt, different body conflicts.",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/v1/client-config",
+      "illustrativeResponse": "{featureFlags,assetManifestVersion}"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/ui/text-catalog",
+      "illustrativeResponse": "{locale,catalogHash}"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/profile/projection",
+      "illustrativeResponse": "{profile,visibleFeatures}"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/settings/sync",
+      "illustrativeResponse": "{expectedRevision,preferences} → revision"
+    }
+  ],
+  "events": [
+    {
+      "name": "ui.route_entered.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "ui.setting_changed.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "ui.error_shown.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    }
+  ],
+  "errorCodes": [
+    "UNAUTHENTICATED",
+    "FORBIDDEN",
+    "FEATURE_DISABLED",
+    "CATALOG_STALE",
+    "REVISION_CONFLICT",
+    "IDEMPOTENCY_CONFLICT",
+    "SOURCE_UNVERIFIED",
+    "RATE_LIMITED",
+    "SERVICE_UNAVAILABLE"
+  ]
+}

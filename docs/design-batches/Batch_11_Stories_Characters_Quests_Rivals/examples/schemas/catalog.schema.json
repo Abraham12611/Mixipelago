@@ -1,0 +1,194 @@
+{
+  "type": "object",
+  "properties": {
+    "batch": {
+      "type": "integer"
+    },
+    "catalogVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "featureGates": {
+      "type": "object",
+      "properties": {
+        "STORY_EPISODES": {
+          "type": "boolean"
+        },
+        "RIVAL_CHALLENGES": {
+          "type": "boolean"
+        },
+        "NARRATIVE_QUEST_REWARDS": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "STORY_EPISODES",
+        "RIVAL_CHALLENGES",
+        "NARRATIVE_QUEST_REWARDS"
+      ],
+      "additionalProperties": false
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "isPlayable": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "role",
+          "isPlayable"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "characterId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "next": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "isSkippable": {
+            "type": "boolean"
+          },
+          "choiceIds": {
+            "type": "array",
+            "items": {},
+            "minItems": 0
+          }
+        },
+        "required": [
+          "id",
+          "characterId",
+          "next",
+          "isSkippable",
+          "choiceIds"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "quests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "startSceneId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "requiredMissionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rewardPolicyId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "repeatable": {
+            "type": "boolean"
+          },
+          "gate": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "startSceneId",
+          "requiredMissionId",
+          "rewardPolicyId",
+          "repeatable",
+          "gate"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "choices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "flag": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {
+            "type": "string",
+            "minLength": 1
+          },
+          "financialEffect": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "flag",
+          "value",
+          "financialEffect"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "batch",
+    "catalogVersion",
+    "status",
+    "featureGates",
+    "characters",
+    "scenes",
+    "quests",
+    "choices"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mixipelago Batch 11 draft content authoring sample",
+  "description": "Strict validation of the sample shape only; publication requires additional domain and safety checks."
+}

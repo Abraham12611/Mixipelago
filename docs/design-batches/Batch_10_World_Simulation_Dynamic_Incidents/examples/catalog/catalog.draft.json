@@ -1,0 +1,110 @@
+{
+  "batch": 10,
+  "catalogVersion": "world-draft-0.1",
+  "status": "draft_disabled",
+  "featureGates": {
+    "WORLD_WEATHER_COSMETIC": false,
+    "WORLD_INCIDENTS_ENABLED": false,
+    "WORLD_MARKET_EFFECTS": false
+  },
+  "conditions": [
+    {
+      "id": "cove-clear",
+      "islandId": "coconut-cove",
+      "kind": "clear",
+      "intensity": 0,
+      "affectsRanked": false,
+      "isPureVisual": true
+    },
+    {
+      "id": "cove-showers",
+      "islandId": "coconut-cove",
+      "kind": "showers",
+      "intensity": 2,
+      "affectsRanked": false,
+      "isPureVisual": true
+    },
+    {
+      "id": "stormhaven-warning",
+      "islandId": "stormhaven",
+      "kind": "storm_warning",
+      "intensity": 3,
+      "affectsRanked": false,
+      "isPureVisual": true
+    }
+  ],
+  "windows": [
+    {
+      "id": "cove-clear-w1",
+      "conditionId": "cove-clear",
+      "islandId": "coconut-cove",
+      "startsAt": "2027-01-02T00:00:00Z",
+      "endsAt": "2027-01-02T18:00:00Z"
+    },
+    {
+      "id": "cove-rain-w1",
+      "conditionId": "cove-showers",
+      "islandId": "coconut-cove",
+      "startsAt": "2027-01-02T18:00:00Z",
+      "endsAt": "2027-01-03T00:00:00Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "visiting-chef",
+      "class": "opportunity",
+      "weight": 8,
+      "requiredGate": "WORLD_INCIDENTS_ENABLED",
+      "cooldownHours": 72,
+      "affectsRanked": false,
+      "hasFreeRecovery": true,
+      "effects": [
+        "optional_service_mission"
+      ]
+    },
+    {
+      "id": "cove-supply-delay",
+      "class": "inconvenience",
+      "weight": 2,
+      "requiredGate": "WORLD_INCIDENTS_ENABLED",
+      "cooldownHours": 168,
+      "affectsRanked": false,
+      "hasFreeRecovery": true,
+      "effects": [
+        "optional_delivery_quest"
+      ]
+    },
+    {
+      "id": "kitchen-fire-demo",
+      "class": "setback",
+      "weight": 0,
+      "requiredGate": "WORLD_INCIDENTS_ENABLED",
+      "cooldownHours": 720,
+      "affectsRanked": false,
+      "hasFreeRecovery": true,
+      "effects": [
+        "optional_repair_mission"
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "incidentId": "cove-supply-delay",
+      "choiceId": "help-driver",
+      "requiresCoins": false,
+      "recovery": "mission"
+    },
+    {
+      "incidentId": "cove-supply-delay",
+      "choiceId": "wait-safely",
+      "requiresCoins": false,
+      "recovery": "none"
+    },
+    {
+      "incidentId": "kitchen-fire-demo",
+      "choiceId": "repair-through-mission",
+      "requiresCoins": false,
+      "recovery": "mission"
+    }
+  ]
+}

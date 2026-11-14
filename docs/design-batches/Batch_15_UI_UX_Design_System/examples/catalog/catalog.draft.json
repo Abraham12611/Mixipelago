@@ -1,0 +1,173 @@
+{
+  "batch": 15,
+  "catalogVersion": "ui-draft-0.1",
+  "status": "draft_tokens",
+  "breakpoints": {
+    "mobileMax": 639,
+    "tabletMax": 1023,
+    "desktopMin": 1024
+  },
+  "colors": {
+    "inkStrong": "#102E38",
+    "inkMuted": "#365660",
+    "cream": "#FFF9EC",
+    "surfaceWhite": "#FFFFFF",
+    "aqua": "#0A8588",
+    "aquaDark": "#09686D",
+    "coral": "#DD5B4B",
+    "gold": "#F4BA4E",
+    "outline": "#1A4752",
+    "focus": "#7439B4",
+    "danger": "#B3261E",
+    "success": "#166534"
+  },
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    40,
+    48
+  ],
+  "radii": {
+    "sm": 8,
+    "md": 14,
+    "lg": 20,
+    "pill": 999
+  },
+  "components": [
+    {
+      "id": "Button",
+      "states": [
+        "default",
+        "hover",
+        "pressed",
+        "focus",
+        "disabled",
+        "loading"
+      ]
+    },
+    {
+      "id": "OrderCard",
+      "states": [
+        "active",
+        "progressed",
+        "completed",
+        "pending"
+      ]
+    },
+    {
+      "id": "MissionNode",
+      "states": [
+        "locked",
+        "available",
+        "completed",
+        "hidden",
+        "claimable"
+      ]
+    },
+    {
+      "id": "RewardBadge",
+      "states": [
+        "locked",
+        "claimable",
+        "claimed",
+        "equipped"
+      ]
+    },
+    {
+      "id": "Modal",
+      "states": [
+        "open",
+        "closed",
+        "loading",
+        "error"
+      ]
+    },
+    {
+      "id": "Toast",
+      "states": [
+        "info",
+        "success",
+        "warning",
+        "error"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "route": "/",
+      "owner": "app-shell",
+      "minRelease": "v0.1.0",
+      "gate": "always"
+    },
+    {
+      "route": "/play",
+      "owner": "game-shell",
+      "minRelease": "v0.1.0",
+      "gate": "always"
+    },
+    {
+      "route": "/help",
+      "owner": "app-shell",
+      "minRelease": "v0.1.0",
+      "gate": "always"
+    },
+    {
+      "route": "/settings",
+      "owner": "app-shell",
+      "minRelease": "v0.1.0",
+      "gate": "always"
+    },
+    {
+      "route": "/map",
+      "owner": "campaign",
+      "minRelease": "v0.2.0",
+      "gate": "CAMPAIGN_MAP"
+    },
+    {
+      "route": "/shop",
+      "owner": "economy",
+      "minRelease": "v0.3.0",
+      "gate": "TRUSTED_ECONOMY"
+    },
+    {
+      "route": "/skills",
+      "owner": "progression",
+      "minRelease": "v0.4.0",
+      "gate": "PLAYER_SKILLS"
+    },
+    {
+      "route": "/collection",
+      "owner": "rewards",
+      "minRelease": "v0.4.1",
+      "gate": "REWARD_INVENTORY"
+    },
+    {
+      "route": "/leaderboards",
+      "owner": "competition",
+      "minRelease": "v0.5.0",
+      "gate": "RANKED_WEEKLY"
+    },
+    {
+      "route": "/events",
+      "owner": "liveops",
+      "minRelease": "v0.6.2",
+      "gate": "FESTIVAL_HUB"
+    },
+    {
+      "route": "/friends",
+      "owner": "social",
+      "minRelease": "v0.7.0",
+      "gate": "FRIENDS"
+    },
+    {
+      "route": "/crews",
+      "owner": "social",
+      "minRelease": "v0.7.1",
+      "gate": "CREWS"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "batch": 10,
+  "designOnly": true,
+  "status": "not_deployed",
+  "auth": "Server derives actor from verified auth session. Never trust playerId from client body.",
+  "idempotency": "Idempotency-Key required on mutations that can create state/rewards; same key+body returns prior receipt, different body conflicts.",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/v1/world/islands/{islandId}/state",
+      "illustrativeResponse": "{worldSnapshotId,conditionId,startsAt,endsAt,visuals}"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/world/offers",
+      "illustrativeResponse": "{offers:OfferProjection[]}"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/world/offers/{offerId}/choose",
+      "illustrativeResponse": "{choiceId,expectedRevision} → choiceReceiptId"
+    }
+  ],
+  "events": [
+    {
+      "name": "world.condition_published.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "incident.offer_created.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "incident.choice_committed.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "incident.resolved.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    }
+  ],
+  "errorCodes": [
+    "UNAUTHENTICATED",
+    "FORBIDDEN",
+    "FEATURE_DISABLED",
+    "CATALOG_STALE",
+    "REVISION_CONFLICT",
+    "IDEMPOTENCY_CONFLICT",
+    "SOURCE_UNVERIFIED",
+    "RATE_LIMITED",
+    "SERVICE_UNAVAILABLE"
+  ]
+}

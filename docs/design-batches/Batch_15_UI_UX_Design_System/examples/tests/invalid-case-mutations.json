@@ -1,0 +1,30 @@
+[
+  {
+    "id": "missing-required-top-level",
+    "path": [
+      "catalogVersion"
+    ],
+    "operation": "delete",
+    "expected": "reject_schema"
+  },
+  {
+    "id": "wrong-batch-number",
+    "path": [
+      "batch"
+    ],
+    "operation": "set",
+    "value": 99,
+    "expected": "reject_domain"
+  },
+  {
+    "id": "visible-fake-shop",
+    "path": [
+      "screens",
+      5,
+      "gate"
+    ],
+    "operation": "set",
+    "value": "always",
+    "expected": "reject_domain"
+  }
+]

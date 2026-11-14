@@ -1,0 +1,32 @@
+[
+  {
+    "name": "choice_once",
+    "input": {
+      "sceneId": "cove-choice",
+      "clicks": 3
+    },
+    "expected": 1
+  },
+  {
+    "name": "skippable",
+    "input": {
+      "sceneId": "cove-intro-a"
+    },
+    "expected": true
+  },
+  {
+    "name": "no_client_coins",
+    "input": {
+      "choiceId": "welcome-warm"
+    },
+    "expected": 0
+  },
+  {
+    "name": "quest_first_clear_once",
+    "input": {
+      "verifiedClears": 2,
+      "questId": "cove-welcome"
+    },
+    "expected": 1
+  }
+]

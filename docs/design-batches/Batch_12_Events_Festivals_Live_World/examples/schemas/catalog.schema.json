@@ -1,0 +1,140 @@
+{
+  "type": "object",
+  "properties": {
+    "batch": {
+      "type": "integer"
+    },
+    "catalogVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "featureGates": {
+      "type": "object",
+      "properties": {
+        "FESTIVAL_HUB": {
+          "type": "boolean"
+        },
+        "EVENT_VERIFIED_REWARDS": {
+          "type": "boolean"
+        },
+        "COMMUNITY_GOALS": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "FESTIVAL_HUB",
+        "EVENT_VERIFIED_REWARDS",
+        "COMMUNITY_GOALS"
+      ],
+      "additionalProperties": false
+    },
+    "editions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "titleKey": {
+            "type": "string",
+            "minLength": 1
+          },
+          "startsAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scoringClosesAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claimsCloseAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "archiveAt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "gate": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ranked": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "titleKey",
+          "startsAt",
+          "scoringClosesAt",
+          "claimsCloseAt",
+          "archiveAt",
+          "gate",
+          "ranked"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "activities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "editionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "missionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "maxContributionsPerPlayer": {
+            "type": "integer"
+          },
+          "rewardPolicyId": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "editionId",
+          "missionId",
+          "maxContributionsPerPlayer",
+          "rewardPolicyId"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "batch",
+    "catalogVersion",
+    "status",
+    "featureGates",
+    "editions",
+    "activities"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mixipelago Batch 12 draft content authoring sample",
+  "description": "Strict validation of the sample shape only; publication requires additional domain and safety checks."
+}

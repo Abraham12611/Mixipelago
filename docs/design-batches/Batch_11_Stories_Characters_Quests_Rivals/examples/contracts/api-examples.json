@@ -1,0 +1,67 @@
+{
+  "batch": 11,
+  "designOnly": true,
+  "status": "not_deployed",
+  "auth": "Server derives actor from verified auth session. Never trust playerId from client body.",
+  "idempotency": "Idempotency-Key required on mutations that can create state/rewards; same key+body returns prior receipt, different body conflicts.",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/v1/stories/available",
+      "illustrativeResponse": "{scenes,quests,edition}"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/chronicle",
+      "illustrativeResponse": "{entries,cursor}"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/story-scenes/{sceneId}/choices",
+      "illustrativeResponse": "{choiceId,expectedRevision} → choiceReceiptId"
+    }
+  ],
+  "events": [
+    {
+      "name": "story.choice_recorded.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "quest.progress_committed.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "quest.completed.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    }
+  ],
+  "errorCodes": [
+    "UNAUTHENTICATED",
+    "FORBIDDEN",
+    "FEATURE_DISABLED",
+    "CATALOG_STALE",
+    "REVISION_CONFLICT",
+    "IDEMPOTENCY_CONFLICT",
+    "SOURCE_UNVERIFIED",
+    "RATE_LIMITED",
+    "SERVICE_UNAVAILABLE"
+  ]
+}

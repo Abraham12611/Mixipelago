@@ -1,0 +1,82 @@
+{
+  "batch": 13,
+  "designOnly": true,
+  "status": "not_deployed",
+  "auth": "Server derives actor from verified auth session. Never trust playerId from client body.",
+  "idempotency": "Idempotency-Key required on mutations that can create state/rewards; same key+body returns prior receipt, different body conflicts.",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/v1/competitions",
+      "illustrativeResponse": "{competitions,serverTime}"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/competitions/{id}/leaderboard",
+      "illustrativeResponse": "{rows,nextCursor,asOf}"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/competitions/{id}/me",
+      "illustrativeResponse": "{rank,verification}"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/competitions/{id}/runs/submit",
+      "illustrativeResponse": "{runId,replayHash,commands} → pendingReceiptId"
+    }
+  ],
+  "events": [
+    {
+      "name": "score.submitted.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "score.verified.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "leaderboard.best_changed.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    },
+    {
+      "name": "season.frozen.v1",
+      "envelope": {
+        "eventId": "UUID",
+        "schemaVersion": 1,
+        "sourceId": "stable-unique-source",
+        "catalogHash": "sha256:...",
+        "occurredAt": "ISO-8601 UTC"
+      }
+    }
+  ],
+  "errorCodes": [
+    "UNAUTHENTICATED",
+    "FORBIDDEN",
+    "FEATURE_DISABLED",
+    "CATALOG_STALE",
+    "REVISION_CONFLICT",
+    "IDEMPOTENCY_CONFLICT",
+    "SOURCE_UNVERIFIED",
+    "RATE_LIMITED",
+    "SERVICE_UNAVAILABLE"
+  ]
+}
