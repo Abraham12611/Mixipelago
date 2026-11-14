@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "worldId": "mixipelago-world",
+  "graphVersion": "0.2.0-starter-candidate-1",
+  "publicationStatus": "staged",
+  "exampleNotDeployed": true,
+  "description": "Staged design fixture. The Batch4 missions are copied exactly; no golden replays are included, so this graph is NOT publication-approved.",
+  "featureGates": [
+    "CAMPAIGN_MAP_ENABLED"
+  ],
+  "islands": [
+    {
+      "islandId": "coconut-cove",
+      "displayName": "Coconut Cove",
+      "entryNodeId": "cove-n001",
+      "status": "staged",
+      "themeId": "coconut-cove-day"
+    }
+  ],
+  "chapters": [
+    {
+      "chapterId": "first-steps-pier",
+      "islandId": "coconut-cove",
+      "displayName": "First Steps Pier",
+      "status": "staged"
+    }
+  ],
+  "nodes": [
+    {
+      "nodeId": "cove-n001",
+      "islandId": "coconut-cove",
+      "chapterId": "first-steps-pier",
+      "type": "mission",
+      "status": "staged",
+      "position": {
+        "x": 250,
+        "y": 920
+      },
+      "unlock": {
+        "op": "always"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "mission": {
+        "missionId": "coconut-cove-001",
+        "missionVersion": "1.0.0"
+      },
+      "label": "First Mix",
+      "priority": 1
+    },
+    {
+      "nodeId": "cove-n002",
+      "islandId": "coconut-cove",
+      "chapterId": "first-steps-pier",
+      "type": "mission",
+      "status": "staged",
+      "position": {
+        "x": 360,
+        "y": 750
+      },
+      "unlock": {
+        "op": "missionCleared",
+        "missionId": "coconut-cove-001"
+      },
+      "visibility": "visible",
+      "critical": true,
+      "mission": {
+        "missionId": "coconut-cove-002",
+        "missionVersion": "0.1.0"
+      },
+      "label": "Second Shift",
+      "priority": 2
+    }
+  ],
+  "edges": [
+    {
+      "edgeId": "cove-e001",
+      "from": "cove-n001",
+      "to": "cove-n002",
+      "kind": "route",
+      "controlPoints": [
+        {
+          "x": 270,
+          "y": 840
+        },
+        {
+          "x": 330,
+          "y": 800
+        }
+      ]
+    }
+  ]
+}

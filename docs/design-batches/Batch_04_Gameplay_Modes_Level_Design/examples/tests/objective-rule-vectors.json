@@ -1,0 +1,207 @@
+{
+  "description": "Pure, non-physics decision vectors. No golden physics replay or playability proof.",
+  "vectors": [
+    {
+      "id": "M4-V001",
+      "kind": "tier_merge",
+      "inputs": {
+        "a": 1,
+        "b": 1
+      },
+      "expected": {
+        "outputTier": 2,
+        "baseScore": 25
+      }
+    },
+    {
+      "id": "M4-V002",
+      "kind": "tier_merge",
+      "inputs": {
+        "a": 2,
+        "b": 2
+      },
+      "expected": {
+        "outputTier": 3,
+        "baseScore": 60
+      }
+    },
+    {
+      "id": "M4-V003",
+      "kind": "tier_merge",
+      "inputs": {
+        "a": 7,
+        "b": 7
+      },
+      "expected": {
+        "outputTier": 8,
+        "baseScore": 3500
+      }
+    },
+    {
+      "id": "M4-V004",
+      "kind": "tier_merge",
+      "inputs": {
+        "a": 8,
+        "b": 8
+      },
+      "expected": {
+        "outputTier": null,
+        "baseScore": 0
+      }
+    },
+    {
+      "id": "M4-V005",
+      "kind": "tier_merge",
+      "inputs": {
+        "a": 2,
+        "b": 3
+      },
+      "expected": {
+        "outputTier": null,
+        "baseScore": 0
+      }
+    },
+    {
+      "id": "M4-V006",
+      "kind": "chain_score",
+      "inputs": {
+        "outputTier": 4,
+        "depth": 2
+      },
+      "expected": {
+        "mergePoints": 175
+      }
+    },
+    {
+      "id": "M4-V007",
+      "kind": "chain_score",
+      "inputs": {
+        "outputTier": 8,
+        "depth": 20
+      },
+      "expected": {
+        "mergePoints": 10500
+      }
+    },
+    {
+      "id": "M4-V008",
+      "kind": "orders_served",
+      "inputs": {
+        "events": [
+          {
+            "id": "o1",
+            "kind": "order_fulfilled"
+          },
+          {
+            "id": "o1",
+            "kind": "order_fulfilled"
+          },
+          {
+            "id": "o2",
+            "kind": "order_fulfilled"
+          }
+        ]
+      },
+      "expected": {
+        "count": 2
+      }
+    },
+    {
+      "id": "M4-V009",
+      "kind": "terminal_priority",
+      "inputs": {
+        "goalComplete": true,
+        "dangerExpired": true,
+        "shotsExpired": true,
+        "timerExpired": true
+      },
+      "expected": {
+        "status": "won",
+        "reason": "goal_completed"
+      }
+    },
+    {
+      "id": "M4-V010",
+      "kind": "terminal_priority",
+      "inputs": {
+        "goalComplete": false,
+        "dangerExpired": true,
+        "shotsExpired": true,
+        "timerExpired": true
+      },
+      "expected": {
+        "status": "lost",
+        "reason": "danger"
+      }
+    },
+    {
+      "id": "M4-V011",
+      "kind": "timer",
+      "inputs": {
+        "limitTicks": 3600,
+        "activeTicks": 1800,
+        "pausedTicks": 3600
+      },
+      "expected": {
+        "remainingTicks": 1800
+      }
+    },
+    {
+      "id": "M4-V012",
+      "kind": "shots",
+      "inputs": {
+        "committed": [
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        "maxShots": 6
+      },
+      "expected": {
+        "shotsFired": 3,
+        "remainingShots": 3
+      }
+    },
+    {
+      "id": "M4-V013",
+      "kind": "preview_coins",
+      "inputs": {
+        "orderRewards": [
+          10,
+          20,
+          20
+        ],
+        "uniqueOrderIds": [
+          "o1",
+          "o2",
+          "o2"
+        ],
+        "missionBonus": 20
+      },
+      "expected": {
+        "orderPreviewCoins": 30,
+        "missionPreviewCoins": 20,
+        "total": 50
+      }
+    },
+    {
+      "id": "M4-V014",
+      "kind": "objective",
+      "inputs": {
+        "type": "produce_tier",
+        "tier": 3,
+        "producedTiers": [
+          2,
+          3,
+          3,
+          4
+        ]
+      },
+      "expected": {
+        "count": 2
+      }
+    }
+  ]
+}

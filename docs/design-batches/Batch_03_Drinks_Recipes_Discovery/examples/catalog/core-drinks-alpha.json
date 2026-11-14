@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "core-drinks-alpha",
+  "catalogVersion": "0.1.0",
+  "description": "Candidate eight-tier catalog; scores and art are owner-testable proposals, not deployed state.",
+  "tiers": [
+    {
+      "id": "citrus-shot",
+      "tier": 1,
+      "name": "Citrus Shot",
+      "nameKey": "drink.core.citrus-shot.name",
+      "familyId": "core",
+      "nextTierId": "sunny-lemon",
+      "assetId": "drink.tier1.board",
+      "mergeScore": 10,
+      "rarity": null
+    },
+    {
+      "id": "sunny-lemon",
+      "tier": 2,
+      "name": "Sunny Lemon",
+      "nameKey": "drink.core.sunny-lemon.name",
+      "familyId": "core",
+      "nextTierId": "sunset-splash",
+      "assetId": "drink.tier2.board",
+      "mergeScore": 25,
+      "rarity": null
+    },
+    {
+      "id": "sunset-splash",
+      "tier": 3,
+      "name": "Sunset Splash",
+      "nameKey": "drink.core.sunset-splash.name",
+      "familyId": "core",
+      "nextTierId": "blossom-fizz",
+      "assetId": "drink.tier3.board",
+      "mergeScore": 60,
+      "rarity": null
+    },
+    {
+      "id": "blossom-fizz",
+      "tier": 4,
+      "name": "Blossom Fizz",
+      "nameKey": "drink.core.blossom-fizz.name",
+      "familyId": "core",
+      "nextTierId": "coral-martini",
+      "assetId": "drink.tier4.board",
+      "mergeScore": 140,
+      "rarity": null
+    },
+    {
+      "id": "coral-martini",
+      "tier": 5,
+      "name": "Coral Martini",
+      "nameKey": "drink.core.coral-martini.name",
+      "familyId": "core",
+      "nextTierId": "mint-lagoon",
+      "assetId": "drink.tier5.board",
+      "mergeScore": 320,
+      "rarity": null
+    },
+    {
+      "id": "mint-lagoon",
+      "tier": 6,
+      "name": "Mint Lagoon",
+      "nameKey": "drink.core.mint-lagoon.name",
+      "familyId": "core",
+      "nextTierId": "ocean-cloud",
+      "assetId": "drink.tier6.board",
+      "mergeScore": 720,
+      "rarity": null
+    },
+    {
+      "id": "ocean-cloud",
+      "tier": 7,
+      "name": "Ocean Cloud",
+      "nameKey": "drink.core.ocean-cloud.name",
+      "familyId": "core",
+      "nextTierId": "crown-of-isles",
+      "assetId": "drink.tier7.board",
+      "mergeScore": 1600,
+      "rarity": null
+    },
+    {
+      "id": "crown-of-isles",
+      "tier": 8,
+      "name": "Crown of the Isles",
+      "nameKey": "drink.core.crown-of-isles.name",
+      "familyId": "core",
+      "nextTierId": null,
+      "assetId": "drink.tier8.board",
+      "mergeScore": 3500,
+      "rarity": null
+    }
+  ]
+}

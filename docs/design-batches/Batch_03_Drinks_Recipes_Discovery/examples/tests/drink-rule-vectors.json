@@ -1,0 +1,68 @@
+{
+  "catalog": "core-drinks-alpha",
+  "catalogVersion": "0.1.0",
+  "vectors": [
+    {
+      "id": "DRK-002",
+      "input": [
+        "citrus-shot",
+        "citrus-shot"
+      ],
+      "eligible": true,
+      "output": "sunny-lemon",
+      "outputTier": 2,
+      "baseScore": 25
+    },
+    {
+      "id": "DRK-003",
+      "input": [
+        "ocean-cloud",
+        "ocean-cloud"
+      ],
+      "eligible": true,
+      "output": "crown-of-isles",
+      "outputTier": 8,
+      "baseScore": 3500
+    },
+    {
+      "id": "DRK-004",
+      "input": [
+        "crown-of-isles",
+        "crown-of-isles"
+      ],
+      "eligible": false,
+      "reason": "terminal-tier"
+    },
+    {
+      "id": "DRK-005",
+      "input": [
+        "sunny-lemon",
+        "sunset-splash"
+      ],
+      "eligible": false,
+      "reason": "different-tier"
+    },
+    {
+      "id": "DRK-005b",
+      "input": [
+        "sunny-lemon",
+        "sunny-lemon"
+      ],
+      "eligible": true,
+      "output": "sunset-splash",
+      "outputTier": 3,
+      "baseScore": 60
+    },
+    {
+      "id": "DRK-005c",
+      "input": [
+        "mint-lagoon",
+        "mint-lagoon"
+      ],
+      "eligible": true,
+      "output": "ocean-cloud",
+      "outputTier": 7,
+      "baseScore": 1600
+    }
+  ]
+}

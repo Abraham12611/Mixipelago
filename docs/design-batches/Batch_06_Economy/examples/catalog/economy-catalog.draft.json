@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "economy-catalog.v1",
+  "status": "draft",
+  "currency": "COINS",
+  "shops": [
+    {
+      "id": "coconut-cove-starter",
+      "name": "Coconut Cove Starter Bar",
+      "islandId": "coconut-cove",
+      "archetype": "beach-starter",
+      "firstOwnedByTutorial": true
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "blender-i",
+      "name": "Blender I",
+      "category": "utility",
+      "shopArchetype": "beach-starter",
+      "maxLevel": 1,
+      "levels": [
+        {
+          "level": 1,
+          "priceCoins": 250,
+          "effect": {
+            "kind": "campaignOrderCapacityBonus",
+            "value": 1
+          }
+        }
+      ],
+      "requires": [],
+      "cosmeticOnly": false,
+      "status": "draft"
+    },
+    {
+      "id": "vip-seating-i",
+      "name": "VIP Seating I",
+      "category": "attraction",
+      "shopArchetype": "beach-starter",
+      "maxLevel": 1,
+      "levels": [
+        {
+          "level": 1,
+          "priceCoins": 750,
+          "effect": {
+            "kind": "vipChanceBonusBps",
+            "value": 200
+          }
+        }
+      ],
+      "requires": [],
+      "cosmeticOnly": false,
+      "status": "draft"
+    },
+    {
+      "id": "hibiscus-planters",
+      "name": "Hibiscus Planters",
+      "category": "cosmetic",
+      "shopArchetype": "beach-starter",
+      "maxLevel": 1,
+      "levels": [
+        {
+          "level": 1,
+          "priceCoins": 150,
+          "effect": null
+        }
+      ],
+      "requires": [],
+      "cosmeticOnly": true,
+      "artId": "shop.decor.hibiscus-planters.v1",
+      "status": "draft"
+    },
+    {
+      "id": "sunrise-awning",
+      "name": "Sunrise Awning",
+      "category": "cosmetic",
+      "shopArchetype": "beach-starter",
+      "maxLevel": 1,
+      "levels": [
+        {
+          "level": 1,
+          "priceCoins": 350,
+          "effect": null
+        }
+      ],
+      "requires": [],
+      "cosmeticOnly": true,
+      "artId": "shop.roof.sunrise-awning.v1",
+      "status": "draft"
+    },
+    {
+      "id": "golden-roof",
+      "name": "Golden Roof",
+      "category": "prestige",
+      "shopArchetype": "beach-starter",
+      "maxLevel": 1,
+      "levels": [
+        {
+          "level": 1,
+          "priceCoins": 15000,
+          "effect": null
+        }
+      ],
+      "requires": [],
+      "cosmeticOnly": true,
+      "artId": "shop.roof.golden.v1",
+      "status": "draft"
+    }
+  ]
+}

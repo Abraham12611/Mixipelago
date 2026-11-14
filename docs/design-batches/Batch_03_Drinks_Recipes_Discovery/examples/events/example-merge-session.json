@@ -1,0 +1,80 @@
+{
+  "status": "conceptual-logical-example-not-rapier-replay",
+  "sessionId": "sample-session-001",
+  "catalogVersion": "0.1.0",
+  "rulesVersion": "alpha-v1",
+  "events": [
+    {
+      "step": 100,
+      "kind": "drink_merged",
+      "mergeId": "m:sample-session-001:100:A:B",
+      "inputDrinkIds": [
+        "citrus-shot",
+        "citrus-shot"
+      ],
+      "outputDrinkId": "sunny-lemon",
+      "outputTier": 2,
+      "basePoints": 25,
+      "chainDepth": 1
+    },
+    {
+      "step": 100,
+      "kind": "order_fulfilled",
+      "orderId": "ord-001",
+      "sourceMergeId": "m:sample-session-001:100:A:B",
+      "previewCoins": 10,
+      "scoreBonus": 100
+    },
+    {
+      "step": 200,
+      "kind": "drink_merged",
+      "mergeId": "m:sample-session-001:200:C:D",
+      "inputDrinkIds": [
+        "citrus-shot",
+        "citrus-shot"
+      ],
+      "outputDrinkId": "sunny-lemon",
+      "outputTier": 2,
+      "basePoints": 25,
+      "chainDepth": 1
+    },
+    {
+      "step": 230,
+      "kind": "drink_merged",
+      "mergeId": "m:sample-session-001:230:E:F",
+      "inputDrinkIds": [
+        "citrus-shot",
+        "citrus-shot"
+      ],
+      "outputDrinkId": "sunny-lemon",
+      "outputTier": 2,
+      "basePoints": 25,
+      "chainDepth": 1
+    },
+    {
+      "step": 240,
+      "kind": "drink_merged",
+      "mergeId": "m:sample-session-001:240:M:N",
+      "inputDrinkIds": [
+        "sunny-lemon",
+        "sunny-lemon"
+      ],
+      "outputDrinkId": "sunset-splash",
+      "outputTier": 3,
+      "basePoints": 60,
+      "chainDepth": 2
+    },
+    {
+      "step": 240,
+      "kind": "order_fulfilled",
+      "orderId": "ord-002",
+      "sourceMergeId": "m:sample-session-001:240:M:N",
+      "previewCoins": 20,
+      "scoreBonus": 200
+    }
+  ],
+  "unmultipliedBaseScore": 435,
+  "orderPreviewCoins": 30,
+  "optionalMissionBonusPreviewCoins": 20,
+  "notes": "Not a verified chain ancestry or shot trace. Actual combo uplift may change score."
+}

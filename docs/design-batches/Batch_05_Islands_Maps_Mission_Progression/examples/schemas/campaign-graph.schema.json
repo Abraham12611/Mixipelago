@@ -1,0 +1,436 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mixipelago.example/schemas/campaign-graph.v1.json",
+  "title": "Mixipelago campaign graph v1 (design contract)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "worldId",
+    "graphVersion",
+    "publicationStatus",
+    "islands",
+    "chapters",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "worldId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "graphVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publicationStatus": {
+      "enum": [
+        "draft",
+        "staged",
+        "published",
+        "retired"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "islands": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/island"
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/chapter"
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/node"
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/edge"
+      }
+    },
+    "featureGates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exampleNotDeployed": {
+      "type": "boolean"
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "pos": {
+      "type": "object",
+      "required": [
+        "x",
+        "y"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "y": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10000
+        }
+      }
+    },
+    "unlock": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "op"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "always"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "op",
+            "missionId"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "missionCleared"
+            },
+            "missionId": {
+              "$ref": "#/$defs/id"
+            },
+            "minStars": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 3
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "op",
+            "missionIds",
+            "count"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "minStars"
+            },
+            "missionIds": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "$ref": "#/$defs/id"
+              }
+            },
+            "count": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "op",
+            "nodeId"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "nodeClaimed"
+            },
+            "nodeId": {
+              "$ref": "#/$defs/id"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "op",
+            "flagId",
+            "value"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "const": "flagEquals"
+            },
+            "flagId": {
+              "$ref": "#/$defs/id"
+            },
+            "value": {
+              "oneOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "maxLength": 60
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "op",
+            "rules"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "op": {
+              "enum": [
+                "allOf",
+                "anyOf"
+              ]
+            },
+            "rules": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 16,
+              "items": {
+                "$ref": "#/$defs/unlock"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "island": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "islandId",
+        "displayName",
+        "entryNodeId",
+        "status"
+      ],
+      "properties": {
+        "islandId": {
+          "$ref": "#/$defs/id"
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entryNodeId": {
+          "$ref": "#/$defs/id"
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "staged",
+            "published",
+            "retired"
+          ]
+        },
+        "themeId": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "chapter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "chapterId",
+        "islandId",
+        "displayName",
+        "status"
+      ],
+      "properties": {
+        "chapterId": {
+          "$ref": "#/$defs/id"
+        },
+        "islandId": {
+          "$ref": "#/$defs/id"
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "staged",
+            "published",
+            "retired"
+          ]
+        }
+      }
+    },
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "nodeId",
+        "islandId",
+        "chapterId",
+        "type",
+        "status",
+        "position",
+        "unlock",
+        "visibility",
+        "critical"
+      ],
+      "properties": {
+        "nodeId": {
+          "$ref": "#/$defs/id"
+        },
+        "islandId": {
+          "$ref": "#/$defs/id"
+        },
+        "chapterId": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "enum": [
+            "mission",
+            "checkpoint",
+            "treasure",
+            "gateway",
+            "discovery",
+            "shop",
+            "event",
+            "landmark"
+          ]
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "staged",
+            "published",
+            "retired"
+          ]
+        },
+        "position": {
+          "$ref": "#/$defs/pos"
+        },
+        "unlock": {
+          "$ref": "#/$defs/unlock"
+        },
+        "visibility": {
+          "enum": [
+            "visible",
+            "hidden",
+            "rumored"
+          ]
+        },
+        "critical": {
+          "type": "boolean"
+        },
+        "mission": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "missionId",
+            "missionVersion"
+          ],
+          "properties": {
+            "missionId": {
+              "$ref": "#/$defs/id"
+            },
+            "missionVersion": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "futureMissionId": {
+          "$ref": "#/$defs/id"
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "label": {
+          "type": "string"
+        },
+        "routeId": {
+          "$ref": "#/$defs/id"
+        },
+        "discoveryRule": {
+          "$ref": "#/$defs/unlock"
+        },
+        "destinationIslandId": {
+          "$ref": "#/$defs/id"
+        },
+        "rewardPolicyId": {
+          "$ref": "#/$defs/id"
+        }
+      }
+    },
+    "edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "edgeId",
+        "from",
+        "to",
+        "kind"
+      ],
+      "properties": {
+        "edgeId": {
+          "$ref": "#/$defs/id"
+        },
+        "from": {
+          "$ref": "#/$defs/id"
+        },
+        "to": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "enum": [
+            "route",
+            "shortcut",
+            "secret",
+            "gateway",
+            "scenic"
+          ]
+        },
+        "controlPoints": {
+          "type": "array",
+          "maxItems": 16,
+          "items": {
+            "$ref": "#/$defs/pos"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": "draft",
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/v1/economy/wallet",
+      "response": {
+        "currency": "COINS",
+        "balance": 480,
+        "revision": 3
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/shops/shop_001/upgrades/purchase",
+      "headers": {
+        "Idempotency-Key": "a5d0f625-9344-4ef7-96c1-4cc1e675315d"
+      },
+      "body": {
+        "upgradeId": "hibiscus-planters"
+      },
+      "response": {
+        "receiptId": "pur_001",
+        "priceCharged": 150,
+        "wallet": {
+          "balance": 330,
+          "revision": 4
+        },
+        "upgrade": {
+          "upgradeId": "hibiscus-planters",
+          "level": 1
+        }
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v1/shops/shop_001/upgrades/purchase",
+      "body": {
+        "upgradeId": "golden-roof"
+      },
+      "error": {
+        "code": "INSUFFICIENT_COINS",
+        "currentBalance": 330,
+        "requiredCoins": 15000
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mixipelago.example/schemas/drink-catalog-v1",
+  "title": "Mixipelago Alpha Drink Catalog",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "catalogId",
+    "catalogVersion",
+    "tiers"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "catalogId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "catalogVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "tiers": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "tier",
+          "name",
+          "nextTierId",
+          "assetId",
+          "mergeScore",
+          "familyId"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "tier": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 8
+          },
+          "name": {
+            "type": "string",
+            "minLength": 2
+          },
+          "nameKey": {
+            "type": "string"
+          },
+          "familyId": {
+            "const": "core"
+          },
+          "nextTierId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "assetId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mergeScore": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "rarity": {
+            "type": "null"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

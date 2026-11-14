@@ -1,0 +1,179 @@
+{
+  "title": "Mixipelago \u2014 Batch 2 Physics, Shooting & Merging",
+  "date": "2026-11-14",
+  "status": "proposed engineering documentation / unimplemented",
+  "doc_count": 30,
+  "sample_config_count": 3,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5953,
+      "sha256": "4ca414a4491387b89a291acd7128e74b42a0258965e9041411e8500e7508390d"
+    },
+    {
+      "path": "docs/00_INDEX.md",
+      "bytes": 5978,
+      "sha256": "7c6021fc8dd2bff76423121cf5a2bd3cba38e68d05116506c396b33ca4c16c6e"
+    },
+    {
+      "path": "docs/01_CORE_EXPERIENCE_AND_PLAYER_FEEL.md",
+      "bytes": 5232,
+      "sha256": "b729e51ff520baf9507dd410c3254b7395462b3929162149e3fa1ded896b2863"
+    },
+    {
+      "path": "docs/02_WORLD_COORDINATES_BOARD_AND_CAMERA.md",
+      "bytes": 5392,
+      "sha256": "f04b785ce345a7c3dbc4c23b16feaecfea00f9aca32812368a19d7f3634f00cc"
+    },
+    {
+      "path": "docs/03_RAPIER_PHYSICS_CONFIGURATION.md",
+      "bytes": 7952,
+      "sha256": "e35f2253bed5a8b51683ad697ad401553882442bdf072f94a088ed27eab8a945"
+    },
+    {
+      "path": "docs/04_LAUNCH_AIM_INPUT.md",
+      "bytes": 6652,
+      "sha256": "765d9605b265bb4c034a7341bb19ed81d876fa85a8bdeb2a9125317507fd3faf"
+    },
+    {
+      "path": "docs/05_FIXED_STEP_SIMULATION_LIFECYCLE.md",
+      "bytes": 6509,
+      "sha256": "877b77db321bdc43ab2c62e20933b6944b67061fc45f3165123adcaad9febdf6"
+    },
+    {
+      "path": "docs/06_COLLISION_CONTACT_AND_MATERIALS.md",
+      "bytes": 7069,
+      "sha256": "560e27bbe6afdf62bb12c767803da9d07af62f21b3e03cc6e7919d90b30390f2"
+    },
+    {
+      "path": "docs/07_MERGE_ARBITRATION_AND_CHAIN_REACTIONS.md",
+      "bytes": 7976,
+      "sha256": "67218282f7d84f205b0d791caa57162531c873bdfd791f996cb0b761a1885eea"
+    },
+    {
+      "path": "docs/08_SPAWN_NEXT_QUEUE_AND_GAME_DIRECTOR.md",
+      "bytes": 5917,
+      "sha256": "6f293ac563052ccf79eff97a874277be85495b13f0f94e0417959468f3bffed2"
+    },
+    {
+      "path": "docs/09_BOARD_PRESSURE_DANGER_AND_TERMINAL_STATES.md",
+      "bytes": 5322,
+      "sha256": "3d8352540a4cf4f81fc20e29113d456b894531fd1343416b1cfbfd42cdc6fb2e"
+    },
+    {
+      "path": "docs/10_SIMULATION_STATE_MACHINES.md",
+      "bytes": 5299,
+      "sha256": "906b2729f15e146c00517d9df78b6d6140d6ff62e85299c88c0b717be8adc611"
+    },
+    {
+      "path": "docs/11_TYPES_COMMANDS_AND_EVENT_CONTRACTS.md",
+      "bytes": 7211,
+      "sha256": "e76bb2129a976f7145db3e25f9cb0d4682a02046a10e2d8f149f6aeba38016e6"
+    },
+    {
+      "path": "docs/12_IMPLEMENTATION_BLUEPRINT_AND_PSEUDOCODE.md",
+      "bytes": 7084,
+      "sha256": "6ae574f33c2bfb71c1076829a8c9a8c0cfdec13c745e52c66173a60a227dbad1"
+    },
+    {
+      "path": "docs/13_PRESENTATION_ANIMATION_AND_VISUAL_FEEDBACK.md",
+      "bytes": 5822,
+      "sha256": "3c96ff9ff6968bac1e179b1f634cae8efb2fe0108820a96fc493bd4d30bc63fa"
+    },
+    {
+      "path": "docs/14_SFX_HAPTICS_AND_IMPACT_FEEDBACK.md",
+      "bytes": 4992,
+      "sha256": "b26beae3305de3ab9407a4260d247d0a11d43b87d1bb812434fa3166cf7123fa"
+    },
+    {
+      "path": "docs/15_PHYSICS_LAB_AND_TUNING.md",
+      "bytes": 5331,
+      "sha256": "20ff500dd2e49c5093e34ec20b6f4b30a66123769840bf69f1105ff61e784e18"
+    },
+    {
+      "path": "docs/16_DIFFICULTY_AND_GAMEPLAY_BALANCING.md",
+      "bytes": 5629,
+      "sha256": "a332d64413c07467ba3ceeae500c34efe5cc4e3e82305cf0a8a80dd9d56e4850"
+    },
+    {
+      "path": "docs/17_REPLAY_DETERMINISM_AND_TRUST.md",
+      "bytes": 7033,
+      "sha256": "358258ba0bbd2411c9b40d0bef22a3ec1dc1ad5ca3dc74ccff6699b1fa4da38a"
+    },
+    {
+      "path": "docs/18_PERFORMANCE_MOBILE_AND_ACCESSIBILITY.md",
+      "bytes": 5477,
+      "sha256": "456a2e7266ad77c81a890414f3a1d54c029480dd47e56b51e1de7028f2dd4885"
+    },
+    {
+      "path": "docs/19_QA_MATRIX_AND_AUTOMATED_TESTS.md",
+      "bytes": 6896,
+      "sha256": "32267d47bad570231f1f5fa222418d761195c450de83aa663daac4940ceb7042"
+    },
+    {
+      "path": "docs/20_EDGE_CASES_AND_RECOVERY.md",
+      "bytes": 6161,
+      "sha256": "fe19ec4ee507c3e389fede862437991846035efea8ed10e9ed36e850fd97990c"
+    },
+    {
+      "path": "docs/21_IMPLEMENTATION_WORKSTREAMS_AND_RELEASES.md",
+      "bytes": 6243,
+      "sha256": "bdafa1cb8ae641da1dc69cb591fcb150fca0b6a81037013be7a7dc65d276b78a"
+    },
+    {
+      "path": "docs/22_ADRS_RISKS_AND_OPEN_DECISIONS.md",
+      "bytes": 5212,
+      "sha256": "dfd8b52f42638a4fce98ec78e1bd552b81a95d1bcdb948c42eea260cea7100a1"
+    },
+    {
+      "path": "docs/23_TECHNICAL_REFERENCES_AND_GLOSSARY.md",
+      "bytes": 6454,
+      "sha256": "7d026ab20cbc87f25c2196dd8bb7926b01dd0b5f8cddc834d135d4355fba3981"
+    },
+    {
+      "path": "docs/24_TRACEABILITY_AND_DEFINITION_OF_DONE.md",
+      "bytes": 5185,
+      "sha256": "bdb2d5513331917d40b8a51b8d1609ae38936453619cff57dfdc8159edb7e17f"
+    },
+    {
+      "path": "docs/25_EXAMPLE_CONFIGS_AND_TEST_FIXTURES.md",
+      "bytes": 5463,
+      "sha256": "1f3cce20934a35b07d383b1c9004e3331bfc4d2998d1208d448f1b77d71893ae"
+    },
+    {
+      "path": "docs/26_ENGINEER_KICKOFF_AND_FIRST_72_HOURS.md",
+      "bytes": 6893,
+      "sha256": "d1e8e7c586036b7726376c2841cb6dbcbd600548cc08ef985ca4a52ca7da5c4d"
+    },
+    {
+      "path": "docs/27_CONTACT_MATH_AND_PHYSICS_INTUITION.md",
+      "bytes": 6416,
+      "sha256": "b02478380e5cf9ccfbdc836c00fb66503b3ef66f89a38ed5d4193c3a29046149"
+    },
+    {
+      "path": "docs/28_SCENARIO_ATLAS_AND_DEBUG_PLAYBOOK.md",
+      "bytes": 7233,
+      "sha256": "7de9542b23130eed31bcb7590037e0662f5a198641975dc70914ce11d9d43544"
+    },
+    {
+      "path": "docs/29_BATCH1_INTEGRATION_NOTES.md",
+      "bytes": 3737,
+      "sha256": "0192d16c78f3ed2dabdc936a8f4bb9f20c0c89437c35c5b807a1ad26a9051f1b"
+    },
+    {
+      "path": "examples/alpha_balanced_preset.json",
+      "bytes": 443,
+      "sha256": "c91329707c3239b5e2281898c0af586758f2a187a7a447c5ee4b8b3b0132240b"
+    },
+    {
+      "path": "examples/alpha_first_splash_mission.json",
+      "bytes": 629,
+      "sha256": "4a93f898e5b5e6927d47f8d41a9c717da3769a9fe8f0dce7da6a0bba00c830a9"
+    },
+    {
+      "path": "examples/alpha_replay_example.json",
+      "bytes": 475,
+      "sha256": "25f3610874c984fbf58ba68e9850e55fd1551b78e2a5b0530accaececd8fd5e8"
+    }
+  ]
+}

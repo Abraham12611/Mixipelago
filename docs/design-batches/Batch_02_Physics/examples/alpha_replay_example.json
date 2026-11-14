@@ -1,0 +1,14 @@
+{
+  "replaySchemaVersion": 1,
+  "sessionId": "demo-001",
+  "missionId": "coconut-cove-001",
+  "missionVersion": "alpha-1",
+  "physicsVersion": "alpha-1-balanced",
+  "rulesVersion": "merge-v1",
+  "rapierPackageVersion": "PIN_DURING_IMPLEMENTATION",
+  "seed": 740012,
+  "commands": [
+    { "step": 60, "seq": 1, "type": "launch", "dirX": 0, "dirY": -32767, "queueIndex": 0 },
+    { "step": 170, "seq": 2, "type": "launch", "dirX": 8500, "dirY": -31646, "queueIndex": 1 }
+  ]
+}

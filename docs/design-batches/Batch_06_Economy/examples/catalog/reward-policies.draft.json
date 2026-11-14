@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "reward-policies.v1",
+  "status": "draft",
+  "policies": [
+    {
+      "id": "cove-first-clear-basic",
+      "type": "missionFirstClear",
+      "currency": "COINS",
+      "amount": 150,
+      "maxGrantsPerPlayerMission": 1,
+      "requiresVerifiedReceipt": true,
+      "replayCoins": 0
+    },
+    {
+      "id": "eligible-customer-order",
+      "type": "verifiedOrder",
+      "currency": "COINS",
+      "amountSource": "serverResolvedOrderReward",
+      "requiresVerifiedReceipt": true,
+      "maxCoinsPerRun": 100
+    }
+  ],
+  "note": "Never treat client preview coins as trusted wallet funds."
+}
