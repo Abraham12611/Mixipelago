@@ -1,0 +1,66 @@
+{
+  "batch": 18,
+  "notes": "Pure-rule reference vectors, not real engine/backend tests",
+  "vectors": [
+    {
+      "rule": "grant",
+      "input": {
+        "verified": true,
+        "alreadyGranted": false,
+        "preview": false
+      },
+      "expected": true
+    },
+    {
+      "rule": "grant",
+      "input": {
+        "verified": false,
+        "alreadyGranted": false,
+        "preview": false
+      },
+      "expected": false
+    },
+    {
+      "rule": "grant",
+      "input": {
+        "verified": true,
+        "alreadyGranted": true,
+        "preview": false
+      },
+      "expected": false
+    },
+    {
+      "rule": "grant",
+      "input": {
+        "verified": true,
+        "alreadyGranted": false,
+        "preview": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "actor",
+      "input": {
+        "tokenActor": "a",
+        "resourceOwner": "a"
+      },
+      "expected": true
+    },
+    {
+      "rule": "actor",
+      "input": {
+        "tokenActor": "a",
+        "resourceOwner": "b"
+      },
+      "expected": false
+    },
+    {
+      "rule": "actor",
+      "input": {
+        "tokenActor": null,
+        "resourceOwner": "a"
+      },
+      "expected": false
+    }
+  ]
+}

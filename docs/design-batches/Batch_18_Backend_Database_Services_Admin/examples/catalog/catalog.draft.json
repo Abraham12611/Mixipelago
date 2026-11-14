@@ -1,0 +1,119 @@
+{
+  "batch": 18,
+  "catalogVersion": "b18-20261114-draft1",
+  "status": "draft",
+  "productionReady": false,
+  "gateEnabled": false,
+  "endpoints": [
+    {
+      "id": "api-01",
+      "method": "GET",
+      "path": "/v1/player/me",
+      "auth": "authenticated",
+      "owner": "player_profile",
+      "idempotencyRequired": false,
+      "enabled": false
+    },
+    {
+      "id": "api-02",
+      "method": "POST",
+      "path": "/v1/sessions/start",
+      "auth": "authenticated",
+      "owner": "session",
+      "idempotencyRequired": true,
+      "enabled": false
+    },
+    {
+      "id": "api-03",
+      "method": "POST",
+      "path": "/v1/sessions/submit",
+      "auth": "authenticated",
+      "owner": "verified_session",
+      "idempotencyRequired": true,
+      "enabled": false
+    },
+    {
+      "id": "api-04",
+      "method": "GET",
+      "path": "/v1/campaign",
+      "auth": "optional",
+      "owner": "campaign",
+      "idempotencyRequired": false,
+      "enabled": false
+    },
+    {
+      "id": "api-05",
+      "method": "GET",
+      "path": "/v1/economy/wallet",
+      "auth": "authenticated",
+      "owner": "economy",
+      "idempotencyRequired": false,
+      "enabled": false
+    },
+    {
+      "id": "api-06",
+      "method": "POST",
+      "path": "/v1/shops/{shopId}/upgrades/purchase",
+      "auth": "authenticated",
+      "owner": "economy",
+      "idempotencyRequired": true,
+      "enabled": false
+    },
+    {
+      "id": "api-07",
+      "method": "GET",
+      "path": "/v1/progression/me",
+      "auth": "authenticated",
+      "owner": "progression",
+      "idempotencyRequired": false,
+      "enabled": false
+    },
+    {
+      "id": "api-08",
+      "method": "POST",
+      "path": "/v1/progression/skills/{skillId}/allocate",
+      "auth": "authenticated",
+      "owner": "progression",
+      "idempotencyRequired": true,
+      "enabled": false
+    },
+    {
+      "id": "api-09",
+      "method": "GET",
+      "path": "/v1/rewards/me",
+      "auth": "authenticated",
+      "owner": "entitlements",
+      "idempotencyRequired": false,
+      "enabled": false
+    },
+    {
+      "id": "api-10",
+      "method": "POST",
+      "path": "/v1/rewards/{rewardId}/claim",
+      "auth": "authenticated",
+      "owner": "entitlements",
+      "idempotencyRequired": true,
+      "enabled": false
+    },
+    {
+      "id": "api-11",
+      "method": "GET",
+      "path": "/v1/leaderboards/{boardId}",
+      "auth": "optional",
+      "owner": "rankings",
+      "idempotencyRequired": false,
+      "enabled": false
+    },
+    {
+      "id": "api-12",
+      "method": "POST",
+      "path": "/v1/admin/content/publish",
+      "auth": "admin",
+      "owner": "content",
+      "idempotencyRequired": true,
+      "enabled": false
+    }
+  ],
+  "trustedWriteGate": "TRUSTED_BACKEND_ENABLED",
+  "dataStorage": "PostgreSQL/Supabase with RLS and scoped service API"
+}

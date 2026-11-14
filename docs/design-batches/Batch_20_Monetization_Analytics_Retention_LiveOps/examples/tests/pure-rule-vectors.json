@@ -1,0 +1,63 @@
+{
+  "batch": 20,
+  "notes": "Pure-rule reference vectors, not real engine/backend tests",
+  "vectors": [
+    {
+      "rule": "purchase",
+      "input": {
+        "featureOn": false,
+        "providerVerified": true,
+        "skuPublished": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "purchase",
+      "input": {
+        "featureOn": true,
+        "providerVerified": false,
+        "skuPublished": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "purchase",
+      "input": {
+        "featureOn": true,
+        "providerVerified": true,
+        "skuPublished": true
+      },
+      "expected": true
+    },
+    {
+      "rule": "purchase",
+      "input": {
+        "featureOn": true,
+        "providerVerified": true,
+        "skuPublished": false
+      },
+      "expected": false
+    },
+    {
+      "rule": "ranked_paid_effect",
+      "input": {
+        "isRanked": true,
+        "isPaid": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "ranked_paid_effect",
+      "input": {
+        "isRanked": false,
+        "isPaid": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "ads_mandatory",
+      "input": {},
+      "expected": false
+    }
+  ]
+}

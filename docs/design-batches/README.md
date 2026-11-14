@@ -1,4 +1,4 @@
-# Mixipelago — Design Batches 1–15
+# Mixipelago — Design Batches 1–21
 
 These batches are canonical engineering handoff documents organized by subject. Each folder contains a README/index and independent specifications, plus example assets and validators when applicable.
 
@@ -17,6 +17,12 @@ These batches are canonical engineering handoff documents organized by subject. 
 13. [Batch 13 — Leaderboards, Rankings & Tournaments](Batch_13_Leaderboards_Rankings_Tournaments/docs/00_INDEX_AND_README.md)
 14. [Batch 14 — Friends, Crews, Cooperation & Multiplayer](Batch_14_Friends_Crews_Cooperation_Multiplayer/docs/00_INDEX_AND_README.md)
 15. [Batch 15 — Complete UI/UX & Design System](Batch_15_UI_UX_Design_System/docs/00_INDEX_AND_README.md)
+16. [Batch 16 — Art Direction, Characters & 2.5D Asset Production](Batch_16_Art_Direction_Characters_2_5D_Assets/docs/00_INDEX_AND_README.md)
+17. [Batch 17 — Music, Sound Effects, Animations & Game Feel](Batch_17_Music_SFX_Animations_Game_Feel/docs/00_INDEX_AND_README.md)
+18. [Batch 18 — Backend, Database, Game Services & Admin Studio](Batch_18_Backend_Database_Services_Admin/docs/00_INDEX_AND_README.md)
+19. [Batch 19 — Security, Anti-Cheat & Game Integrity](Batch_19_Security_Anti_Cheat_Game_Integrity/docs/00_INDEX_AND_README.md)
+20. [Batch 20 — Monetization, Analytics, Retention & Live Operations](Batch_20_Monetization_Analytics_Retention_LiveOps/docs/00_INDEX_AND_README.md)
+21. [Batch 21 — Native Mobile, Performance, Scaling & Release Engineering](Batch_21_Native_Mobile_Performance_Release_Engineering/docs/00_INDEX_AND_README.md)
 
 ## Precedence
 
@@ -35,8 +41,14 @@ These batches are canonical engineering handoff documents organized by subject. 
 - Batch 13 owns certified replay verification, official rankings, season freezes, tie-breaks and prize eligibility.
 - Batch 14 owns consented friend/crew relationships and match orchestration; only server-authoritative live matches can establish real-time outcomes.
 - Batch 15 owns semantic UI tokens, responsive components and route visibility; it never changes gameplay/financial authority.
+- Batch 16 owns original artwork, asset IDs, rights provenance and 2.5D exports; it never changes collision physics.
+- Batch 17 owns original audio, cue bus mixing, sensory presentation and haptic preferences; it never changes rules or rewards.
+- Batch 18 owns trusted backend transactions, database schemas, content publishing, admin access and outbox projections.
+- Batch 19 independently owns security verification, negative tests, anti-cheat and incident response; risk controls apply across all domains.
+- Batch 20 owns optional commerce policies, analytics and live experiment controls; provider receipts issue only verified entitlements via owning backend.
+- Batch 21 owns native packaging, performance, platform adapters, store compliance and release engineering; all game rules remain shared.
 
-[Read the Batches 10–15 authority and release matrix](CROSS_BATCH_AUTHORITY_AND_RELEASES.md).
+[Read the Batches 10–15 authority and release matrix](CROSS_BATCH_AUTHORITY_AND_RELEASES.md), and the [Batches 16–21 integration/release matrix](Batch_16_to_21_Integration/CROSS_BATCH_AUTHORITY_AND_RELEASES.md).
 
 Conflicts must be resolved through an explicit ADR and versioned contract changes. Local preview coins must never become authoritative balances.
 

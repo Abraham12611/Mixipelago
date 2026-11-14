@@ -1,0 +1,81 @@
+{
+  "batch": 17,
+  "notes": "Pure-rule reference vectors, not real engine/backend tests",
+  "vectors": [
+    {
+      "rule": "play",
+      "input": {
+        "eventId": "e1",
+        "seen": [],
+        "voices": 0,
+        "limit": 2,
+        "unlocked": true
+      },
+      "expected": true
+    },
+    {
+      "rule": "play",
+      "input": {
+        "eventId": "e1",
+        "seen": [
+          "e1"
+        ],
+        "voices": 0,
+        "limit": 2,
+        "unlocked": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "play",
+      "input": {
+        "eventId": "e2",
+        "seen": [],
+        "voices": 2,
+        "limit": 2,
+        "unlocked": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "play",
+      "input": {
+        "eventId": "e3",
+        "seen": [],
+        "voices": 0,
+        "limit": 2,
+        "unlocked": false
+      },
+      "expected": false
+    },
+    {
+      "rule": "play",
+      "input": {
+        "eventId": "e4",
+        "seen": [
+          "e1"
+        ],
+        "voices": 1,
+        "limit": 2,
+        "unlocked": true
+      },
+      "expected": true
+    },
+    {
+      "rule": "gain",
+      "input": {
+        "master": 0.8,
+        "bus": 0.5
+      },
+      "expected": 0.4
+    },
+    {
+      "rule": "gain",
+      "input": {
+        "master": 1.0,
+        "bus": 0.0
+      },
+      "expected": 0.0
+    }
+  ]
+}

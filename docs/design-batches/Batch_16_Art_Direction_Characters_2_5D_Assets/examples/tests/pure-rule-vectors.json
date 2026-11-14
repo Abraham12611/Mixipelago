@@ -1,0 +1,55 @@
+{
+  "batch": 16,
+  "notes": "Pure-rule reference vectors, not real engine/backend tests",
+  "vectors": [
+    {
+      "rule": "tier_id",
+      "input": {
+        "tier": 1
+      },
+      "expected": "citrus-shot"
+    },
+    {
+      "rule": "tier_id",
+      "input": {
+        "tier": 8
+      },
+      "expected": "crown-of-isles"
+    },
+    {
+      "rule": "tier_id",
+      "input": {
+        "tier": 9
+      },
+      "expected": null
+    },
+    {
+      "rule": "fallback",
+      "input": {
+        "available": false
+      },
+      "expected": "ui.drink.labeled-placeholder"
+    },
+    {
+      "rule": "fallback",
+      "input": {
+        "available": true
+      },
+      "expected": "rendered-asset"
+    },
+    {
+      "rule": "cosmetic_affects_physics",
+      "input": {
+        "isCosmetic": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "cosmetic_affects_physics",
+      "input": {
+        "isCosmetic": false
+      },
+      "expected": false
+    }
+  ]
+}

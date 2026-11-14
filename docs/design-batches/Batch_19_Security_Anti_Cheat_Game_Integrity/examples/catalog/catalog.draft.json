@@ -1,0 +1,106 @@
+{
+  "batch": 19,
+  "catalogVersion": "b19-20261114-draft1",
+  "status": "draft",
+  "productionReady": false,
+  "gateEnabled": false,
+  "threats": [
+    {
+      "id": "AUTH_IDOR",
+      "severity": "high",
+      "scenario": "cross-account object read",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "auth_idor-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "SERVICE_KEY_LEAK",
+      "severity": "critical",
+      "scenario": "service-role secret in client",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "service_key_leak-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "REPLAY_FORGERY",
+      "severity": "critical",
+      "scenario": "tampered shot trace",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "replay_forgery-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "DOUBLE_CREDIT",
+      "severity": "critical",
+      "scenario": "duplicate reward grant",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "double_credit-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "RANK_MODE_BOOST",
+      "severity": "high",
+      "scenario": "non-normalized skill in ranked",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "rank_mode_boost-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "CLIENT_PAYMENT",
+      "severity": "critical",
+      "scenario": "unverified purchase callback",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "client_payment-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "SOCIAL_BLOCK_BYPASS",
+      "severity": "high",
+      "scenario": "blocked user invite",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "social_block_bypass-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "CONTENT_TAMPER",
+      "severity": "high",
+      "scenario": "modified atlas/campaign digest",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "content_tamper-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "ADMIN_PRIVILEGE",
+      "severity": "critical",
+      "scenario": "editor granting assets",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "admin_privilege-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "PRIVACY_LEAK",
+      "severity": "high",
+      "scenario": "precise location or tokens in logs",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "privacy_leak-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "COST_EXHAUST",
+      "severity": "medium",
+      "scenario": "unbounded verification job",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "cost_exhaust-rejected",
+      "status": "proposed"
+    },
+    {
+      "id": "SDK_SUPPLY",
+      "severity": "high",
+      "scenario": "unreviewed third-party dependency",
+      "mitigationOwner": "security-lead",
+      "requiredNegativeTest": "sdk_supply-rejected",
+      "status": "proposed"
+    }
+  ],
+  "minimumStandard": "OWASP ASVS 5.0 assessment candidate; not certification"
+}

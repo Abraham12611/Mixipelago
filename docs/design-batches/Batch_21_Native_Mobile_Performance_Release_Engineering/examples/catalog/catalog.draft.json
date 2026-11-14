@@ -1,0 +1,97 @@
+{
+  "batch": 21,
+  "catalogVersion": "b21-20261114-draft1",
+  "status": "draft",
+  "productionReady": false,
+  "gateEnabled": false,
+  "devices": [
+    {
+      "id": "iphone-small",
+      "platform": "ios",
+      "profile": "small",
+      "renderer": "webview",
+      "manualTestRequired": true,
+      "supported": false,
+      "targetVisualFps": 60
+    },
+    {
+      "id": "iphone-large",
+      "platform": "ios",
+      "profile": "large",
+      "renderer": "webview",
+      "manualTestRequired": true,
+      "supported": false,
+      "targetVisualFps": 60
+    },
+    {
+      "id": "ipad-tablet",
+      "platform": "ios",
+      "profile": "tablet",
+      "renderer": "webview",
+      "manualTestRequired": true,
+      "supported": false,
+      "targetVisualFps": 60
+    },
+    {
+      "id": "android-low",
+      "platform": "android",
+      "profile": "low",
+      "renderer": "webview",
+      "manualTestRequired": true,
+      "supported": false,
+      "targetVisualFps": 30
+    },
+    {
+      "id": "android-mid",
+      "platform": "android",
+      "profile": "mid",
+      "renderer": "webview",
+      "manualTestRequired": true,
+      "supported": false,
+      "targetVisualFps": 60
+    },
+    {
+      "id": "android-high",
+      "platform": "android",
+      "profile": "high",
+      "renderer": "webview",
+      "manualTestRequired": true,
+      "supported": false,
+      "targetVisualFps": 60
+    },
+    {
+      "id": "android-foldable",
+      "platform": "android",
+      "profile": "foldable",
+      "renderer": "webview",
+      "manualTestRequired": true,
+      "supported": false,
+      "targetVisualFps": 60
+    },
+    {
+      "id": "desktop-chrome",
+      "platform": "web",
+      "profile": "desktop",
+      "renderer": "browser",
+      "manualTestRequired": true,
+      "supported": false,
+      "targetVisualFps": 60
+    },
+    {
+      "id": "desktop-safari",
+      "platform": "web",
+      "profile": "desktop",
+      "renderer": "browser",
+      "manualTestRequired": true,
+      "supported": false,
+      "targetVisualFps": 60
+    }
+  ],
+  "storePolicySnapshot": {
+    "asOf": "2026-11-14",
+    "androidNewAppTargetApiMin": 36,
+    "iosMinUploadXcodeMajor": 26,
+    "reconfirmAtSubmission": true
+  },
+  "nativeLaunchEnabled": false
+}

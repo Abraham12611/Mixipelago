@@ -1,0 +1,69 @@
+{
+  "batch": 19,
+  "notes": "Pure-rule reference vectors, not real engine/backend tests",
+  "vectors": [
+    {
+      "rule": "permission",
+      "input": {
+        "actor": "a",
+        "owner": "a",
+        "isAdmin": false
+      },
+      "expected": true
+    },
+    {
+      "rule": "permission",
+      "input": {
+        "actor": "a",
+        "owner": "b",
+        "isAdmin": false
+      },
+      "expected": false
+    },
+    {
+      "rule": "permission",
+      "input": {
+        "actor": "a",
+        "owner": "b",
+        "isAdmin": true
+      },
+      "expected": true
+    },
+    {
+      "rule": "proof",
+      "input": {
+        "signed": true,
+        "pinned": true,
+        "normalized": true
+      },
+      "expected": true
+    },
+    {
+      "rule": "proof",
+      "input": {
+        "signed": false,
+        "pinned": true,
+        "normalized": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "proof",
+      "input": {
+        "signed": true,
+        "pinned": false,
+        "normalized": true
+      },
+      "expected": false
+    },
+    {
+      "rule": "proof",
+      "input": {
+        "signed": true,
+        "pinned": true,
+        "normalized": false
+      },
+      "expected": false
+    }
+  ]
+}

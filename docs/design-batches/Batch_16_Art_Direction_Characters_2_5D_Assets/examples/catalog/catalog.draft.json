@@ -1,0 +1,152 @@
+{
+  "batch": 16,
+  "catalogVersion": "b16-20261114-draft1",
+  "status": "draft",
+  "productionReady": false,
+  "gateEnabled": false,
+  "assets": [
+    {
+      "id": "asset.drink.citrus-shot.board",
+      "drinkId": "citrus-shot",
+      "tier": 1,
+      "kind": "sprite",
+      "source": "pending-original-art",
+      "widthPx": 256,
+      "heightPx": 320,
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "licenseState": "needs-review",
+      "status": "draft",
+      "available": false,
+      "requiredForAlpha": true
+    },
+    {
+      "id": "asset.drink.sunny-lemon.board",
+      "drinkId": "sunny-lemon",
+      "tier": 2,
+      "kind": "sprite",
+      "source": "pending-original-art",
+      "widthPx": 256,
+      "heightPx": 320,
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "licenseState": "needs-review",
+      "status": "draft",
+      "available": false,
+      "requiredForAlpha": true
+    },
+    {
+      "id": "asset.drink.sunset-splash.board",
+      "drinkId": "sunset-splash",
+      "tier": 3,
+      "kind": "sprite",
+      "source": "pending-original-art",
+      "widthPx": 256,
+      "heightPx": 320,
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "licenseState": "needs-review",
+      "status": "draft",
+      "available": false,
+      "requiredForAlpha": true
+    },
+    {
+      "id": "asset.drink.blossom-fizz.board",
+      "drinkId": "blossom-fizz",
+      "tier": 4,
+      "kind": "sprite",
+      "source": "pending-original-art",
+      "widthPx": 256,
+      "heightPx": 320,
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "licenseState": "needs-review",
+      "status": "draft",
+      "available": false,
+      "requiredForAlpha": true
+    },
+    {
+      "id": "asset.drink.coral-martini.board",
+      "drinkId": "coral-martini",
+      "tier": 5,
+      "kind": "sprite",
+      "source": "pending-original-art",
+      "widthPx": 256,
+      "heightPx": 320,
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "licenseState": "needs-review",
+      "status": "draft",
+      "available": false,
+      "requiredForAlpha": true
+    },
+    {
+      "id": "asset.drink.mint-lagoon.board",
+      "drinkId": "mint-lagoon",
+      "tier": 6,
+      "kind": "sprite",
+      "source": "pending-original-art",
+      "widthPx": 256,
+      "heightPx": 320,
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "licenseState": "needs-review",
+      "status": "draft",
+      "available": false,
+      "requiredForAlpha": true
+    },
+    {
+      "id": "asset.drink.ocean-cloud.board",
+      "drinkId": "ocean-cloud",
+      "tier": 7,
+      "kind": "sprite",
+      "source": "pending-original-art",
+      "widthPx": 256,
+      "heightPx": 320,
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "licenseState": "needs-review",
+      "status": "draft",
+      "available": false,
+      "requiredForAlpha": true
+    },
+    {
+      "id": "asset.drink.crown-of-isles.board",
+      "drinkId": "crown-of-isles",
+      "tier": 8,
+      "kind": "sprite",
+      "source": "pending-original-art",
+      "widthPx": 256,
+      "heightPx": 320,
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "licenseState": "needs-review",
+      "status": "draft",
+      "available": false,
+      "requiredForAlpha": true
+    }
+  ],
+  "renderPreset": {
+    "camera": "orthographic",
+    "colorSpace": "sRGB",
+    "transparent": true,
+    "sourceMastersRequired": true
+  },
+  "fallbackAssetId": "ui.drink.labeled-placeholder"
+}
