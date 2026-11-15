@@ -1,0 +1,66 @@
+{
+  "edition": "mixipelago-base44-nitro-2026",
+  "state": "unverified_qa_plan",
+  "checks": [
+    {
+      "id": "CE-R01",
+      "name": "Base44 new-build creation history",
+      "method": "human review",
+      "status": "pending"
+    },
+    {
+      "id": "CE-R02",
+      "name": "Guest access on public Base44 URL",
+      "method": "owner manual",
+      "status": "pending"
+    },
+    {
+      "id": "CE-G01",
+      "name": "Exact same-tier merge and tier8 stop",
+      "method": "automated",
+      "status": "pending"
+    },
+    {
+      "id": "CE-G02",
+      "name": "Oldest compatible order auto-served",
+      "method": "automated",
+      "status": "pending"
+    },
+    {
+      "id": "CE-G03",
+      "name": "Same-tick mission win before danger",
+      "method": "automated",
+      "status": "pending"
+    },
+    {
+      "id": "CE-Q01",
+      "name": "Mobile touch gesture and resize",
+      "method": "owner manual",
+      "status": "pending"
+    },
+    {
+      "id": "CE-Q02",
+      "name": "Desktop keyboard/pointer controls",
+      "method": "owner manual",
+      "status": "pending"
+    },
+    {
+      "id": "CE-R04",
+      "name": "Original art/audio rights audit",
+      "method": "rights review",
+      "status": "pending"
+    },
+    {
+      "id": "CE-R05",
+      "name": "Human official contest form submission",
+      "method": "owner manual",
+      "status": "pending"
+    },
+    {
+      "id": "CE-R06",
+      "name": "Vote integrity outreach audit",
+      "method": "owner review",
+      "status": "pending"
+    }
+  ]
+}

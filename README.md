@@ -2,6 +2,10 @@
 
 **Web-first tropical drink-shooting and merging game.** Responsive desktop/mobile browser experience, designed for rapid playable-alpha releases and iterative expansion into islands, shops, skills, events, and social competition.
 
+## Base44 × Nitro Contest Edition (2026)
+
+A **separate, smaller contest-focused build plan** is available under [docs/contest/base44-nitro-2026/](docs/contest/base44-nitro-2026/README.md). It covers the official contest rules and originality checks, a new Base44-created game, playable guest scope, technical architecture, 8–12 proven Coconut Cove missions, engineering issues, QA, asset licences, and submission freeze. **This is documentation, not a deployed game or proof of eligibility.** The 21-batch roadmap remains unchanged.
+
 ## Engineering documentation
 
 The complete design handoff for **Batches 1–21** is under [docs/design-batches/](docs/design-batches/README.md), with separate Markdown chapters, schemas, content examples, QA fixtures, and validation scripts.

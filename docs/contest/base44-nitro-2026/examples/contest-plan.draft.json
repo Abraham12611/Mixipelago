@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "edition": "mixipelago-base44-nitro-2026",
+  "status": "draft_not_implemented",
+  "createdByDocs": "2026-11-15",
+  "platform": {
+    "required": "Base44",
+    "publicUrl": null,
+    "base44ProjectCreatedAt": null,
+    "platformEvidenceVerified": false
+  },
+  "features": {
+    "guestPlay": true,
+    "classicService": true,
+    "eightTierLadder": true,
+    "coconutCoveMap": true,
+    "phaserRapierEnabled": false,
+    "festivalFinale": false,
+    "registrationRequired": false,
+    "paymentsEnabled": false,
+    "shopPurchaseFlows": false,
+    "adsEnabled": false,
+    "remoteLeaderboard": false,
+    "friendMultiplayer": false,
+    "trustedWallet": false
+  },
+  "content": {
+    "minimumPublishableMissions": 8,
+    "targetMissions": 12,
+    "drinkTiers": 8,
+    "missions": [
+      {
+        "id": "cove-001",
+        "chapter": 1,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-002",
+        "chapter": 1,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-003",
+        "chapter": 1,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-004",
+        "chapter": 1,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-005",
+        "chapter": 2,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-006",
+        "chapter": 2,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-007",
+        "chapter": 2,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-008",
+        "chapter": 2,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-009",
+        "chapter": 3,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-010",
+        "chapter": 3,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-011",
+        "chapter": 3,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      },
+      {
+        "id": "cove-012",
+        "chapter": 3,
+        "status": "draft",
+        "published": false,
+        "verifiedWinReplay": null,
+        "ownerManualAccepted": false
+      }
+    ]
+  },
+  "release": {
+    "submissionDeadlineUtc": "2026-12-03T23:59:00Z",
+    "submissionConfirmation": null,
+    "ownerAccepted": false,
+    "actualWinnerAnnouncementDate": null,
+    "minimumAvailabilityDaysAfterAnnouncement": 90
+  }
+}

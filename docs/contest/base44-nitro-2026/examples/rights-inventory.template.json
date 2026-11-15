@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "edition": "mixipelago-base44-nitro-2026",
+  "status": "empty_template_pending_asset_creation",
+  "assets": [],
+  "requiredFields": [
+    "assetId",
+    "sha256",
+    "filename",
+    "mediaType",
+    "creatorOrTool",
+    "createdAtUtc",
+    "licence",
+    "licenceEvidenceRef",
+    "attributionRequired",
+    "reviewedBy",
+    "approvalStatus"
+  ]
+}
